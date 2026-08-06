@@ -53,6 +53,8 @@
     background: linear-gradient(180deg, rgba(20,33,61,.55) 0%, rgba(20,33,61,.68) 55%, rgba(20,33,61,.86) 100%);
   }
   .hero { position: relative; overflow: hidden; }
+  .hero { min-height: 65vh !important; padding: 4.5rem 0 !important; }
+  @media (max-width: 768px) { .hero { min-height: 56vh !important; padding: 3.2rem 0 !important; } }
   .hero .container { position: relative; z-index: 2; }
   .hero-scroll { z-index: 2; }
   @media (prefers-reduced-motion: reduce) {
