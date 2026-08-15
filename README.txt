@@ -8,7 +8,7 @@ host (Netlify, GitHub Pages, cPanel, etc).
 PAGES
   index.html            Home (hero + previews of every section)
   about.html             About Us
-  guides.html             Meet Our Guides (Mussa & Amani)
+  guides.html             Meet Your Guide (Mussa)
   certifications.html     Certifications
   packages.html            Tour Packages (Kilimanjaro / Meru / Udzungwa / Safari tabs)
   destinations.html         Destinations
