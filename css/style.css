@@ -279,6 +279,10 @@ body.sidebar-open { overflow: hidden; }
   background: linear-gradient(135deg, var(--teal), var(--coral)); display: flex; align-items: center; justify-content: center;
   color: #fff; font-size: 1.5rem;
 }
+.pack-card { text-align: left; }
+.pack-card .cert-icon { margin: 0 0 1rem; }
+.pack-card ul { list-style: disc; }
+.pack-card li { margin-bottom: .35rem; }
 
 /* ---------- Packages ---------- */
 .pkg-tabs { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; margin-bottom: 2.6rem; }

@@ -58,7 +58,7 @@ LIBRARIES (CDN, no install needed)
 
 CONTACT INFO USED THROUGHOUT
   Phone:    +255 749 235 394
-  WhatsApp: +255 749 235 394 (secondary WhatsApp option on the floating chat button: 0628 839 187)
+  WhatsApp: +255 749 235 394 (secondary WhatsApp option on the floating chat button: 0795 852 413)
   Email:    info@msaroguidetanzania.com
   Location: Arusha, Mianzini, Tanzania
   Hours:    Open 24 Hours
