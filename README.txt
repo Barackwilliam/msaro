@@ -66,3 +66,4 @@ CONTACT INFO USED THROUGHOUT
 The contact page's "Send via WhatsApp" form doesn't submit to a server —
 it opens WhatsApp with the visitor's details pre-filled, so it works on
 any static host with zero backend.
+render Email: botikawilly@gmail.com
