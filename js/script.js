@@ -149,20 +149,77 @@ document.addEventListener('DOMContentLoaded', function () {
   /* WhatsApp booking form: build a prefilled wa.me message and open it */
   const bookingForm = document.getElementById('bookingForm');
   if (bookingForm) {
+    const PEMBA_TRIPS = ['Misali Island Day Trip', 'Ngezi Forest Tour', 'Sandbank & Snorkeling Trip'];
+    const MUSSA_WA = '255749235394';
+    const MASUD_WA = '255749235394';
+
     bookingForm.addEventListener('submit', function (e) {
       e.preventDefault();
       const name = document.getElementById('bf-name').value.trim();
+      const phone = document.getElementById('bf-phone').value.trim();
+      const email = document.getElementById('bf-email').value.trim();
+      const country = document.getElementById('bf-country').value.trim();
       const trip = document.getElementById('bf-trip').value;
       const dates = document.getElementById('bf-dates').value.trim();
+      const people = document.getElementById('bf-people').value.trim();
+      const budget = document.getElementById('bf-budget').value.trim();
       const message = document.getElementById('bf-message').value.trim();
-      let text = `Hello Msaro Guide Tanzania! My name is ${name}.`;
-      text += ` I'm interested in: ${trip}.`;
-      if (dates) text += ` Preferred dates: ${dates}.`;
-      if (message) text += ` ${message}`;
-      const url = 'https://wa.me/255749235394?text=' + encodeURIComponent(text);
+
+      let text = 'Hello! I would like to request a booking.\n\n';
+      text += 'BOOKING REQUEST\n';
+      text += '----------------------\n';
+      text += `Name: ${name}\n`;
+      text += `Phone/WhatsApp: ${phone}\n`;
+      if (email) text += `Email: ${email}\n`;
+      if (country) text += `Nationality: ${country}\n`;
+      text += `Trip: ${trip}\n`;
+      if (dates) text += `Preferred Start Date: ${dates}\n`;
+      text += `Number of People: ${people}\n`;
+      if (budget) text += `Budget Range: ${budget}\n`;
+      if (message) text += `Notes: ${message}\n`;
+      text += '----------------------\n';
+      text += 'Sent from the Msaro Guide Tanzania website.';
+
+      const targetNumber = PEMBA_TRIPS.includes(trip) ? MASUD_WA : MUSSA_WA;
+      const url = 'https://wa.me/' + targetNumber + '?text=' + encodeURIComponent(text);
       window.open(url, '_blank');
     });
   }
+
+  /* Per-itinerary booking forms (packages.html) — one under every route/trip */
+  document.querySelectorAll('.itin-booking-form').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const trip = form.dataset.trip || '';
+      const waNumber = form.dataset.wa || '255749235394';
+      const get = (n) => { const el = form.querySelector('[name="' + n + '"]'); return el ? el.value.trim() : ''; };
+
+      const name = get('bf-name');
+      const phone = get('bf-phone');
+      const email = get('bf-email');
+      const country = get('bf-country');
+      const people = get('bf-people');
+      const dates = get('bf-dates');
+      const message = get('bf-message');
+
+      let text = 'Hello! I would like to request a booking.\n\n';
+      text += 'BOOKING REQUEST\n';
+      text += '----------------------\n';
+      text += `Trip: ${trip}\n`;
+      text += `Name: ${name}\n`;
+      text += `Phone/WhatsApp: ${phone}\n`;
+      if (email) text += `Email: ${email}\n`;
+      if (country) text += `Nationality: ${country}\n`;
+      text += `Number of People: ${people}\n`;
+      if (dates) text += `Preferred Start Date: ${dates}\n`;
+      if (message) text += `Notes: ${message}\n`;
+      text += '----------------------\n';
+      text += 'Sent from the Msaro Guide Tanzania website.';
+
+      const url = 'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(text);
+      window.open(url, '_blank');
+    });
+  });
 
   /* Image placeholder fallback: show icon tile if a photo file is missing */
   document.querySelectorAll('.ph img').forEach((img) => {
@@ -258,17 +315,25 @@ document.addEventListener('DOMContentLoaded', function () {
   if (reduceMotion || !finePointer) return;
 
   const selector = '.pkg-card, .guide-card, .cert-card, .testi-card, .dest-card';
+  /* Keep in sync with --ease in css/style.css. Setting the full
+     `transition` shorthand (instead of just transitionDuration) is
+     required so box-shadow/border-color keep transitioning smoothly —
+     but that means every override below must re-list ALL three
+     properties, or the missing ones silently stop transitioning. */
+  const EASE = 'cubic-bezier(0.4,0,0.2,1)';
+  const TILT_IN = 'transform .1s linear, box-shadow .5s ' + EASE + ', border-color .4s ' + EASE;
+  const TILT_OUT = 'transform .6s cubic-bezier(.22,.85,.3,1.15), box-shadow .5s ' + EASE + ', border-color .4s ' + EASE;
 
   function bindTilt(el) {
-    let rect = null;
-
     function onEnter() {
-      rect = el.getBoundingClientRect();
-      el.style.transition = 'transform .1s linear';
+      el.style.transition = TILT_IN;
       el.classList.add('tilting');
     }
     function onMove(e) {
-      if (!rect) rect = el.getBoundingClientRect();
+      // Recomputed every move (cheap for a handful of cards) rather than
+      // cached on enter, so a scroll mid-hover can't leave stale
+      // coordinates driving the tilt math.
+      const rect = el.getBoundingClientRect();
       const x = (e.clientX - rect.left) / rect.width;
       const y = (e.clientY - rect.top) / rect.height;
       const rotY = (x - 0.5) * 10;
@@ -279,9 +344,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     function onLeave() {
       el.classList.remove('tilting');
-      el.style.transition = 'transform .6s cubic-bezier(.22,.85,.3,1.15)';
+      el.style.transition = TILT_OUT;
       el.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0) scale(1)';
-      rect = null;
     }
 
     el.addEventListener('mouseenter', onEnter);
