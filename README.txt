@@ -11,6 +11,8 @@ PAGES
   guides.html             Meet Your Guide (Mussa)
   certifications.html     Certifications
   packages.html            Tour Packages (Kilimanjaro / Meru / Udzungwa / Safari tabs)
+  kilimanjaro.html         Kilimanjaro landing page (SEO: Machame & Lemosho routes)
+  safari.html              Safari landing page (SEO: Serengeti & Ngorongoro)
   destinations.html         Destinations
   gallery.html               Gallery
   why-us.html                  Why Choose Us

@@ -74,10 +74,10 @@ document.addEventListener('DOMContentLoaded', function () {
   if (window.Typed && document.getElementById('typed-hero')) {
     new Typed('#typed-hero', {
       strings: [
-        'Explore Tanzania With Local Professional Guides',
-        'Climb Kilimanjaro With a Certified Local Guide',
-        'Safari Tarangire, Serengeti &amp; Ngorongoro',
-        'Trek Mount Meru &amp; Udzungwa'
+        'Climb Kilimanjaro via Machame or Lemosho',
+        'Safari the Serengeti &amp; Ngorongoro Crater',
+        'Trek Mount Meru &amp; Udzungwa',
+        'Book directly &mdash; no middlemen'
       ],
       typeSpeed: 42,
       backSpeed: 18,

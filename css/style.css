@@ -386,7 +386,7 @@ body.sidebar-open { overflow: hidden; }
 
 /* ---------- Utilities ---------- */
 .section-header { max-width: 640px; margin: 0 auto 3.2rem; text-align: center; }
-.section-header h2 { font-size: clamp(1.7rem, 3.4vw, 2.4rem); }
+.section-header h2, .section-header h1 { font-size: clamp(1.7rem, 3.4vw, 2.4rem); }
 
 @media (max-width: 767px) {
   .section { padding: 3.6rem 0; }
@@ -479,13 +479,13 @@ p, li { line-height: 1.75; }
 .section-header.aos-animate .eyebrow::before,
 .aos-animate .eyebrow::before { transform: translateY(-50%) scaleX(1); }
 
-.section-header h2, .why-us-hero h2, .hero h1 { position: relative; }
-.section-header h2::after {
+.section-header h2, .section-header h1, .why-us-hero h2, .hero h1 { position: relative; }
+.section-header h2::after, .section-header h1::after {
   content: ""; display: block; width: 60px; height: 3px; margin-top: 1rem; border-radius: 3px;
   background: linear-gradient(90deg, var(--coral), var(--golden-sand));
   transform: scaleX(0); transform-origin: left; transition: transform .7s var(--ease) .15s;
 }
-.section-header.aos-animate h2::after { transform: scaleX(1); }
+.section-header.aos-animate h2::after, .section-header.aos-animate h1::after { transform: scaleX(1); }
 
 /* ---------- Buttons — lift + light-sweep ---------- */
 .btn {
@@ -678,3 +678,12 @@ p, li { line-height: 1.75; }
 .itin-booking-form .form-control { border-radius: 8px; border-color: rgba(0,0,0,.12); font-size: .82rem; }
 .itin-booking-form .form-control:focus { border-color: var(--teal); box-shadow: 0 0 0 .15rem rgba(0,150,136,.15); }
 .itin-booking-form .btn-coral { border-radius: 8px; font-size: .85rem; }
+
+/* ---------- SEO landing pages (kilimanjaro.html, safari.html) ---------- */
+.hero .hero-typed { color: var(--golden-sand); font-family: 'Lora', serif; font-size: clamp(1.1rem, 2.4vw, 1.5rem); min-height: 1.6em; margin-bottom: 1rem; }
+.seo-breadcrumb { font-size: .85rem; color: #6c757d; margin-bottom: 1.2rem; text-align: center; }
+.seo-breadcrumb a { color: var(--teal); text-decoration: none; }
+.seo-faq { max-width: 820px; margin-left: auto; margin-right: auto; }
+.seo-faq-item { background: #fff; border-radius: 10px; padding: .9rem 1.1rem; margin-bottom: .7rem; box-shadow: 0 2px 10px rgba(0,0,0,.05); }
+.seo-faq-item summary { font-weight: 700; cursor: pointer; }
+.seo-faq-item p { margin: .6rem 0 0; color: #555; }
