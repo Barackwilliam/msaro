@@ -59,6 +59,10 @@ INSTALLED_APPS = [
     "website",
 ]
 
+JAMIITEK_API_KEY = "l_WszUAokQZkdDCcSlAiyY-cI7eLP7L-WbjGwzyuDXLXL74qpUDrlhI7W27W4j4L"
+JAMIITEK_API_URL = "https://jamiitek.com/api/site-status/"
+
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
@@ -69,6 +73,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    'jamiitek_middleware.JamiiTekStatusMiddleware'
 ]
 
 ROOT_URLCONF = "msaro_site.urls"
