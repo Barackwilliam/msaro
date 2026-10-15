@@ -1,0 +1,12 @@
+{% load site_tags %}{% for c in packing %}
+      <div class="col-md-6 col-lg-3" data-aos="fade-up"{{ c.aos_delay|aos_delay }}>
+        <div class="cert-card pack-card">
+          <div class="cert-icon"><i class="{{ c.icon }}"></i></div>
+          <h5>{{ c.title }}</h5>
+          <ul class="text-muted small mb-0 ps-3">
+            {% for item in c.item_list %}<li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+{% endfor %}

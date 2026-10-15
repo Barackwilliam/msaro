@@ -1,0 +1,7 @@
+{% for t in testimonials %}
+        <div class="swiper-slide"><div class="testi-card">
+          <div class="stars">{% for i in t.star_range %}<i class="bi bi-star-fill"></i>{% endfor %}</div>
+          <p>{{ t.quote }}</p>
+          <div class="who"><div class="ph">{% if t.src %}<img src="{{ t.src }}" alt="{{ t.image_alt }}" loading="lazy">{% endif %}<div class="ph-fallback"><i class="bi bi-person"></i></div></div><div><strong>{{ t.name }}</strong><div class="small text-muted">{{ t.trip }}</div></div></div>
+        </div></div>
+{% endfor %}

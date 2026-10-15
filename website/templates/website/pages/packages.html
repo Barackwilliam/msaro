@@ -1,0 +1,18 @@
+{% extends 'website/base.html' %}{% load site_tags %}
+{% block content %}
+<section class="section bg-sand" style="padding-top:8rem;">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'packages.001' %}</span>
+<h1 class="font-display h2">{% t 'packages.002' %}</h1>
+</div>
+<ul class="nav pkg-tabs" id="pkgTabs" role="tablist">
+{% include 'website/parts/package_tabs.html' %}</ul>
+<div class="tab-content">
+{% include 'website/parts/package_panes.html' %}</div>
+</div>
+</section>
+{% endblock %}
+{% block after_footer %}
+{% include 'website/parts/package_modals.html' %}
+{% endblock %}

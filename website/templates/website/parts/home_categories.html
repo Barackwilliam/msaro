@@ -1,0 +1,8 @@
+{% load site_tags %}{% for c in home_categories %}
+      <div class="col-md-6 col-lg-3" data-aos="fade-up"{{ c.home_aos_delay|aos_delay }}>
+        <div class="pkg-card">
+          <div class="position-relative"><div class="ph"><img src="{{ c.home_src }}" alt="{{ c.home_image_alt }}" loading="lazy"><div class="ph-fallback"><i class="bi bi-image"></i></div></div><span class="days-badge">{{ c.home_badge }}</span></div>
+          <div class="body"><h5>{{ c.home_title }}</h5><p class="stops"><i class="bi bi-signpost-split-fill"></i>{{ c.home_text }}</p><a href="{{ c.url }}" class="btn btn-outline-teal btn-sm">{{ c.home_button }}</a></div>
+        </div>
+      </div>
+{% endfor %}

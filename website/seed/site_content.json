@@ -1,0 +1,3214 @@
+{
+ "blocks": [
+  {
+   "page": "global",
+   "key": "global.nav.home",
+   "label": "Menu › Home",
+   "text": "Home",
+   "is_html": false,
+   "order": 0
+  },
+  {
+   "page": "global",
+   "key": "global.nav.about",
+   "label": "Menu › About",
+   "text": "About",
+   "is_html": false,
+   "order": 1
+  },
+  {
+   "page": "global",
+   "key": "global.nav.about_us",
+   "label": "Menu › About Us",
+   "text": "About Us",
+   "is_html": false,
+   "order": 2
+  },
+  {
+   "page": "global",
+   "key": "global.nav.guides",
+   "label": "Menu › Meet Our Guides",
+   "text": "Meet Our Guides",
+   "is_html": false,
+   "order": 3
+  },
+  {
+   "page": "global",
+   "key": "global.nav.certifications",
+   "label": "Menu › Certifications",
+   "text": "Certifications",
+   "is_html": false,
+   "order": 4
+  },
+  {
+   "page": "global",
+   "key": "global.nav.packages",
+   "label": "Menu › Packages",
+   "text": "Packages",
+   "is_html": false,
+   "order": 5
+  },
+  {
+   "page": "global",
+   "key": "global.nav.destinations",
+   "label": "Menu › Destinations",
+   "text": "Destinations",
+   "is_html": false,
+   "order": 6
+  },
+  {
+   "page": "global",
+   "key": "global.nav.gallery",
+   "label": "Menu › Gallery",
+   "text": "Gallery",
+   "is_html": false,
+   "order": 7
+  },
+  {
+   "page": "global",
+   "key": "global.nav.why_us",
+   "label": "Menu › Why Us",
+   "text": "Why Us",
+   "is_html": false,
+   "order": 8
+  },
+  {
+   "page": "global",
+   "key": "global.nav.testimonials",
+   "label": "Menu › Testimonials",
+   "text": "Testimonials",
+   "is_html": false,
+   "order": 9
+  },
+  {
+   "page": "global",
+   "key": "global.nav.faq",
+   "label": "Menu › FAQ",
+   "text": "FAQ",
+   "is_html": false,
+   "order": 10
+  },
+  {
+   "page": "global",
+   "key": "global.nav.contact",
+   "label": "Menu › Contact",
+   "text": "Contact",
+   "is_html": false,
+   "order": 11
+  },
+  {
+   "page": "global",
+   "key": "global.nav.book_now",
+   "label": "Menu › Book Now button",
+   "text": "Book Now",
+   "is_html": false,
+   "order": 12
+  },
+  {
+   "page": "global",
+   "key": "global.sidebar.about",
+   "label": "Mobile menu › About group",
+   "text": "Guides & About",
+   "is_html": false,
+   "order": 13
+  },
+  {
+   "page": "global",
+   "key": "global.sidebar.packages",
+   "label": "Mobile menu › Packages group",
+   "text": "Tour Packages",
+   "is_html": false,
+   "order": 14
+  },
+  {
+   "page": "global",
+   "key": "global.footer.about",
+   "label": "Footer › About text",
+   "text": "A certified local guide in Arusha offering Kilimanjaro treks, Mount Meru climbs, Udzungwa hikes and Tanzania wildlife safaris — personal, honest, and professionally led.",
+   "is_html": false,
+   "order": 15
+  },
+  {
+   "page": "global",
+   "key": "global.footer.explore",
+   "label": "Footer › Explore heading",
+   "text": "Explore",
+   "is_html": false,
+   "order": 16
+  },
+  {
+   "page": "global",
+   "key": "global.footer.guides",
+   "label": "Footer › Guides link",
+   "text": "Guides",
+   "is_html": false,
+   "order": 17
+  },
+  {
+   "page": "global",
+   "key": "global.footer.copyright",
+   "label": "Footer › Copyright",
+   "text": "© 2026 Msaro Guide Tanzania. All rights reserved.",
+   "is_html": false,
+   "order": 18
+  },
+  {
+   "page": "global",
+   "key": "global.footer.tagline",
+   "label": "Footer › Tagline",
+   "text": "Explore Tanzania With Local Professional Guides",
+   "is_html": false,
+   "order": 19
+  },
+  {
+   "page": "global",
+   "key": "global.package.itinerary_button",
+   "label": "Package cards › Itinerary button",
+   "text": "View Full Itinerary & Book",
+   "is_html": false,
+   "order": 20
+  },
+  {
+   "page": "global",
+   "key": "global.booking.name",
+   "label": "Booking form › Name hint",
+   "text": "Full Name *",
+   "is_html": false,
+   "order": 21
+  },
+  {
+   "page": "global",
+   "key": "global.booking.phone",
+   "label": "Booking form › Phone hint",
+   "text": "Phone / WhatsApp *",
+   "is_html": false,
+   "order": 22
+  },
+  {
+   "page": "global",
+   "key": "global.booking.email",
+   "label": "Booking form › Email hint",
+   "text": "Email (optional)",
+   "is_html": false,
+   "order": 23
+  },
+  {
+   "page": "global",
+   "key": "global.booking.country",
+   "label": "Booking form › Nationality hint",
+   "text": "Nationality (optional)",
+   "is_html": false,
+   "order": 24
+  },
+  {
+   "page": "global",
+   "key": "global.booking.people",
+   "label": "Booking form › People hint",
+   "text": "Number of People *",
+   "is_html": false,
+   "order": 25
+  },
+  {
+   "page": "global",
+   "key": "global.booking.dates",
+   "label": "Booking form › Date hint",
+   "text": "Preferred Start Date",
+   "is_html": false,
+   "order": 26
+  },
+  {
+   "page": "global",
+   "key": "global.booking.message",
+   "label": "Booking form › Message hint",
+   "text": "Special requests (dietary needs, fitness level, etc.)",
+   "is_html": false,
+   "order": 27
+  },
+  {
+   "page": "global",
+   "key": "global.booking.submit",
+   "label": "Booking form › Send button",
+   "text": "Send Booking Request",
+   "is_html": false,
+   "order": 28
+  },
+  {
+   "page": "home",
+   "key": "home.001",
+   "order": 1,
+   "is_html": false,
+   "text": " Certified Local Guide · Arusha",
+   "label": "Explore Tanzaniawith a Certified Local Guide › Text"
+  },
+  {
+   "page": "home",
+   "key": "home.002",
+   "order": 2,
+   "is_html": true,
+   "text": "Explore Tanzania<br/><span class=\"typed-line\">with a Certified Local Guide</span>",
+   "label": "Explore Tanzaniawith a Certified Local Guide › Main heading"
+  },
+  {
+   "page": "home",
+   "key": "home.003",
+   "order": 3,
+   "is_html": false,
+   "text": " Msaro Guide Tanzania is built by a professional local guide — not a big agency — offering Kilimanjaro treks, Mount Meru climbs, Udzungwa hikes and wildlife safaris, planned and led personally from start to finish. ",
+   "label": "{% t 'home.002' %} › Paragraph"
+  },
+  {
+   "page": "home",
+   "key": "home.004",
+   "order": 4,
+   "is_html": false,
+   "text": "Chat With a Guide",
+   "label": "{% t 'home.002' %} › Button text"
+  },
+  {
+   "page": "home",
+   "key": "home.005",
+   "order": 5,
+   "is_html": false,
+   "text": "View Tour Packages",
+   "label": "{% t 'home.002' %} › Button text"
+  },
+  {
+   "page": "home",
+   "key": "home.006",
+   "order": 6,
+   "is_html": false,
+   "text": "Scroll to explore ",
+   "label": "{% t 'home.002' %} › Text"
+  },
+  {
+   "page": "home",
+   "key": "home.007",
+   "order": 7,
+   "is_html": false,
+   "text": "images/about-guides.jpg",
+   "label": "Personal Guiding, Not a Travel Agency › Text"
+  },
+  {
+   "page": "home",
+   "key": "home.008",
+   "order": 8,
+   "is_html": false,
+   "text": "Personal Guiding",
+   "label": "Personal Guiding, Not a Travel Agency › Text"
+  },
+  {
+   "page": "home",
+   "key": "home.009",
+   "order": 9,
+   "is_html": false,
+   "text": "No middlemen, no call centers",
+   "label": "Personal Guiding, Not a Travel Agency › Text"
+  },
+  {
+   "page": "home",
+   "key": "home.010",
+   "order": 10,
+   "is_html": false,
+   "text": "About Msaro Guide Tanzania",
+   "label": "Personal Guiding, Not a Travel Agency › Small label above the heading"
+  },
+  {
+   "page": "home",
+   "key": "home.011",
+   "order": 11,
+   "is_html": false,
+   "text": "Personal Guiding, Not a Travel Agency",
+   "label": "Personal Guiding, Not a Travel Agency › Heading"
+  },
+  {
+   "page": "home",
+   "key": "home.012",
+   "order": 12,
+   "is_html": false,
+   "text": " Msaro Guide Tanzania is led by Mussa Paulo Mussa, an Arusha-based certified Mountain & Safari Guide. Mussa personally plans, books and leads every Kilimanjaro climb, Meru ascent, Udzungwa trek and wildlife safari on offer. ",
+   "label": "{% t 'home.011' %} › Paragraph"
+  },
+  {
+   "page": "home",
+   "key": "home.013",
+   "order": 13,
+   "is_html": false,
+   "text": "Read Our Full Story",
+   "label": "{% t 'home.011' %} › Button text"
+  },
+  {
+   "page": "home",
+   "key": "home.014",
+   "order": 14,
+   "is_html": false,
+   "text": "Meet Your Guide",
+   "label": "The Person Who'll Actually Guide You › Small label above the heading"
+  },
+  {
+   "page": "home",
+   "key": "home.015",
+   "order": 15,
+   "is_html": false,
+   "text": "The Person Who'll Actually Guide You",
+   "label": "The Person Who'll Actually Guide You › Heading"
+  },
+  {
+   "page": "home",
+   "key": "home.016",
+   "order": 16,
+   "is_html": false,
+   "text": "Meet Your Guide",
+   "label": "{% t 'home.015' %} › Button text"
+  },
+  {
+   "page": "home",
+   "key": "home.017",
+   "order": 17,
+   "is_html": false,
+   "text": "Why Choose Us",
+   "label": "Why Travel With Msaro Guide Tanzania › Small label above the heading"
+  },
+  {
+   "page": "home",
+   "key": "home.018",
+   "order": 18,
+   "is_html": false,
+   "text": "Why Travel With Msaro Guide Tanzania",
+   "label": "Why Travel With Msaro Guide Tanzania › Heading"
+  },
+  {
+   "page": "home",
+   "key": "home.019",
+   "order": 19,
+   "is_html": false,
+   "text": "One guide. One standard: honest, safe, personal travel — every single trip.",
+   "label": "{% t 'home.018' %} › Paragraph"
+  },
+  {
+   "page": "home",
+   "key": "home.020",
+   "order": 20,
+   "is_html": false,
+   "text": "See All Reasons",
+   "label": "{% t 'home.018' %} › Button text"
+  },
+  {
+   "page": "home",
+   "key": "home.021",
+   "order": 21,
+   "is_html": false,
+   "text": "Tour Packages",
+   "label": "Choose Your Adventure › Small label above the heading"
+  },
+  {
+   "page": "home",
+   "key": "home.022",
+   "order": 22,
+   "is_html": false,
+   "text": "Choose Your Adventure",
+   "label": "Choose Your Adventure › Heading"
+  },
+  {
+   "page": "home",
+   "key": "home.023",
+   "order": 23,
+   "is_html": false,
+   "text": "Testimonials",
+   "label": "What Our Travelers Say › Small label above the heading"
+  },
+  {
+   "page": "home",
+   "key": "home.024",
+   "order": 24,
+   "is_html": false,
+   "text": "What Our Travelers Say",
+   "label": "What Our Travelers Say › Heading"
+  },
+  {
+   "page": "home",
+   "key": "home.025",
+   "order": 25,
+   "is_html": false,
+   "text": "Ready When You Are",
+   "label": "Let's Plan Your Tanzania Adventure › Small label above the heading"
+  },
+  {
+   "page": "home",
+   "key": "home.026",
+   "order": 26,
+   "is_html": false,
+   "text": "Let's Plan Your Tanzania Adventure",
+   "label": "Let's Plan Your Tanzania Adventure › Heading"
+  },
+  {
+   "page": "home",
+   "key": "home.027",
+   "order": 27,
+   "is_html": false,
+   "text": "Message us on WhatsApp or fill in our contact form — we reply any time, day or night.",
+   "label": "{% t 'home.026' %} › Paragraph"
+  },
+  {
+   "page": "home",
+   "key": "home.028",
+   "order": 28,
+   "is_html": false,
+   "text": "Chat on WhatsApp",
+   "label": "{% t 'home.026' %} › Button text"
+  },
+  {
+   "page": "home",
+   "key": "home.029",
+   "order": 29,
+   "is_html": false,
+   "text": "Go to Contact Page",
+   "label": "{% t 'home.026' %} › Button text"
+  },
+  {
+   "page": "about",
+   "key": "about.001",
+   "order": 1,
+   "is_html": false,
+   "text": "About Us",
+   "label": "Personal Guiding, Not a Travel Agency › Small label above the heading"
+  },
+  {
+   "page": "about",
+   "key": "about.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Personal Guiding, Not a Travel Agency",
+   "label": "Personal Guiding, Not a Travel Agency › Main heading"
+  },
+  {
+   "page": "about",
+   "key": "about.003",
+   "order": 3,
+   "is_html": false,
+   "text": "Personal Guiding",
+   "label": "{% t 'about.002' %} › Text"
+  },
+  {
+   "page": "about",
+   "key": "about.004",
+   "order": 4,
+   "is_html": false,
+   "text": "No middlemen, no call centers",
+   "label": "{% t 'about.002' %} › Text"
+  },
+  {
+   "page": "about",
+   "key": "about.005",
+   "order": 5,
+   "is_html": false,
+   "text": " Msaro Guide Tanzania is led by Mussa Paulo Mussa, an Arusha-based certified Mountain & Safari Guide. Mussa personally plans, books and leads every Kilimanjaro climb, Meru ascent, Udzungwa trek and wildlife safari on offer. ",
+   "label": "{% t 'about.002' %} › Paragraph"
+  },
+  {
+   "page": "about",
+   "key": "about.006",
+   "order": 6,
+   "is_html": false,
+   "text": " You will never be handed off to a stranger on the day of your trip. The guide who plans your itinerary is the same guide who walks beside you on the mountain or drives you through the park — safe, authentic, and unforgettable, from the first message to the last night in camp. ",
+   "label": "{% t 'about.002' %} › Paragraph"
+  },
+  {
+   "page": "about",
+   "key": "about.007",
+   "order": 7,
+   "is_html": false,
+   "text": "Meet Your Guide",
+   "label": "{% t 'about.002' %} › Button text"
+  },
+  {
+   "page": "guides",
+   "key": "guides.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Meet Your Guides",
+   "label": "The People Behind Your Trip › Small label above the heading"
+  },
+  {
+   "page": "guides",
+   "key": "guides.002",
+   "order": 2,
+   "is_html": false,
+   "text": "The People Behind Your Trip",
+   "label": "The People Behind Your Trip › Main heading"
+  },
+  {
+   "page": "guides",
+   "key": "guides.003",
+   "order": 3,
+   "is_html": false,
+   "text": "Mussa with recent travelers on a guided forest walk near Arusha.",
+   "label": "{% t 'guides.002' %} › Paragraph"
+  },
+  {
+   "page": "guides",
+   "key": "guides.004",
+   "order": 4,
+   "is_html": false,
+   "text": "Get Ready",
+   "label": "What to Pack for Your Kilimanjaro Climb › Small label above the heading"
+  },
+  {
+   "page": "guides",
+   "key": "guides.005",
+   "order": 5,
+   "is_html": false,
+   "text": "What to Pack for Your Kilimanjaro Climb",
+   "label": "What to Pack for Your Kilimanjaro Climb › Heading"
+  },
+  {
+   "page": "guides",
+   "key": "guides.006",
+   "order": 6,
+   "is_html": false,
+   "text": "Everything you should bring — and a few things worth double-checking — before you meet Mussa at the trailhead.",
+   "label": "{% t 'guides.005' %} › Paragraph"
+  },
+  {
+   "page": "guides",
+   "key": "guides.007",
+   "order": 7,
+   "is_html": true,
+   "text": "Not sure what else to bring for your specific route or season? <a href=\"contact.html\">Message Mussa directly</a> and he'll send a full checklist for your trip.",
+   "label": "{% t 'guides.005' %} › Paragraph"
+  },
+  {
+   "page": "certifications",
+   "key": "certifications.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Certifications",
+   "label": "Trained, Certified & Locally Based › Small label above the heading"
+  },
+  {
+   "page": "certifications",
+   "key": "certifications.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Trained, Certified & Locally Based",
+   "label": "Trained, Certified & Locally Based › Main heading"
+  },
+  {
+   "page": "why-us",
+   "key": "why-us.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Why Choose Us",
+   "label": "Why Travel With Msaro Guide Tanzania › Small label above the heading"
+  },
+  {
+   "page": "why-us",
+   "key": "why-us.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Why Travel With Msaro Guide Tanzania",
+   "label": "Why Travel With Msaro Guide Tanzania › Main heading"
+  },
+  {
+   "page": "why-us",
+   "key": "why-us.003",
+   "order": 3,
+   "is_html": false,
+   "text": "One guide. One standard: honest, safe, personal travel — every single trip.",
+   "label": "{% t 'why-us.002' %} › Paragraph"
+  },
+  {
+   "page": "why-us",
+   "key": "why-us.004",
+   "order": 4,
+   "is_html": false,
+   "text": "Talk to Us",
+   "label": "{% t 'why-us.002' %} › Button text"
+  },
+  {
+   "page": "testimonials",
+   "key": "testimonials.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Testimonials",
+   "label": "What Our Travelers Say › Small label above the heading"
+  },
+  {
+   "page": "testimonials",
+   "key": "testimonials.002",
+   "order": 2,
+   "is_html": false,
+   "text": "What Our Travelers Say",
+   "label": "What Our Travelers Say › Main heading"
+  },
+  {
+   "page": "faq",
+   "key": "faq.001",
+   "order": 1,
+   "is_html": false,
+   "text": "FAQ",
+   "label": "Do You Have Any Questions? › Small label above the heading"
+  },
+  {
+   "page": "faq",
+   "key": "faq.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Do You Have Any Questions?",
+   "label": "Do You Have Any Questions? › Main heading"
+  },
+  {
+   "page": "faq",
+   "key": "faq.003",
+   "order": 3,
+   "is_html": false,
+   "text": "Read the answers below, or message us on WhatsApp for anything specific to your trip.",
+   "label": "{% t 'faq.002' %} › Paragraph"
+  },
+  {
+   "page": "faq",
+   "key": "faq.004",
+   "order": 4,
+   "is_html": false,
+   "text": "Ask Us Directly",
+   "label": "{% t 'faq.002' %} › Button text"
+  },
+  {
+   "page": "gallery",
+   "key": "gallery.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Gallery",
+   "label": "Moments From the Trail › Small label above the heading"
+  },
+  {
+   "page": "gallery",
+   "key": "gallery.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Moments From the Trail",
+   "label": "Moments From the Trail › Main heading"
+  },
+  {
+   "page": "destinations",
+   "key": "destinations.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Destinations",
+   "label": "Where We'll Take You › Small label above the heading"
+  },
+  {
+   "page": "destinations",
+   "key": "destinations.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Where We'll Take You",
+   "label": "Where We'll Take You › Main heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Contact",
+   "label": "Plan Your Trip With Us › Small label above the heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Plan Your Trip With Us",
+   "label": "Plan Your Trip With Us › Main heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.003",
+   "order": 3,
+   "is_html": false,
+   "text": "Whether you're planning a Kilimanjaro climb, a Mount Meru trek, or a Tanzania wildlife safari — Mussa is ready to help you plan a trip you'll remember forever.",
+   "label": "{% t 'contact.002' %} › Paragraph"
+  },
+  {
+   "page": "contact",
+   "key": "contact.004",
+   "order": 4,
+   "is_html": false,
+   "text": "Our Office",
+   "label": "{% t 'contact.002' %} › Small heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.005",
+   "order": 5,
+   "is_html": false,
+   "text": "Phone",
+   "label": "{% t 'contact.002' %} › Small heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.006",
+   "order": 6,
+   "is_html": false,
+   "text": "WhatsApp",
+   "label": "{% t 'contact.002' %} › Small heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.007",
+   "order": 7,
+   "is_html": false,
+   "text": "Email",
+   "label": "{% t 'contact.002' %} › Small heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.008",
+   "order": 8,
+   "is_html": false,
+   "text": "Business Hours",
+   "label": "{% t 'contact.002' %} › Small heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.009",
+   "order": 9,
+   "is_html": false,
+   "text": "Request a Booking",
+   "label": "{% t 'contact.002' %} › Small heading"
+  },
+  {
+   "page": "contact",
+   "key": "contact.010",
+   "order": 10,
+   "is_html": false,
+   "text": "Fill in your details below — we'll open WhatsApp with your request ready to send.",
+   "label": "{% t 'contact.002' %} › Paragraph"
+  },
+  {
+   "page": "contact",
+   "key": "contact.011",
+   "order": 11,
+   "is_html": false,
+   "text": "Full Name *",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.012",
+   "order": 12,
+   "is_html": false,
+   "text": "e.g. Jane Doe",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.013",
+   "order": 13,
+   "is_html": false,
+   "text": "Phone / WhatsApp Number *",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.014",
+   "order": 14,
+   "is_html": false,
+   "text": "e.g. +255 700 000 000",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.015",
+   "order": 15,
+   "is_html": false,
+   "text": "Email (optional)",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.016",
+   "order": 16,
+   "is_html": false,
+   "text": "you@example.com",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.017",
+   "order": 17,
+   "is_html": false,
+   "text": "Nationality (optional)",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.018",
+   "order": 18,
+   "is_html": false,
+   "text": "e.g. United Kingdom",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.019",
+   "order": 19,
+   "is_html": false,
+   "text": "Trip of Interest *",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.020",
+   "order": 20,
+   "is_html": false,
+   "text": "Preferred Start Date",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.021",
+   "order": 21,
+   "is_html": false,
+   "text": "e.g. 12 September 2026",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.022",
+   "order": 22,
+   "is_html": false,
+   "text": "Number of People *",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.023",
+   "order": 23,
+   "is_html": false,
+   "text": "e.g. 2",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.024",
+   "order": 24,
+   "is_html": false,
+   "text": "Budget Range (optional)",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.025",
+   "order": 25,
+   "is_html": false,
+   "text": "e.g. $1,500–$2,000 pp",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.026",
+   "order": 26,
+   "is_html": false,
+   "text": "Message / Special Requests",
+   "label": "{% t 'contact.002' %} › Form field label"
+  },
+  {
+   "page": "contact",
+   "key": "contact.027",
+   "order": 27,
+   "is_html": false,
+   "text": "Dietary needs, fitness level, anything else we should know...",
+   "label": "{% t 'contact.002' %} › Example text inside a form field"
+  },
+  {
+   "page": "contact",
+   "key": "contact.028",
+   "order": 28,
+   "is_html": false,
+   "text": "Send Booking Request via WhatsApp",
+   "label": "{% t 'contact.002' %} › Button text"
+  },
+  {
+   "page": "packages",
+   "key": "packages.001",
+   "order": 1,
+   "is_html": false,
+   "text": "Tour Packages",
+   "label": "Choose Your Adventure › Small label above the heading"
+  },
+  {
+   "page": "packages",
+   "key": "packages.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Choose Your Adventure",
+   "label": "Choose Your Adventure › Main heading"
+  },
+  {
+   "page": "kilimanjaro",
+   "key": "kilimanjaro.001",
+   "order": 1,
+   "is_html": true,
+   "text": "<a href=\"index.html\">Home</a> › <a href=\"packages.html\">Tour Packages</a> › <span>Kilimanjaro Trekking Packages</span>",
+   "label": "Kilimanjaro Trekking Packages: Machame, Lemosho & More › Text"
+  },
+  {
+   "page": "kilimanjaro",
+   "key": "kilimanjaro.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Mount Kilimanjaro · 5,895m",
+   "label": "Kilimanjaro Trekking Packages: Machame, Lemosho & More › Small label above the heading"
+  },
+  {
+   "page": "kilimanjaro",
+   "key": "kilimanjaro.003",
+   "order": 3,
+   "is_html": false,
+   "text": "Kilimanjaro Trekking Packages: Machame, Lemosho & More",
+   "label": "Kilimanjaro Trekking Packages: Machame, Lemosho & More › Main heading"
+  },
+  {
+   "page": "kilimanjaro",
+   "key": "kilimanjaro.004",
+   "order": 4,
+   "is_html": true,
+   "text": "Climb Africa’s highest mountain with a <strong>certified local Kilimanjaro guide from Arusha</strong>. Choose the scenic <strong>Machame Route</strong> (6–7 days), the quieter, high-success <strong>Lemosho Route</strong> (8 days), the hut-based <strong>Marangu Route</strong>, the northern <strong>Rongai Route</strong> or the steep <strong>Umbwe Route</strong>. Every climb includes park fees, permits, an experienced crew and meals — and you book directly with the guide who leads you to Uhuru Peak.",
+   "label": "{% t 'kilimanjaro.003' %} › Paragraph"
+  },
+  {
+   "page": "kilimanjaro",
+   "key": "kilimanjaro.005",
+   "order": 5,
+   "is_html": false,
+   "text": "Frequently Asked Questions",
+   "label": "{% t 'kilimanjaro.003' %} › Heading"
+  },
+  {
+   "page": "kilimanjaro",
+   "key": "kilimanjaro.006",
+   "order": 6,
+   "is_html": true,
+   "text": "Looking for more? See our <a href=\"safari.html\">Tanzania wildlife safaris</a>, <a href=\"packages.html\">all tour packages</a>, or <a href=\"contact.html\">contact Mussa directly</a> to plan your trip.",
+   "label": "{% t 'kilimanjaro.003' %} › Paragraph"
+  },
+  {
+   "page": "safari",
+   "key": "safari.001",
+   "order": 1,
+   "is_html": true,
+   "text": "<a href=\"index.html\">Home</a> › <a href=\"packages.html\">Tour Packages</a> › <span>Tanzania Wildlife Safaris</span>",
+   "label": "Tanzania Wildlife Safaris: Serengeti, Ngorongoro & Tarangire › Text"
+  },
+  {
+   "page": "safari",
+   "key": "safari.002",
+   "order": 2,
+   "is_html": false,
+   "text": "Tanzania Wildlife Safaris",
+   "label": "Tanzania Wildlife Safaris: Serengeti, Ngorongoro & Tarangire › Small label above the heading"
+  },
+  {
+   "page": "safari",
+   "key": "safari.003",
+   "order": 3,
+   "is_html": false,
+   "text": "Tanzania Wildlife Safaris: Serengeti, Ngorongoro & Tarangire",
+   "label": "Tanzania Wildlife Safaris: Serengeti, Ngorongoro & Tarangire › Main heading"
+  },
+  {
+   "page": "safari",
+   "key": "safari.004",
+   "order": 4,
+   "is_html": true,
+   "text": "Go on a private <strong>Tanzania wildlife safari</strong> with a <strong>certified local guide from Arusha</strong>. Track the Big Five across the endless plains of the <strong>Serengeti</strong>, descend into the wildlife-packed <strong>Ngorongoro Crater</strong>, see elephant herds in <strong>Tarangire</strong> and tree-climbing lions at <strong>Lake Manyara</strong>, or follow the <strong>Great Wildebeest Migration</strong>. Choose a 4-day or 7-day northern circuit safari, or let us tailor one around your dates.",
+   "label": "{% t 'safari.003' %} › Paragraph"
+  },
+  {
+   "page": "safari",
+   "key": "safari.005",
+   "order": 5,
+   "is_html": false,
+   "text": "Frequently Asked Questions",
+   "label": "{% t 'safari.003' %} › Heading"
+  },
+  {
+   "page": "safari",
+   "key": "safari.006",
+   "order": 6,
+   "is_html": true,
+   "text": "Looking for more? See our <a href=\"kilimanjaro.html\">Kilimanjaro trekking packages</a>, <a href=\"packages.html\">all tour packages</a>, or <a href=\"contact.html\">contact Mussa directly</a> to plan your trip.",
+   "label": "{% t 'safari.003' %} › Paragraph"
+  }
+ ],
+ "image_blocks": [
+  {
+   "page": "home",
+   "key": "home.img1",
+   "order": 1,
+   "label": "Personal Guiding, Not a Travel Agency › Picture",
+   "alt": "Mussa guiding travelers in Arusha",
+   "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqJGZwPfotVn_ehyphenhyphen3D3Y4x9jN_Pa1vIieS8e1eiZOkI95EnEIwEgeYJYy-k1xu0ysAYhk1nooatscPaVeaZk8Fzpw4hQCIGsHYtTImFEVX6OBIMwfJoon_aaW8KBrQKS5WW4KYJYR9Hj4/s1600/images.jpg"
+  },
+  {
+   "page": "about",
+   "key": "about.img1",
+   "order": 1,
+   "label": "{% t 'about.002' %} › Picture",
+   "alt": "Mussa guiding travelers",
+   "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8tOgO9aePCStc5JNMIu_87XQui4-EF4jLXTNBeo2hfxiem6RKaZqeHnI&s=10"
+  }
+ ],
+ "seo": [
+  {
+   "page": "home",
+   "title": "Certified Kilimanjaro & Safari Guide | Msaro Guide Tanzania",
+   "description": "Book directly with Mussa, a certified local guide in Arusha. Offering personal Kilimanjaro climbs, Mount Meru treks, and wildlife safaris with no middlemen.",
+   "keywords": "certified Kilimanjaro guide, Tanzania safari guide, local guide Arusha, Kilimanjaro climb, Mount Meru trek, Serengeti safari, Ngorongoro safari, Msaro Guide Tanzania",
+   "breadcrumb_name": "",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebSite\",\n  \"@id\": \"https://www.msaroguidetanzania.com/#website\",\n  \"name\": \"Msaro Guide Tanzania\",\n  \"url\": \"https://www.msaroguidetanzania.com/\",\n  \"publisher\": {\n    \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n  },\n  \"inLanguage\": \"en\"\n}\n</script>"
+  },
+  {
+   "page": "about",
+   "title": "About Us – Local Kilimanjaro & Safari Guides in Arusha | Msaro Guide",
+   "description": "Msaro Guide Tanzania is run by certified local guides based in Arusha, offering personal, honest Kilimanjaro treks, Mount Meru climbs and wildlife safaris.",
+   "keywords": "about Msaro Guide Tanzania, local tour guide Arusha, certified guide Tanzania, Kilimanjaro guide, safari guide",
+   "breadcrumb_name": "About Us",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"About Us\",\n      \"item\": \"https://www.msaroguidetanzania.com/about.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "guides",
+   "title": "Meet Mussa – Certified Kilimanjaro & Safari Guide | Msaro Guide",
+   "description": "Meet Mussa Paulo Mussa, the certified local guide in Arusha behind Msaro Guide Tanzania, leading Kilimanjaro climbs, Mount Meru treks and wildlife safaris.",
+   "keywords": "Mussa Paulo Mussa, certified Kilimanjaro guide, Arusha mountain guide, Tanzania safari guide, local guide Tanzania",
+   "breadcrumb_name": "Meet Mussa",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Meet Mussa\",\n      \"item\": \"https://www.msaroguidetanzania.com/guides.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "certifications",
+   "title": "Guide Certifications & Training | Msaro Guide Tanzania",
+   "description": "The certifications behind Msaro Guide Tanzania: certified tour guiding training and hospitality background, so your Kilimanjaro climb or safari is in safe hands.",
+   "keywords": "certified tour guide Tanzania, licensed Kilimanjaro guide, guide certification Arusha, Msaro Guide Tanzania",
+   "breadcrumb_name": "Guide Certifications & Training",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Guide Certifications & Training\",\n      \"item\": \"https://www.msaroguidetanzania.com/certifications.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "why-us",
+   "title": "Why Book a Certified Local Guide in Tanzania | Msaro Guide",
+   "description": "Why travellers book Msaro Guide Tanzania: a certified local guide from Arusha, direct booking with no middlemen, honest prices and personal Kilimanjaro and safari trips.",
+   "keywords": "why book local guide Tanzania, no middlemen safari, direct booking Kilimanjaro, certified guide Arusha",
+   "breadcrumb_name": "Why Book a Certified Local Guide in Tanzania",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Why Book a Certified Local Guide in Tanzania\",\n      \"item\": \"https://www.msaroguidetanzania.com/why-us.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "testimonials",
+   "title": "Reviews – Kilimanjaro & Safari Travellers | Msaro Guide Tanzania",
+   "description": "Read reviews from travellers who climbed Kilimanjaro, trekked Mount Meru and went on Tanzania wildlife safaris with certified local guide Mussa of Msaro Guide Tanzania.",
+   "keywords": "Msaro Guide Tanzania reviews, Kilimanjaro guide reviews, Tanzania safari reviews, Arusha guide testimonials",
+   "breadcrumb_name": "Reviews",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Reviews\",\n      \"item\": \"https://www.msaroguidetanzania.com/testimonials.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "faq",
+   "title": "Kilimanjaro & Safari FAQ | Msaro Guide Tanzania",
+   "description": "Answers to common questions about climbing Kilimanjaro (Machame, Lemosho, Marangu), Tanzania safaris, prices, packing and booking directly with a local guide.",
+   "keywords": "Kilimanjaro FAQ, Tanzania safari FAQ, best Kilimanjaro route, Kilimanjaro cost, safari booking questions",
+   "breadcrumb_name": "Kilimanjaro & Safari FAQ",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Kilimanjaro & Safari FAQ\",\n      \"item\": \"https://www.msaroguidetanzania.com/faq.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "gallery",
+   "title": "Kilimanjaro & Safari Photo Gallery | Msaro Guide Tanzania",
+   "description": "Photos from Kilimanjaro treks, Mount Meru climbs, Udzungwa hikes and Serengeti and Ngorongoro wildlife safaris guided by Msaro Guide Tanzania.",
+   "keywords": "Kilimanjaro photos, Tanzania safari photos, Serengeti pictures, Ngorongoro photos, Mount Meru photos",
+   "breadcrumb_name": "Kilimanjaro & Safari Photo Gallery",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Kilimanjaro & Safari Photo Gallery\",\n      \"item\": \"https://www.msaroguidetanzania.com/gallery.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "destinations",
+   "title": "Tanzania Destinations: Kilimanjaro, Serengeti & Ngorongoro | Msaro Guide",
+   "description": "Explore where we guide: Mount Kilimanjaro, Mount Meru, Udzungwa, Tarangire, Lake Manyara, the Serengeti, Ngorongoro Crater and Lake Natron in Tanzania.",
+   "keywords": "Tanzania destinations, Kilimanjaro, Mount Meru, Serengeti, Ngorongoro Crater, Tarangire, Lake Manyara, Lake Natron, Udzungwa",
+   "breadcrumb_name": "Tanzania Destinations: Kilimanjaro, Serengeti & Ngorongoro",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tanzania Destinations: Kilimanjaro, Serengeti & Ngorongoro\",\n      \"item\": \"https://www.msaroguidetanzania.com/destinations.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "contact",
+   "title": "Contact & Book Your Kilimanjaro Climb or Safari | Msaro Guide",
+   "description": "Contact Msaro Guide Tanzania by phone, WhatsApp or email to book your Kilimanjaro climb, Mount Meru trek or Tanzania safari directly with a certified local guide in Arusha.",
+   "keywords": "book Kilimanjaro climb, contact safari guide Tanzania, Arusha guide WhatsApp, book Tanzania safari",
+   "breadcrumb_name": "Contact & Book Your Kilimanjaro Climb or Safari",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Contact & Book Your Kilimanjaro Climb or Safari\",\n      \"item\": \"https://www.msaroguidetanzania.com/contact.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "packages",
+   "title": "Tanzania Tour Packages: Kilimanjaro, Meru & Safaris | Msaro Guide",
+   "description": "All tour packages from Msaro Guide Tanzania: Kilimanjaro routes (Machame, Lemosho, Marangu), Mount Meru, Udzungwa, Serengeti & Ngorongoro safaris, Zanzibar and more.",
+   "keywords": "Tanzania tour packages, Kilimanjaro packages, Mount Meru climb, Udzungwa trekking, Serengeti safari, Ngorongoro, Zanzibar tours, Arusha tours",
+   "breadcrumb_name": "Tanzania Tour Packages: Kilimanjaro, Meru & Safaris",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tanzania Tour Packages: Kilimanjaro, Meru & Safaris\",\n      \"item\": \"https://www.msaroguidetanzania.com/packages.html\"\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "kilimanjaro",
+   "title": "Kilimanjaro Trekking Packages (Machame & Lemosho) | Msaro Guide",
+   "description": "Climb Kilimanjaro with a certified local guide from Arusha. Machame, Lemosho, Marangu, Rongai and Umbwe route packages with full itineraries — book direct, no middlemen.",
+   "keywords": "Kilimanjaro trekking packages, Machame route, Lemosho route, Marangu route, Rongai route, Umbwe route, climb Kilimanjaro, Kilimanjaro guide Arusha, Uhuru Peak",
+   "breadcrumb_name": "Kilimanjaro Trekking Packages (Machame & Lemosho)",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tour Packages\",\n      \"item\": \"https://www.msaroguidetanzania.com/packages.html\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Kilimanjaro Trekking Packages (Machame & Lemosho)\",\n      \"item\": \"https://www.msaroguidetanzania.com/kilimanjaro.html\"\n    }\n  ]\n}\n</script>\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"ItemList\",\n  \"name\": \"Kilimanjaro Trekking Packages: Machame, Lemosho & More\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Kilimanjaro Machame Route (6-7 days)\",\n        \"description\": \"Scenic camping route via the Barranco Wall with a high summit success rate on 7 days.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Kilimanjaro Lemosho Route (8 days)\",\n        \"description\": \"Quiet western route across the Shira Plateau with excellent acclimatization.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Kilimanjaro Marangu Route (5-6 days)\",\n        \"description\": \"The only hut-based route on Kilimanjaro, with a gentle gradient.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Kilimanjaro Rongai Route (6 days)\",\n        \"description\": \"Northern approach near the Kenyan border, drier in the rainy season.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 5,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Kilimanjaro Umbwe Route\",\n        \"description\": \"The shortest and steepest route to the summit for experienced trekkers.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    }\n  ]\n}\n</script>"
+  },
+  {
+   "page": "safari",
+   "title": "Tanzania Wildlife Safaris (Serengeti & Ngorongoro) | Msaro Guide",
+   "description": "Private Tanzania wildlife safaris to the Serengeti, Ngorongoro Crater, Tarangire and Lake Manyara, led by a certified local guide from Arusha. 4 and 7-day itineraries.",
+   "keywords": "Tanzania wildlife safari, Serengeti safari, Ngorongoro Crater safari, Tarangire, Lake Manyara, Great Migration safari, Big Five safari, safari guide Arusha",
+   "breadcrumb_name": "Tanzania Wildlife Safaris (Serengeti & Ngorongoro)",
+   "extra_head": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.msaroguidetanzania.com/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tour Packages\",\n      \"item\": \"https://www.msaroguidetanzania.com/packages.html\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Tanzania Wildlife Safaris (Serengeti & Ngorongoro)\",\n      \"item\": \"https://www.msaroguidetanzania.com/safari.html\"\n    }\n  ]\n}\n</script>\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"ItemList\",\n  \"name\": \"Tanzania Wildlife Safaris: Serengeti, Ngorongoro & Tarangire\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"4-Day Tanzania Wildlife Safari\",\n        \"description\": \"Tarangire, Lake Manyara, the Serengeti and Ngorongoro Crater in four days.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"7-Day Northern Circuit Safari\",\n        \"description\": \"More time in the Serengeti, a full Ngorongoro Crater day and Lake Natron.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Great Wildebeest Migration Safari\",\n        \"description\": \"Follow the migration herds across the Serengeti ecosystem by season.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Lake Manyara National Park Safari\",\n        \"description\": \"Tree-climbing lions, flamingos and the Rift Valley escarpment.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 5,\n      \"item\": {\n        \"@type\": \"TouristTrip\",\n        \"name\": \"Mikumi National Park Safari\",\n        \"description\": \"The accessible 'mini-Serengeti' with lions, elephants and giraffes.\",\n        \"touristType\": \"Adventure travellers\",\n        \"provider\": {\n          \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n        }\n      }\n    }\n  ]\n}\n</script>"
+  }
+ ],
+ "models": {
+  "HeroSlide": [
+   {
+    "order": 0,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM2LioZXRFpunRk2CW5mlzSJqbV0C6O_YWbU-Uhtds9g&s=10"
+   },
+   {
+    "order": 1,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6t2BKwriXMxMrC62bL0MV2YNucowhi4DvBLOP0R5_ZA&s=10"
+   },
+   {
+    "order": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8DLvh_eZrbDd_iF3MmQd-rHFJyMEXhVFeM2bN7Ba3eg&s=10"
+   },
+   {
+    "order": 3,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSVjzeUe-11_G_1PU4LbN-zuDmeN72ZI3m0BhaVNaPIQ&s=10"
+   },
+   {
+    "order": 4,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9WlIDR5du6dRFV8sSgxASW1HmF-bOPz4HScr6L0_mgw&s=10"
+   }
+  ],
+  "Stat": [
+   {
+    "order": 0,
+    "number": "2 yrs 4 mo",
+    "label": "Mussa's guiding experience"
+   },
+   {
+    "order": 1,
+    "number": "Arusha",
+    "label": "Based & operating from"
+   },
+   {
+    "order": 2,
+    "number": "24/7",
+    "label": "WhatsApp support"
+   }
+  ],
+  "WhyReason": [
+   {
+    "placement": "home",
+    "order": 0,
+    "icon": "bi bi-patch-check-fill",
+    "title": "Certified & Professional",
+    "text": "Trained guides, not last-minute freelancers.",
+    "aos_delay": null
+   },
+   {
+    "placement": "home",
+    "order": 1,
+    "icon": "bi bi-people-fill",
+    "title": "Personal Attention",
+    "text": "Just one guide — you always know who's leading.",
+    "aos_delay": 60
+   },
+   {
+    "placement": "home",
+    "order": 2,
+    "icon": "bi bi-shield-check",
+    "title": "Safety First",
+    "text": "Sensible pacing and daily wellbeing checks.",
+    "aos_delay": 120
+   },
+   {
+    "placement": "home",
+    "order": 3,
+    "icon": "bi bi-chat-dots-fill",
+    "title": "Always Reachable",
+    "text": "Open 24 hours on WhatsApp and phone.",
+    "aos_delay": 180
+   },
+   {
+    "placement": "why-us",
+    "order": 0,
+    "icon": "bi bi-patch-check-fill",
+    "title": "Certified & Professional",
+    "text": "Trained guides, not freelancers found last minute.",
+    "aos_delay": null
+   },
+   {
+    "placement": "why-us",
+    "order": 1,
+    "icon": "bi bi-people-fill",
+    "title": "Personal Attention",
+    "text": "Personal attention — you always know who's leading your trip.",
+    "aos_delay": 60
+   },
+   {
+    "placement": "why-us",
+    "order": 2,
+    "icon": "bi bi-translate",
+    "title": "Multilingual Guiding",
+    "text": "English, Spanish and Swahili spoken across the team.",
+    "aos_delay": 120
+   },
+   {
+    "placement": "why-us",
+    "order": 3,
+    "icon": "bi bi-shield-check",
+    "title": "Safety First",
+    "text": "Sensible pacing, proper gear checks, and daily wellbeing checks.",
+    "aos_delay": 180
+   },
+   {
+    "placement": "why-us",
+    "order": 4,
+    "icon": "bi bi-calendar2-check",
+    "title": "Flexible Itineraries",
+    "text": "Routes and pacing adjusted to your fitness and schedule.",
+    "aos_delay": null
+   },
+   {
+    "placement": "why-us",
+    "order": 5,
+    "icon": "bi bi-chat-dots-fill",
+    "title": "Always Reachable",
+    "text": "Open 24 hours on WhatsApp and phone — no waiting on hold.",
+    "aos_delay": 60
+   }
+  ],
+  "Testimonial": [
+   {
+    "placement": "home",
+    "order": 0,
+    "quote": "\"Mussa guided us up the Machame route and every day felt safe and well planned.\"",
+    "name": "Happy Client",
+    "trip": "Machame Route, 6 Days",
+    "stars": 5,
+    "image_alt": "Traveler review",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSknyEVQjfmvjKTVYDLVub-hre-y6PHVh1OlroQE4fvSQ&s"
+   },
+   {
+    "placement": "home",
+    "order": 1,
+    "quote": "\"Booking directly with a local guide made our trip feel personal and honest.\"",
+    "name": "Happy Client",
+    "trip": "Lemosho Route, 8 Days",
+    "stars": 5,
+    "image_alt": "Traveler review",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtTfkIbhXJGK-UeyfL0F_cSWA-gZcRyY81VhyIajuOLQ&s"
+   },
+   {
+    "placement": "testimonials",
+    "order": 0,
+    "quote": "\"Mussa guided us up the Machame route and every day felt safe and well planned. His knowledge of the mountain made the climb so much easier.\"",
+    "name": "Happy Client",
+    "trip": "Machame Route, 6 Days",
+    "stars": 5,
+    "image_alt": "Traveler review",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP5hslJPW1fTwFdd2EAPj5aOil-XF70JqSzdMpVTkJiw&s=10"
+   },
+   {
+    "placement": "testimonials",
+    "order": 1,
+    "quote": "\"Booking directly with a local guide instead of a big agency made our Kilimanjaro trip feel personal and honest from start to finish.\"",
+    "name": "Happy Client",
+    "trip": "Lemosho Route, 8 Days",
+    "stars": 5,
+    "image_alt": "Traveler review",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCrUxReslWMbL2PDd96U4iltuf9Tkt68NB7SdJqvL5dw&s=10"
+   }
+  ],
+  "Guide": [
+   {
+    "order": 0,
+    "name": "Mussa Paulo Mussa",
+    "role": "Lead Mountain & Safari Guide",
+    "subtitle": "2 Years 4 Months Experience",
+    "education": "Certified Tour Guide — Prosperity College Arusha",
+    "languages": "English, Spanish, Swahili",
+    "bio": "Mussa is a certified Mountain and Safari Guide specializing in wildlife safaris, mountain trekking, cultural tourism, and Zanzibar excursions. His goal: safe, authentic and unforgettable experiences for travelers from around the world.",
+    "image_alt": "Mussa Paulo Mussa, certified local guide in Tanzania",
+    "local": "mussa-profile.jpg",
+    "aos_delay": null,
+    "whatsapp_url": "https://wa.me/255749235394",
+    "whatsapp_label": "WhatsApp Mussa",
+    "facebook_url": "https://www.facebook.com/share/1CoySG7f4M/",
+    "instagram_url": "https://www.instagram.com/msaroguidetanzania"
+   },
+   {
+    "order": 1,
+    "name": "Amani Simon",
+    "role": "Hospitality Support",
+    "subtitle": "Hospitality & Guest Care",
+    "education": "",
+    "languages": "",
+    "bio": "Supports guest comfort and hospitality on select trips. Hotel Management background.",
+    "image_alt": "Amani Simon",
+    "local": "amani-guide.jpg",
+    "aos_delay": 100,
+    "whatsapp_url": "",
+    "whatsapp_label": "",
+    "facebook_url": "",
+    "instagram_url": ""
+   }
+  ],
+  "GuidePhoto": [
+   {
+    "order": 0,
+    "alt": "Mussa with a group of travelers in the forest",
+    "local": "mussa-with-clients-1.jpg",
+    "aos_delay": 0
+   },
+   {
+    "order": 1,
+    "alt": "Mussa kneeling with a group of travelers",
+    "local": "mussa-with-clients-2.jpg",
+    "aos_delay": 80
+   },
+   {
+    "order": 2,
+    "alt": "Mussa guiding travelers on a forest trail",
+    "local": "mussa-with-clients-3.jpg",
+    "aos_delay": 160
+   }
+  ],
+  "PackingCategory": [
+   {
+    "order": 0,
+    "icon": "bi bi-bag-check-fill",
+    "title": "Clothing & Layers",
+    "aos_delay": null,
+    "items": "Waterproof, warm jacket (down/fleece) for summit night\nMoisture-wicking base layers (avoid cotton)\nWarm hat, gloves & buff/scarf\nBroken-in hiking boots + camp sandals\nHiking socks (wool blend, several pairs)\nSunglasses with UV protection"
+   },
+   {
+    "order": 1,
+    "icon": "bi bi-compass-fill",
+    "title": "Gear & Equipment",
+    "aos_delay": 80,
+    "items": "Daypack (25–35L) with rain cover\nSleeping bag rated to at least -10°C\nTrekking poles\nHeadlamp + spare batteries\nWater bottles or hydration bladder (min. 3L capacity)\nWater purification tablets/drops"
+   },
+   {
+    "order": 2,
+    "icon": "bi bi-heart-pulse-fill",
+    "title": "Health & Documents",
+    "aos_delay": 160,
+    "items": "Passport (valid 6+ months) & Tanzania visa\nTravel/medical insurance with high-altitude evacuation cover\nYellow fever certificate (if arriving from an endemic country)\nPersonal medication + basic first-aid kit\nAltitude sickness medication — discuss with your doctor beforehand\nSunscreen (SPF 30+) & lip balm with SPF"
+   },
+   {
+    "order": 3,
+    "icon": "bi bi-briefcase-fill",
+    "title": "Personal Essentials",
+    "aos_delay": 240,
+    "items": "Cash (small USD/TZS notes) for tips and extras\nPower bank & charging cables\nEnergy snacks/electrolyte sachets\nWet wipes & hand sanitizer\nCamera or phone with extra storage\nSmall towel & toiletries"
+   }
+  ],
+  "Certification": [
+   {
+    "order": 0,
+    "icon": "bi bi-award-fill",
+    "title": "Certified Tour Guide",
+    "text": "Mussa completed professional Tour Guiding training at Prosperity College Arusha.",
+    "aos_delay": null
+   },
+   {
+    "order": 1,
+    "icon": "bi bi-geo-fill",
+    "title": "Locally Based in Arusha",
+    "text": "Operating from Mianzini, Arusha — gateway town to Kilimanjaro, Meru and the northern safari circuit.",
+    "aos_delay": 200
+   }
+  ],
+  "FAQ": [
+   {
+    "page": "faq",
+    "order": 0,
+    "question": "Is Mussa an independent guide or a travel agency?",
+    "answer": "Mussa is a certified, independent local guide based in Arusha — not a large agency. When you book with Msaro Guide Tanzania, you deal directly with the guide leading your trip."
+   },
+   {
+    "page": "faq",
+    "order": 1,
+    "question": "Which Kilimanjaro routes do you offer?",
+    "answer": "We guide the Marangu (5 days), Machame (6 or 7 days), Lemosho (8 days), Rongai (6 days) and Umbwe routes, matched to your fitness level and available time."
+   },
+   {
+    "page": "faq",
+    "order": 2,
+    "question": "Do you also offer wildlife safaris?",
+    "answer": "Yes. We run 4-day safaris to Tarangire, Lake Manyara, Serengeti and Ngorongoro, and 7-day safaris that add Lake Natron."
+   },
+   {
+    "page": "faq",
+    "order": 3,
+    "question": "What about Mount Meru or Udzungwa?",
+    "answer": "Mount Meru is offered as a 3 or 4-day climb, great acclimatization before Kilimanjaro. Udzungwa is a 3-day rainforest trek to waterfalls and rare primates."
+   },
+   {
+    "page": "faq",
+    "order": 4,
+    "question": "How do I book a trek or safari?",
+    "answer": "Message us on WhatsApp at +255 749 235 394 or call +255 749 235 394. We reply any time — we're open 24 hours."
+   },
+   {
+    "page": "kilimanjaro",
+    "order": 0,
+    "question": "Which Kilimanjaro route is best, Machame or Lemosho?",
+    "answer": "Machame is the most popular scenic route and works well on 7 days. Lemosho is longer (8 days), quieter and gives more time to acclimatize, so it usually has the highest summit success rate. Mussa will help you pick based on your fitness and time."
+   },
+   {
+    "page": "kilimanjaro",
+    "order": 1,
+    "question": "How many days do I need to climb Kilimanjaro?",
+    "answer": "Most climbers take 6 to 8 days. Longer itineraries such as the 7-day Machame or 8-day Lemosho give your body more time to adjust to altitude and improve your chances of reaching Uhuru Peak."
+   },
+   {
+    "page": "kilimanjaro",
+    "order": 2,
+    "question": "When is the best time to climb Kilimanjaro?",
+    "answer": "The driest months, January to early March and June to October, are generally the best for climbing Kilimanjaro. It is possible year-round, and the Rongai Route is a good choice in the rainy season."
+   },
+   {
+    "page": "kilimanjaro",
+    "order": 3,
+    "question": "Do I book with an agency or directly with the guide?",
+    "answer": "You book directly with Mussa, a certified local guide based in Arusha. There are no middlemen, so you know exactly who is leading your climb."
+   },
+   {
+    "page": "safari",
+    "order": 0,
+    "question": "What is the best Tanzania safari for first-timers?",
+    "answer": "The 4-day safari covering Tarangire, Lake Manyara, the Serengeti and Ngorongoro Crater is a great introduction. If you have more time, the 7-day safari gives each park the time it deserves."
+   },
+   {
+    "page": "safari",
+    "order": 1,
+    "question": "Can I see the Big Five in Ngorongoro Crater?",
+    "answer": "Ngorongoro Crater is one of the best places in Africa to see the Big Five in a single day, including the rare black rhino."
+   },
+   {
+    "page": "safari",
+    "order": 2,
+    "question": "When is the best time for a Serengeti safari?",
+    "answer": "The Serengeti is excellent all year. June to October is the classic dry season for game viewing, and January to February is calving season in the southern Serengeti."
+   },
+   {
+    "page": "safari",
+    "order": 3,
+    "question": "Can I combine a safari with a Kilimanjaro climb?",
+    "answer": "Yes. Many travellers climb Kilimanjaro or Mount Meru first and then relax on safari. Mussa can plan the full trip from Arusha."
+   }
+  ],
+  "GalleryImage": [
+   {
+    "order": 0,
+    "alt": "Kilimanjaro summit sunrise",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThn15vjVcIGRs4w-SCAg6ELW-a5Xr9-RnPwniJorEKrw&s=10",
+    "aos_delay": 0
+   },
+   {
+    "order": 1,
+    "alt": "Safari game drive Serengeti",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAyqOHVIh6BzUXDp5a7XJpI1C7PhFbBvIytAB5XvG7A&s=10",
+    "aos_delay": 60
+   },
+   {
+    "order": 2,
+    "alt": "Trekking group on Meru trail",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMX5TuowwcEADAN1cWexXrBSRMqfvIB0jd_X8SnMJhw&s=10",
+    "aos_delay": 120
+   },
+   {
+    "order": 3,
+    "alt": "Ngorongoro crater view",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5nGo3XiggW3xqwtnx2OmLwL_lSpO3I1p5sPM3foieQ&s=10",
+    "aos_delay": 180
+   },
+   {
+    "order": 4,
+    "alt": "Elephants at Tarangire",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTopp2DJuJ4GjjfaT2sCnQIKrMOP6zxK154n_dfKom2lQ&s=10",
+    "aos_delay": 180
+   },
+   {
+    "order": 5,
+    "alt": "Mussa Paulo Mussa on the beach in Zanzibar",
+    "local": "mussa-zanzibar-beach.jpg",
+    "aos_delay": 240
+   }
+  ],
+  "Destination": [
+   {
+    "order": 0,
+    "name": "Mount Kilimanjaro",
+    "image_alt": "Mount Kilimanjaro",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaoyTpZeURUVKp6k0wMexLOq5rRN03ArGQFhKJmUCZdQ&s=10"
+   },
+   {
+    "order": 1,
+    "name": "Mount Meru",
+    "image_alt": "Mount Meru",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PnETI-xfjRc3fxmJRo88ZQb1K6nOx4b0fIVQAFeqBg&s=10"
+   },
+   {
+    "order": 2,
+    "name": "Udzungwa Mountains",
+    "image_alt": "Udzungwa Mountains",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbl0FJ7U9LZ1_FD5lREqZfC6olfTstbBluX9SwuRODnQ&s=10"
+   },
+   {
+    "order": 3,
+    "name": "Tarangire",
+    "image_alt": "Tarangire National Park",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhtzOzlNR7Ju7VC4Gh_mcZzuda4ftfAwW7Vu63LLoGMA&s=10"
+   },
+   {
+    "order": 4,
+    "name": "Lake Manyara",
+    "image_alt": "Lake Manyara",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3D19FPkI7ptY4-hDgI8N5FWoDdt4blfcx3M-PsNW6w&s=10"
+   },
+   {
+    "order": 5,
+    "name": "Serengeti",
+    "image_alt": "Serengeti National Park",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmOi_th57XvCksxc_DXnTOu6bW3300RbPHR_zRynnftw&s=10"
+   },
+   {
+    "order": 6,
+    "name": "Ngorongoro",
+    "image_alt": "Ngorongoro Crater",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTT91c_9iRdWn1Z_XF4p-1-aAiDbFD9mqqW4_rs646Q&s=10"
+   },
+   {
+    "order": 7,
+    "name": "Lake Natron",
+    "image_alt": "Lake Natron",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZ8ADitVfIZCwZgbXow9bojAS1ThjcM5xz7IQie17Qw&s=10"
+   },
+   {
+    "order": 8,
+    "name": "Jozani Forest, Zanzibar",
+    "image_alt": "Jozani Forest, Zanzibar",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwr42EOnAc5ybSpeFHa4T_tYz9JqF9rfYRPpsctsaQkg&s=10"
+   },
+   {
+    "order": 9,
+    "name": "Maasai Boma",
+    "image_alt": "Maasai Village",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP-St67lrCZTMPFEzMBB1OLT5jbNWD1RW1asFTUoIDPA&s=10"
+   }
+  ],
+  "TripOption": [
+   {
+    "order": 0,
+    "group": "Mount Kilimanjaro",
+    "label": "Marangu Route (5/6 Days)"
+   },
+   {
+    "order": 1,
+    "group": "Mount Kilimanjaro",
+    "label": "Machame Route (6/7 Days)"
+   },
+   {
+    "order": 2,
+    "group": "Mount Kilimanjaro",
+    "label": "Lemosho Route (8 Days)"
+   },
+   {
+    "order": 3,
+    "group": "Mount Kilimanjaro",
+    "label": "Rongai Route (6 Days)"
+   },
+   {
+    "order": 4,
+    "group": "Mount Kilimanjaro",
+    "label": "Umbwe Route"
+   },
+   {
+    "order": 5,
+    "group": "Mount Meru",
+    "label": "Mount Meru (3 Days)"
+   },
+   {
+    "order": 6,
+    "group": "Mount Meru",
+    "label": "Mount Meru (4 Days)"
+   },
+   {
+    "order": 7,
+    "group": "Trekking & Wildlife",
+    "label": "Udzungwa Trekking (3 Days)"
+   },
+   {
+    "order": 8,
+    "group": "Trekking & Wildlife",
+    "label": "4-Day Wildlife Safari"
+   },
+   {
+    "order": 9,
+    "group": "Trekking & Wildlife",
+    "label": "7-Day Wildlife Safari"
+   },
+   {
+    "order": 10,
+    "group": "Trekking & Wildlife",
+    "label": "Mikumi National Park"
+   },
+   {
+    "order": 11,
+    "group": "Trekking & Wildlife",
+    "label": "Lake Manyara National Park"
+   },
+   {
+    "order": 12,
+    "group": "Culture & Waterfalls",
+    "label": "Maasai Cultural Experience"
+   },
+   {
+    "order": 13,
+    "group": "Culture & Waterfalls",
+    "label": "Jozani Forest, Zanzibar"
+   },
+   {
+    "order": 14,
+    "group": "Culture & Waterfalls",
+    "label": "Napuru Waterfalls"
+   },
+   {
+    "order": 15,
+    "group": "Culture & Waterfalls",
+    "label": "Marangu Waterfalls"
+   },
+   {
+    "order": 16,
+    "group": "Pemba Island (with Masud)",
+    "label": "Misali Island Day Trip"
+   },
+   {
+    "order": 17,
+    "group": "Pemba Island (with Masud)",
+    "label": "Ngezi Forest Tour"
+   },
+   {
+    "order": 18,
+    "group": "Pemba Island (with Masud)",
+    "label": "Sandbank & Snorkeling Trip"
+   },
+   {
+    "order": 19,
+    "group": "",
+    "label": "Not sure yet — please advise"
+   }
+  ]
+ },
+ "home_guides": [
+  {
+   "name": "Mussa Paulo Mussa",
+   "role": "Lead Mountain & Safari Guide",
+   "subtitle": "2 Years 4 Months Experience",
+   "home_summary": "Certified Tour Guide — Prosperity College Arusha. English, Spanish, Swahili.",
+   "image_alt": "Mussa Paulo Mussa, certified local guide in Tanzania",
+   "img": {
+    "local": "mussa-profile.jpg"
+   },
+   "aos_delay": null
+  }
+ ],
+ "home_category_cards": [
+  {
+   "home_title": "Mount Kilimanjaro",
+   "home_image": {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS37IQaTDfGNe81FMLF0Q9W-c54t__-lpcrVKFaT99VKQ&s=10"
+   },
+   "home_image_alt": "Mount Kilimanjaro",
+   "home_badge": "5–8 Days",
+   "home_text": "Marangu, Machame, Lemosho, Rongai & Umbwe",
+   "home_button": "View Routes",
+   "href": "kilimanjaro.html",
+   "home_aos_delay": null
+  },
+  {
+   "home_title": "Mount Meru",
+   "home_image": {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTttB-R27zFJ62nIyQaLTj8cXUyfX7GCBy5bZP6lWvheA&s=10"
+   },
+   "home_image_alt": "Mount Meru",
+   "home_badge": "3–4 Days",
+   "home_text": "Tanzania's second highest peak",
+   "home_button": "View Details",
+   "href": "packages.html#meru",
+   "home_aos_delay": 80
+  },
+  {
+   "home_title": "Udzungwa Trekking",
+   "home_image": {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7rD_sGOsrcfEmfN6SBCVXPkDiImJbsWg73WqQFD4GLw&s=10"
+   },
+   "home_image_alt": "Udzungwa Trekking",
+   "home_badge": "3 Days",
+   "home_text": "Waterfalls & rare primates",
+   "home_button": "View Details",
+   "href": "packages.html#udzungwa",
+   "home_aos_delay": 160
+  },
+  {
+   "home_title": "Wildlife Safari",
+   "home_image": {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWv_w9QM3M-ZnjXpGx_54CefMWx_tuXtc0Ky4h2tpPyA&s=10"
+   },
+   "home_image_alt": "Wildlife Safari",
+   "home_badge": "4 or 7 Days",
+   "home_text": "Tarangire, Serengeti, Ngorongoro & more",
+   "home_button": "View Details",
+   "href": "safari.html",
+   "home_aos_delay": 240
+  },
+  {
+   "home_title": "Culture & Zanzibar",
+   "home_image": {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm0mELKI2hqTZ0TcTGJ-gw41NoZA84otCH_rAbWGtOug&s=10"
+   },
+   "home_image_alt": "Culture & Zanzibar",
+   "home_badge": "Half / Full Day",
+   "home_text": "Maasai boma visits & Jozani Forest colobus monkeys",
+   "home_button": "View Details",
+   "href": "packages.html#culture",
+   "home_aos_delay": 320
+  }
+ ],
+ "settings": {
+  "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.755460517469!2d36.7083!3d-3.3625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1837f10f9f98fdc7%3A0x8df7ab1b6e1c8a2d!2sMianzini%2C%20Arusha%2C%20Tanzania!5e0!3m2!1sen!2stz!4v1728390000000!5m2!1sen!2stz",
+  "business_jsonld": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"TravelAgency\",\n  \"@id\": \"https://www.msaroguidetanzania.com/#business\",\n  \"name\": \"Msaro Guide Tanzania\",\n  \"alternateName\": \"Msaro Guide\",\n  \"description\": \"Certified local Kilimanjaro, Mount Meru and wildlife safari guide based in Arusha, Tanzania. Book directly with no middlemen.\",\n  \"image\": \"https://www.msaroguidetanzania.com/images/og-cover.jpg\",\n  \"logo\": \"https://www.msaroguidetanzania.com/images/logo.png\",\n  \"url\": \"https://www.msaroguidetanzania.com/\",\n  \"telephone\": \"+255749235394\",\n  \"email\": \"info@msaroguidetanzania.com\",\n  \"priceRange\": \"$$\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Mianzini\",\n    \"addressLocality\": \"Arusha\",\n    \"addressRegion\": \"Arusha\",\n    \"addressCountry\": \"TZ\"\n  },\n  \"openingHoursSpecification\": {\n    \"@type\": \"OpeningHoursSpecification\",\n    \"dayOfWeek\": [\n      \"Monday\",\n      \"Tuesday\",\n      \"Wednesday\",\n      \"Thursday\",\n      \"Friday\",\n      \"Saturday\",\n      \"Sunday\"\n    ],\n    \"opens\": \"00:00\",\n    \"closes\": \"23:59\"\n  },\n  \"founder\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mussa Paulo Mussa\",\n    \"jobTitle\": \"Certified Local Tour Guide\",\n    \"worksFor\": {\n      \"@id\": \"https://www.msaroguidetanzania.com/#business\"\n    }\n  },\n  \"areaServed\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Mount Kilimanjaro\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Mount Meru\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Serengeti National Park\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Ngorongoro Crater\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Tarangire National Park\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Lake Manyara National Park\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Tanzania\"\n    }\n  ],\n  \"knowsAbout\": [\n    \"Kilimanjaro trekking\",\n    \"Machame Route\",\n    \"Lemosho Route\",\n    \"Marangu Route\",\n    \"Mount Meru climbing\",\n    \"Tanzania wildlife safaris\",\n    \"Serengeti\",\n    \"Ngorongoro Crater\"\n  ],\n  \"sameAs\": [\n    \"https://www.facebook.com/share/1CoySG7f4M/\",\n    \"https://www.instagram.com/msaroguidetanzania\"\n  ]\n}",
+  "hero_typed_strings": "Climb Kilimanjaro via Machame or Lemosho\nSafari the Serengeti &amp; Ngorongoro Crater\nTrek Mount Meru &amp; Udzungwa\nBook directly &mdash; no middlemen",
+  "logo": {
+   "local": "logo.png"
+  },
+  "favicon": {
+   "local": "favicon.png"
+  },
+  "social_image": {
+   "local": "og-cover.jpg"
+  }
+ },
+ "categories": [
+  {
+   "order": 0,
+   "name": "Mount Kilimanjaro",
+   "slug": "kilimanjaro",
+   "pane_id": "pkg-kili",
+   "card_columns": "col-md-6 col-lg-4",
+   "intro": "",
+   "packages": [
+    {
+     "order": 0,
+     "title": "Marangu Route",
+     "slug": "marangu",
+     "days_badge": "5 Days",
+     "image_alt": "Marangu Route",
+     "img": {
+      "local": "kilimanjaro-marangu.jpg"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Known as the \"Coca-Cola\" route, Marangu is the only Kilimanjaro trail with mountain huts instead of tents, making it the most comfortable option. The gradient is gentle and the path well-trodden, but the fast ascent profile means a lower summit success rate unless extended to 6 days — we always recommend the extra day for proper acclimatization.",
+     "features": "",
+     "ask_label": "Ask About This Route",
+     "ask_message": "Hi, I'm interested in the Marangu Route (5 days)",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Marangu Route — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Marangu Route (5/6 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Marangu Gate (1,860m) → Mandara Hut (2,700m)",
+       "stats": "bi-signpost-split | 8km\nbi-clock | 3-4 hrs\nbi-arrow-up-right | +840m\nbi-tree | Rainforest",
+       "body": "Your climb begins at Marangu Gate on Kilimanjaro's southeastern flank, where your crew handles registration and park formalities while you take in your first views of the forest canopy. The trail climbs gently and steadily beneath a thick rainforest ceiling, alive with the calls of colobus and blue monkeys swinging through the branches overhead, giant ferns dripping with humidity, and towering podocarpus trees draped in old man's beard moss. This is one of the most comfortable opening days on the mountain — a well-graded, wide path that eases your legs into the days ahead. You'll arrive at Mandara Hut by mid-afternoon, with time to rest in your private A-frame cabin, enjoy a hot dinner prepared by your mountain cook, and take an optional short detour to the Maundi Crater viewpoint for sweeping views over the Kenyan plains before sunset."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mandara Hut → Horombo Hut (3,720m)",
+       "stats": "bi-signpost-split | 12km\nbi-clock | 6-7 hrs\nbi-arrow-up-right | +1,020m\nbi-tree | Moorland",
+       "body": "Today the landscape transforms dramatically as you climb out of the rainforest and into the heather and moorland zone, where giant lobelia and towering groundsel plants stand like something from another planet. The gradient is more sustained today, and the air noticeably thins, so your guide will set a deliberately unhurried “pole pole” (slowly slowly) pace to help your body begin adjusting to altitude. On clear afternoons, Kibo's glaciated summit and the jagged spires of Mawenzi Peak both come into view for the first time, a genuinely awe-inspiring moment for most climbers. Horombo Hut, perched on a ridge with huge panoramic views, is your home for the night — and on the 6-day itinerary, also the following night, giving your body crucial extra time to acclimatize before the harder days ahead."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Acclimatization Day at Horombo Hut (6-Day Itinerary)",
+       "stats": "bi-signpost-split | 4-5km\nbi-clock | 2-3 hrs\nbi-graph-up | Rest Day\nbi-tree | Moorland",
+       "body": "This extra day is, quite simply, the single biggest factor in improving your chances of a successful summit on the Marangu route. Rather than pushing straight on toward Kibo, you'll take a shorter, gentle acclimatization walk up toward Zebra Rocks or the base of Mawenzi, gaining altitude during the day before returning to sleep at the lower elevation of Horombo Hut — the classic “climb high, sleep low” strategy used by experienced mountaineers worldwide. You'll have a relaxed afternoon to rest, hydrate, eat well and mentally prepare, with your guide checking in on how your body is responding to the altitude so far. Climbers who add this day consistently report feeling stronger and more confident heading into the harder terrain above."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Horombo Hut → Kibo Hut (4,700m)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 6 hrs\nbi-arrow-up-right | +980m\nbi-cloud | Alpine Desert",
+       "body": "Leaving the last of the moorland vegetation behind, you'll cross “The Saddle” — a vast, stark, high-altitude plateau stretching between Mawenzi and Kibo peaks, where almost nothing grows and the landscape feels closer to the surface of the moon than anywhere on Earth. The thin air and increasing cold make this a mentally demanding stretch, and your guide will keep the pace deliberately slow to conserve energy for what lies ahead. Kibo Hut itself is a stone structure sitting directly beneath the crater rim — basic, cold, and purposeful. You'll have an early dinner, lay out your summit gear, and try to rest (most climbers don't sleep much) before a midnight wake-up call for the push to the roof of Africa."
+      },
+      {
+       "order": 4,
+       "number": "5",
+       "title": "Summit Night: Kibo Hut → Uhuru Peak (5,895m) → Horombo Hut",
+       "stats": "bi-signpost-split | 21km total\nbi-clock | 12-15 hrs\nbi-arrow-up-right | +1,195m then descend\nbi-stars | Summit Push",
+       "body": "You'll be woken around 11pm–midnight for tea, biscuits, and a final gear check before setting off into the freezing darkness under a canopy of stars. The path zig-zags relentlessly up loose scree to Gilman's Point (5,681m) on the crater rim — the toughest, slowest, most mentally challenging section of the entire climb — before a further 1–2 hours along the crater edge, past the last remaining glaciers, to Uhuru Peak itself, timed for a sunrise arrival that climbers describe as one of the most emotional moments of their lives. After photos at the famous summit sign, you'll begin the long descent, retracing your steps through Kibo and continuing all the way down to Horombo Hut — a brutally long day covering both the summit push and a huge descent, but one that ends with a proper meal, a real bed, and the deep satisfaction of having stood on Africa's highest point."
+      },
+      {
+       "order": 5,
+       "number": "6",
+       "title": "Horombo Hut → Marangu Gate",
+       "stats": "bi-signpost-split | 20km\nbi-clock | 5-6 hrs\nbi-arrow-down-right | -1,860m\nbi-tree | Rainforest",
+       "body": "The final day is a long, knee-testing descent retracing your route back through moorland and into the cool rainforest you climbed through on day one, though now with the satisfaction of the summit behind you. Porters and guides often break into song on this last stretch — a joyful Kilimanjaro tradition worth savoring. At Marangu Gate, you'll sign the official park register, receive your summit certificate (gold for Uhuru Peak, green for Gilman's Point), and say your thank-yous and tips to the crew who supported you throughout, before transfer back to your hotel in Arusha or Moshi for a well-earned hot shower and celebratory meal."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "title": "Machame Route",
+     "slug": "machame",
+     "days_badge": "6 or 7 Days",
+     "image_alt": "Machame Route",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8FQ0Lbhk-JP5032cxGccbqUAXdq3va0Tzjov63R6mQ&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "The \"Whiskey\" route is the most scenic way up Kilimanjaro, climbing through rainforest, moorland, alpine desert and the dramatic Barranco Wall before reaching the summit. It’s camping-based throughout and steeper than Marangu, so fitness matters — on 7 days it offers one of the best summit success rates of any route.",
+     "features": "",
+     "ask_label": "Ask About This Route",
+     "ask_message": "Hi, I'm interested in the Machame Route",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "Machame Route — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Machame Route (6/7 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Machame Gate (1,800m) → Machame Camp (3,000m)",
+       "stats": "bi-signpost-split | 11km\nbi-clock | 5-7 hrs\nbi-arrow-up-right | +1,200m\nbi-tree | Rainforest",
+       "body": "The Machame route begins on Kilimanjaro's southern slopes, and after registration formalities at the gate, you'll plunge straight into dense, misty rainforest thick with hanging lichen, giant ferns and the occasional rustle of colobus monkeys overhead. The trail is muddy and root-strewn in places, especially if it has rained recently, so trekking poles earn their keep early. It's a genuinely beautiful walk, but also a serious first day — you'll gain over 1,200m in altitude, so pacing matters more than speed. By the time you reach Machame Camp, the forest has begun thinning into heath, and your crew will have tents pitched and hot drinks ready as the clouds roll in below you for a spectacular sunset above the cloud line."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Machame Camp → Shira Camp (3,840m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 4-6 hrs\nbi-arrow-up-right | +840m\nbi-cloud | Moorland",
+       "body": "Although shorter in distance, today's climb is steep and rocky, following a ridge line up out of the last of the forest and onto open moorland dotted with giant groundsel and everlasting flowers. This is the day Kibo's glaciated summit first comes fully into view, often stopping climbers in their tracks for photos. Shira Camp sits on the vast, ancient Shira Plateau — the collapsed caldera of one of Kilimanjaro's three volcanic cones — and offers a genuinely spectacular sense of exposure and scale, with 360° views across the plateau to Kibo on one side and the plains of Tanzania far below on the other."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Shira Camp → Lava Tower (4,630m) → Barranco Camp (3,900m)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 6-8 hrs\nbi-arrow-up-right | then down to 3,900m\nbi-mountain | Alpine Desert",
+       "body": "This is the classic “climb high, sleep low” acclimatization day that makes Machame such an effective route for summit success. You'll trek across increasingly barren alpine desert to the dramatic Lava Tower — a 300m volcanic plug that looms like a fortress — where you'll stop for a hot lunch at 4,630m, higher than many climbers have ever been before descending. From there, the trail drops through the strange and beautiful Barranco Valley, filled with giant senecio plants that look prehistoric against the rock, down to Barranco Camp at the foot of the imposing Barranco Wall. Sleeping nearly 700m lower than your lunch altitude gives your body vital time to recover and adapt."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Barranco Wall → Karanga Camp (3,995m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 4-5 hrs\nbi-hand-index | Scramble\nbi-mountain | Ridge",
+       "body": "The day opens with the single most exciting stretch of the whole climb: the Barranco Wall, a 300m near-vertical scramble up volcanic rock that looks intimidating from camp but is entirely non-technical — hands-on in places, with your guide pointing out every foothold, but requiring no ropes or climbing gear. Reaching the top rewards you with some of the best views on the entire mountain, with the summit glaciers glinting directly ahead. From there, the trail rolls across a series of ridges and valleys, crossing streams fed by melting ice, before a final climb to Karanga Camp — a relatively short but memorable day that leaves plenty of afternoon for rest and photography."
+      },
+      {
+       "order": 4,
+       "number": "5",
+       "title": "Karanga Camp → Barafu Camp (4,673m)",
+       "stats": "bi-signpost-split | 4km\nbi-clock | 4 hrs\nbi-arrow-up-right | +678m\nbi-cloud | Alpine Desert",
+       "body": "A deliberately short, steady day across increasingly barren and rocky terrain, giving your body one last chance to rest and adjust before the main event. Barafu — Swahili for “ice” — is a stark, windswept, boulder-strewn camp perched on a narrow ridge, and it's here that the reality of the coming summit night really sinks in. You'll have an early, hearty dinner, lay out every piece of summit clothing and gear with your guide's guidance, and try to grab a few hours of sleep before the midnight wake-up call, with excitement (and a little nervous energy) running through camp."
+      },
+      {
+       "order": 5,
+       "number": "6",
+       "title": "Summit Night: Barafu Camp → Uhuru Peak (5,895m) → Mweka Camp (3,100m)",
+       "stats": "bi-signpost-split | 17km total\nbi-clock | 12-15 hrs\nbi-stars | Summit Push\nbi-arrow-down-right | Long Descent",
+       "body": "Around midnight, bundled in every layer you own, you'll set off by headlamp into freezing darkness, switch-backing steadily up loose scree toward Stella Point on the crater rim. This stretch is as much a mental challenge as a physical one — cold, dark, slow, and demanding real determination — but your guide's steady “pole pole” pace and encouragement carry most climbers through. From Stella Point, it's a further hour along the crater rim past ancient glaciers to Uhuru Peak, timed for sunrise over the African plains — an unforgettable, often emotional moment at the top of the continent. After summit photos, you'll descend rapidly back to Barafu for a short rest and hot meal, then continue all the way down through changing vegetation zones to Mweka Camp in the forest — an exhausting but deeply rewarding day covering enormous distance and altitude change."
+      },
+      {
+       "order": 6,
+       "number": "7",
+       "title": "Mweka Camp → Mweka Gate (7-Day Itinerary)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 3-4 hrs\nbi-arrow-down-right | -1,573m\nbi-tree | Rainforest",
+       "body": "A gentle, celebratory final descent through lush rainforest back to Mweka Gate, where the change in air pressure and oxygen with every step down is a welcome relief on tired legs. At the gate, you'll sign the official park register and receive your summit certificate, followed by the customary tipping ceremony for your guide, cook and porter team — often accompanied by singing and dancing that makes for one of the most joyful moments of the whole trip. We build this extra 7th day into our standard itinerary rather than rushing the descent on summit day, giving your body and your memories room to breathe."
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "title": "Lemosho Route",
+     "slug": "lemosho",
+     "days_badge": "8 Days",
+     "image_alt": "Lemosho Route",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHA_IHXhE6cK0RJrMuFmC5zK1iLbubN5NmX7oTagXvSQ&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Lemosho starts from the remote western side of the mountain, crossing the wide-open Shira Plateau before joining the summit route. Its extra distance and days give your body more time to acclimatize, which is why it consistently records some of the highest summit success rates — ideal if you want a quieter trail and the best odds of reaching Uhuru Peak.",
+     "features": "",
+     "ask_label": "Ask About This Route",
+     "ask_message": "Hi, I'm interested in the Lemosho Route (8 days)",
+     "ask_whatsapp": "",
+     "aos_delay": 160,
+     "modal_title": "Lemosho Route — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Lemosho Route (8 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Londorossi Gate → Mti Mkubwa Camp (2,750m)",
+       "stats": "bi-signpost-split | 6km\nbi-clock | 3-4 hrs\nbi-arrow-up-right | +750m\nbi-tree | Rainforest",
+       "body": "Your Lemosho adventure begins with a scenic drive to the remote Londorossi Gate on the mountain's western side, well off the busier southern approach routes. After registration, a short 4x4 transfer drops you at the trailhead itself, from where you enter pristine, untouched rainforest — among the most beautiful and least-crowded forest walking anywhere on Kilimanjaro. Look out for colobus monkeys, forest birds and, if you're fortunate, fresh elephant or buffalo tracks crossing the trail, since this western flank sees genuine wildlife traffic. Mti Mkubwa (“Big Tree”) Camp is named for the towering ancient specimen that shades the campsite, a wonderfully atmospheric first night on the mountain."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mti Mkubwa → Shira 1 Camp (3,500m)",
+       "stats": "bi-signpost-split | 8km\nbi-clock | 5-6 hrs\nbi-arrow-up-right | +750m\nbi-cloud | Moorland",
+       "body": "The forest gradually thins into heather and moorland as the trail climbs steadily onto the edge of the vast Shira Plateau, one of the largest calderas in the world and the collapsed remnant of Kilimanjaro's oldest volcanic cone. Giant groundsel and lobelia punctuate the increasingly open landscape, and on a clear day this is where Kibo's summit dome first reveals itself in full, often eliciting gasps from first-time climbers. Shira 1 Camp sits right on the plateau's edge, with vast, uninterrupted views back across the plains of Tanzania — a genuinely spectacular sense of space and scale rarely matched elsewhere on the mountain."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Shira 1 → Shira 2 Camp (3,850m)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 4 hrs\nbi-arrow-up-right | +350m\nbi-cloud | Plateau",
+       "body": "A comparatively gentle, mostly flat day crossing the full width of the ancient Shira Plateau, ideal for easy acclimatization without excessive exertion. The walking is relaxed enough to properly take in the otherworldly high-altitude scenery — rolling volcanic grassland stretching toward Kibo's ever-closer summit — and your guide may point out interesting volcanic rock formations and hardy alpine plant species adapted to the thin air and intense UV exposure up here. Shira 2 Camp offers superb, unobstructed views of the summit for sunset, a favorite photography spot on the whole route."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Shira 2 → Lava Tower (4,630m) → Barranco Camp (3,900m)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 6 hrs\nbi-arrow-up-right | then down to 3,900m\nbi-mountain | Alpine Desert",
+       "body": "Today brings the pivotal “climb high, sleep low” acclimatization day shared with the Machame route once the two trails converge. You'll cross increasingly barren volcanic terrain to reach the dramatic Lava Tower, a striking 300m rock formation where you'll stop for a well-earned hot lunch at just over 4,600m — a genuinely valuable altitude exposure before you descend. From there the trail drops into the strange, beautiful Barranco Valley, filled with towering prehistoric-looking senecio plants, ending at Barranco Camp beneath the imposing wall you'll tackle first thing tomorrow. The nearly 700m of descent to camp gives your body crucial recovery time."
+      },
+      {
+       "order": 4,
+       "number": "5",
+       "title": "Barranco Wall → Karanga Camp (3,995m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 5 hrs\nbi-hand-index | Scramble\nbi-mountain | Ridge",
+       "body": "The day begins with the famous Barranco Wall — a thrilling, non-technical scramble up 300m of volcanic rock that looks far more intimidating from below than it feels once you're climbing it hand over hand alongside your guide. The reward at the top is arguably the best panoramic view on the entire mountain, with Kibo's glaciers close enough to feel almost touchable. From there, a scenic but tiring route crosses several ridges and valleys, with streams to cross and steady altitude gain, before reaching Karanga Camp — the last reliable water source before the summit push, so your crew will top up supplies here."
+      },
+      {
+       "order": 5,
+       "number": "6",
+       "title": "Karanga Camp → Barafu Camp (4,673m)",
+       "stats": "bi-signpost-split | 4km\nbi-clock | 4 hrs\nbi-arrow-up-right | +678m\nbi-cloud | Alpine Desert",
+       "body": "A short, steady climb across stark, rocky alpine desert to Barafu Camp, your final staging point before summit night. With relatively little distance to cover today, you'll have a proper rest afternoon — time to sort and repack summit gear with your guide, hydrate thoroughly, and try to nap, even if genuine sleep proves elusive at this altitude. The mood in camp shifts noticeably here, a mix of nervous anticipation and quiet determination as everyone prepares mentally for the night ahead."
+      },
+      {
+       "order": 6,
+       "number": "7",
+       "title": "Summit Night: Barafu Camp → Uhuru Peak (5,895m) → Mweka Camp (3,100m)",
+       "stats": "bi-signpost-split | 17km total\nbi-clock | 12-15 hrs\nbi-stars | Summit Push\nbi-arrow-down-right | Long Descent",
+       "body": "Waking around midnight, you'll begin the long, cold, switch-backing ascent by headlamp toward Stella Point on the crater rim — slow, deliberate steps guided by your team's experience and encouragement through the hardest hours of the entire trek. From Stella Point, a further hour along the rim past ancient glacial ice leads to Uhuru Peak, Africa's highest point, typically reached right around sunrise for a genuinely unforgettable view over the curvature of the earth. Thanks to Lemosho's extra acclimatization days on the Shira Plateau, climbers on this route consistently report feeling stronger here than on shorter itineraries. After summit celebrations, you'll descend all the way back through Barafu to Mweka Camp in the forest — a huge, demanding day, but one that ends with the climb essentially behind you."
+      },
+      {
+       "order": 7,
+       "number": "8",
+       "title": "Mweka Camp → Mweka Gate",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 3 hrs\nbi-arrow-down-right | -1,573m\nbi-tree | Rainforest",
+       "body": "A relatively gentle final descent through the forest back to Mweka Gate, where oxygen-rich air and warmer temperatures return with every step. You'll complete official park sign-out formalities, receive your summit certificate, and take part in the traditional tipping and thank-you ceremony for your guide, cook and porter crew — usually a warm, celebratory affair full of songs. From here it's a short drive back to your hotel in Arusha or Moshi for a hot shower and a very well-earned rest."
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "title": "Rongai Route",
+     "slug": "rongai",
+     "days_badge": "6 Days",
+     "image_alt": "Rongai Route",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPB-dLItYH-_OruO209xiKhrLxlXpxAMBQh-i2_Anmyg&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Rongai is the only route that approaches Kilimanjaro from the north, near the Kenyan border, through dry pine forest and open moorland. It sees far fewer trekkers than the southern routes, has a gradual gradient, and is a solid choice during the rainy season since the northern slopes stay drier.",
+     "features": "",
+     "ask_label": "Ask About This Route",
+     "ask_message": "Hi, I'm interested in the Rongai Route (6 days)",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Rongai Route — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Rongai Route (6 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Rongai Gate (1,950m) → Simba Camp (2,600m)",
+       "stats": "bi-signpost-split | 8km\nbi-clock | 3-4 hrs\nbi-arrow-up-right | +650m\nbi-tree | Pine Forest",
+       "body": "Rongai is the only route that approaches Kilimanjaro from the quieter, drier northern side near the Kenyan border, and the difference is obvious from the very first steps. Rather than dense rainforest, you'll walk through open pine forest and farmland, with local Chagga villages and maize fields visible in the distance — a genuinely different cultural and scenic experience from the southern routes. The trail is gentle and the crowds virtually nonexistent, making this a wonderfully peaceful start. Simba (“Lion”) Camp takes its name from tracks occasionally spotted in the area, and offers your first proper views of Kibo's northern glaciers as dusk falls."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Simba Camp → Kikelewa Camp (3,600m)",
+       "stats": "bi-signpost-split | 8km\nbi-clock | 6-7 hrs\nbi-arrow-up-right | +1,000m\nbi-cloud | Moorland",
+       "body": "The trail climbs steadily out of the forest onto open, rolling moorland, with sweeping views north across the plains toward Kenya and, on the clearest days, all the way to Mount Kenya itself far in the distance. This is a longer, more demanding day in terms of altitude gain, so the pace is deliberately unhurried and regular water breaks are built in. Kikelewa Camp is tucked into a scenic valley below the jagged spires of Mawenzi Peak, with wildflowers often blooming nearby depending on the season — one of the most photogenic camps on the whole mountain."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Kikelewa Camp → Mawenzi Tarn (4,330m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 4 hrs\nbi-arrow-up-right | +730m\nbi-mountain | Alpine",
+       "body": "A short but steep climb brings you directly beneath the dramatic, jagged spires of Mawenzi — Kilimanjaro's second peak and a striking contrast to Kibo's smooth glaciated dome. Mawenzi Tarn Camp, set beside a small alpine lake, is widely considered one of the most spectacular and least-visited campsites on the entire mountain, and the shorter walking distance today gives you a valuable half-day to rest and properly acclimatize before pushing on toward Kibo. Many climbers rate this as their favorite camp of the whole trip for its scenery alone."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Mawenzi Tarn → Kibo Hut (4,700m)",
+       "stats": "bi-signpost-split | 9km\nbi-clock | 4-5 hrs\nbi-arrow-up-right | +370m\nbi-cloud | Alpine Desert",
+       "body": "Today you cross “The Saddle” — the vast, stark high-altitude plateau stretching between Mawenzi and Kibo, where the landscape turns almost entirely to rock and dust and barely a plant survives the thin, freezing air. It's a mentally demanding stretch, both for its bleakness and the growing awareness of the summit push ahead, but the walking itself is relatively flat and manageable. Kibo Hut, a stone shelter sitting right beneath the crater rim, is basic and cold by design — this is a place for an early dinner, careful gear preparation, and an attempt at rest before the midnight wake-up call."
+      },
+      {
+       "order": 4,
+       "number": "5",
+       "title": "Summit Night: Kibo Hut → Uhuru Peak (5,895m) → Horombo Hut",
+       "stats": "bi-signpost-split | 21km total\nbi-clock | 13-15 hrs\nbi-stars | Summit Push\nbi-arrow-down-right | Long Descent",
+       "body": "Setting off around midnight, you'll climb steadily by headlamp up loose volcanic scree toward Gilman's Point on the crater rim — the toughest, coldest, most demanding hours of the entire trek, made bearable by your guide's steady pace and encouragement. From Gilman's Point, the trail continues along the crater edge, past remnant glaciers glowing faintly in the pre-dawn light, to Uhuru Peak itself, usually timed for a sunrise arrival that few climbers ever forget. After summit photos at Africa's highest point, the descent begins in earnest — back down through Kibo Hut and continuing all the way to Horombo Hut, an exceptionally long day covering both the summit push and a major descent, but one that ends with real food, warmth and the summit already behind you."
+      },
+      {
+       "order": 5,
+       "number": "6",
+       "title": "Horombo Hut → Marangu Gate",
+       "stats": "bi-signpost-split | 20km\nbi-clock | 6 hrs\nbi-arrow-down-right | -1,770m\nbi-tree | Rainforest",
+       "body": "The final day retraces the descent through moorland and back into cool, green rainforest, joining the Marangu route path for the exit (Rongai climbers descend via Marangu Gate rather than returning the way they came). It's a long day on tired legs, but spirits are typically high, with porters and guides often singing traditional Kilimanjaro songs on the way down. At the gate you'll complete official sign-out procedures, receive your summit certificate, and enjoy a proper tipping and thank-you ceremony with your crew before transfer back to Arusha or Moshi."
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "title": "Umbwe Route",
+     "slug": "umbwe",
+     "days_badge": "Custom",
+     "image_alt": "Umbwe Route",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YxskOKW27a9GGUvslNOylei4dNwxYHOLBqq2icZZlg&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Umbwe is the shortest and steepest route to the summit, climbing straight through dense forest onto a narrow ridge with dramatic views before meeting the Barranco Wall. It’s camping-only with no easy escape route, so we only recommend it to fit, experienced trekkers looking for a tougher, more dramatic climb.",
+     "features": "",
+     "ask_label": "Ask About This Route",
+     "ask_message": "Hi, I'm interested in the Umbwe Route",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "Umbwe Route — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Umbwe Route",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Umbwe Gate (1,600m) → Umbwe Cave Camp (2,940m)",
+       "stats": "bi-signpost-split | 11km\nbi-clock | 5-6 hrs\nbi-arrow-up-right | +1,340m\nbi-tree | Dense Forest",
+       "body": "Umbwe is Kilimanjaro's most direct and demanding route, and that reputation is obvious from the very first day: a steep, relentless climb through dense, beautiful forest along a narrow ridge trail, gaining well over 1,300m in a single push. There's minimal traffic on this route — you'll likely have the trail almost entirely to yourselves — and the forest itself is genuinely spectacular, thick with moss-draped trees and the calls of unseen wildlife. Umbwe Cave Camp is a small, atmospheric clearing tucked into the forest, and by the time you arrive most climbers feel the day's effort in their legs, a clear sign this route is built for fitter, more experienced trekkers."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Umbwe Cave Camp → Barranco Camp (3,900m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 4-5 hrs\nbi-arrow-up-right | +960m\nbi-mountain | Ridge",
+       "body": "The climb continues up out of the forest and onto an increasingly exposed ridge, with the trees thinning to reveal your first proper views of Kibo's Southern Icefields glinting in the distance — a genuinely dramatic reward after yesterday's forest slog. The trail here can be narrow and occasionally requires careful footing, particularly after rain, so a measured pace matters. Barranco Camp, where Umbwe rejoins the Machame/Lemosho route, sits directly beneath the imposing Barranco Wall you'll climb the following morning, and offers spectacular sunset views across the valley."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Barranco Wall → Karanga Camp (3,995m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 4-5 hrs\nbi-hand-index | Scramble\nbi-mountain | Ridge",
+       "body": "A thrilling, hands-on (but non-technical) scramble up the 300m Barranco Wall kicks off the day, rewarding climbers with arguably the finest panoramic views on the whole mountain from the top. From there, the trail follows the same scenic ridge-and-valley route used by Machame and Lemosho climbers, crossing several small streams before reaching Karanga Camp — the last water source before the summit push, and a good spot to rest and recover ahead of the demanding days to come."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Karanga Camp → Barafu Camp (4,673m)",
+       "stats": "bi-signpost-split | 4km\nbi-clock | 4 hrs\nbi-arrow-up-right | +678m\nbi-cloud | Alpine Desert",
+       "body": "A shorter, steadier day across stark alpine terrain to Barafu Camp, your final staging point before the summit attempt. Because Umbwe compresses the acclimatization schedule used on longer routes, your guide will monitor how you're feeling especially closely today, and this is the point where we most often recommend adding an extra day if time allows. Early dinner, thorough gear checks, and an attempt at rest follow, ahead of a midnight start."
+      },
+      {
+       "order": 4,
+       "number": "5",
+       "title": "Summit Night: Barafu Camp → Uhuru Peak (5,895m) → Mweka Camp",
+       "stats": "bi-signpost-split | 17km total\nbi-clock | 12-15 hrs\nbi-stars | Summit Push\nbi-arrow-down-right | Long Descent",
+       "body": "The summit push follows the same demanding path used by Machame and Lemosho climbers — a steep, cold, headlamp-lit ascent via Stella Point to Uhuru Peak, ideally timed for sunrise. Because Umbwe skips the gentler acclimatization built into longer routes, this is a genuinely tough night, and we only recommend this route to fit, experienced trekkers for exactly this reason. After summiting, the descent continues all the way down to Mweka Camp in the forest — an enormous, exhausting day, but one that puts the hardest part of the climb firmly behind you."
+      },
+      {
+       "order": 5,
+       "number": "6",
+       "title": "Mweka Camp → Mweka Gate (Recommended Extension)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 3 hrs\nbi-arrow-down-right | -1,573m\nbi-tree | Rainforest",
+       "body": "Rather than rushing straight from the summit to the gate on the same exhausting day, we recommend this gentler final descent through rainforest back to Mweka Gate on its own separate day. It's a far more comfortable way to finish, with time to properly register the achievement, complete official sign-out and certificate formalities, and enjoy a proper tipping and thank-you ceremony with your crew before the drive back to Moshi or Arusha."
+      }
+     ]
+    }
+   ],
+   "included_title": "What's Included",
+   "included_items": "Kilimanjaro National Park entrance fees\nAll required mountain permits\nProfessional English-speaking mountain guide\nExperienced porters\nMountain cook\nMountain crew wages\nCamping fees\nQuality mountain tents\nSleeping mattresses\nAll meals during the trek\nSafe drinking water during the climb\nRescue and emergency fees as provided by the park\nGovernment taxes and applicable fees\nTransport to the Lemosho trailhead\nTransfer from Mweka Gate to Moshi or Arusha",
+   "excluded_title": "What's Not Included",
+   "excluded_items": "International flights\nDomestic flights\nTanzania visa fees\nTravel and medical insurance\nPersonal trekking equipment\nSleeping bag\nTrekking poles\nHeadlamp and personal hiking equipment\nPersonal expenses\nAlcoholic and soft drinks\nLaundry services\nTips for guides, porters, and cook\nAdditional hotel accommodation before or after the trek\nEmergency evacuation beyond standard included rescue arrangements\nOptional activities not mentioned in the itinerary"
+  },
+  {
+   "order": 1,
+   "name": "Mount Meru",
+   "slug": "meru",
+   "pane_id": "pkg-meru",
+   "card_columns": "col-md-6 col-lg-4",
+   "intro": "",
+   "packages": [
+    {
+     "order": 0,
+     "title": "Mount Meru — 3 Days",
+     "slug": "meru3",
+     "days_badge": "3 Days",
+     "image_alt": "Mount Meru 3 Days",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZRZNA7KphJHKJNkfO9ra-_l2Ucx8DoQEHF6Tx1VaaIg&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "A brisk two-night climb through Arusha National Park, starting among buffalo, giraffe and colobus monkeys near Momella Gate before rising through montane forest to Meru’s dramatic crater rim. It’s a fast, physical ascent, and a fantastic way to acclimatize before attempting Kilimanjaro.",
+     "features": "",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi, I'm interested in Mount Meru (3 days)",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Mount Meru (3 Days) — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Mount Meru (3 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Momella Gate (1,500m) → Miriakamba Hut (2,514m)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 4-5 hrs\nbi-arrow-up-right | +1,014m\nbi-binoculars | Wildlife",
+       "body": "Your Meru adventure begins inside Arusha National Park, where an armed ranger joins your group for the walk — a requirement here given the genuine wildlife you're likely to encounter, unlike the wildlife-free trails of Kilimanjaro. The route winds through open grassland and acacia woodland where buffalo, giraffe, warthog and colobus monkeys are commonly spotted at close range, with Meru's steep, forested slopes rising ahead of you the whole way. It's a fantastic introduction to East African wildlife before you've even reached your first camp. Miriakamba Hut sits in a clearing with lovely views back across the plains, and offers simple but comfortable bunk accommodation for the night."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Miriakamba Hut → Saddle Hut (3,570m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 4-5 hrs\nbi-arrow-up-right | +1,056m\nbi-tree | Forest to Moorland",
+       "body": "The trail climbs steadily through montane forest thick with old man's beard moss, then breaks out onto open heather and moorland as you approach the saddle between Meru's main summit and its dramatic ash cone. This stretch offers some of the best views on the entire climb, with the sheer inner wall of Meru's collapsed crater rising directly beside you — a genuinely dramatic geological sight most climbers aren't expecting. Saddle Hut, perched right on the exposed ridge, delivers sweeping views in every direction, including (on the clearest days) all the way across to Kilimanjaro itself in the distance."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Summit Night: Saddle Hut → Socialist Peak (4,566m) → Descent to Momella Gate",
+       "stats": "bi-signpost-split | Very Long Day\nbi-clock | 8-9 hrs to summit, plus full descent\nbi-stars | Summit Push\nbi-mountain | Ridge",
+       "body": "This is a genuinely demanding final day: an early (often midnight) start along Meru's narrow, exposed summit ridge, with real drop-offs on either side in places, climbing steadily toward Socialist Peak at 4,566m. Reaching the top rewards you with one of the most striking summit views in East Africa, looking directly down into Meru's collapsed crater on one side and, on a clear morning, across to Kilimanjaro rising above the clouds on the other. After summit celebrations, the day continues with a very long descent all the way back down to Momella Gate — making this the single longest, most physically demanding day of the 3-day itinerary, and the main reason we often recommend the 4-day option instead for a gentler pace."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "title": "Mount Meru — 4 Days",
+     "slug": "meru4",
+     "days_badge": "4 Days",
+     "image_alt": "Mount Meru 4 Days",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_40ga6zPxn4Ks0Y3219DShxnQyxXvDE9WF4R0nFDCWw&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "The same spectacular route up Mount Meru, spread over an extra night at Saddle Hut for a gentler pace and better acclimatization. Expect wildlife on the lower slopes, sweeping views of Kilimanjaro on a clear morning, and a sunrise summit push along Meru’s knife-edge ridge.",
+     "features": "",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi, I'm interested in Mount Meru (4 days)",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "Mount Meru (4 Days) — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Mount Meru (4 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Momella Gate (1,500m) → Miriakamba Hut (2,514m)",
+       "stats": "bi-signpost-split | 10km\nbi-clock | 4-5 hrs\nbi-arrow-up-right | +1,014m\nbi-binoculars | Wildlife",
+       "body": "The same wildlife-rich opening day as the 3-day option: an armed ranger accompanies your group through open grassland and acacia woodland where buffalo, giraffe and colobus monkeys are frequently spotted, with Meru's dramatic slopes visible ahead the entire way. It's an unusually scenic and wildlife-filled start for a mountain trek, and a great warm-up for the climbing to come. Miriakamba Hut offers comfortable bunk accommodation and lovely views back across the plains for your first night."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Miriakamba Hut → Saddle Hut (3,570m)",
+       "stats": "bi-signpost-split | 5km\nbi-clock | 3-4 hrs\nbi-arrow-up-right | +1,056m\nbi-tree | Forest to Moorland",
+       "body": "With an extra day built into this itinerary, today's climb is noticeably more relaxed than the compressed 3-day version, giving you time to properly enjoy the transition from forest to moorland and take in the dramatic views of Meru's inner crater wall as you approach the saddle. There's also time in the afternoon to explore around Saddle Hut itself, perhaps with an optional short acclimatization walk toward Little Meru, a nearby viewpoint that offers a preview of tomorrow night's summit views without the full commitment."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Summit Night: Saddle Hut → Socialist Peak (4,566m) → Saddle or Miriakamba Hut",
+       "stats": "bi-signpost-split | Long Day\nbi-clock | 7-9 hrs to summit\nbi-stars | Summit Push\nbi-mountain | Ridge",
+       "body": "The summit push follows Meru's spectacular, narrow ridge line toward Socialist Peak, with real exposure in places that makes this feel like a genuine mountaineering achievement rather than just a long walk. Reaching the top delivers sweeping views down into the crater and, on clear mornings, across to Kilimanjaro floating above the clouds — widely considered one of the best summit views in East Africa relative to the effort required. Thanks to the extra day built into this itinerary, the descent back to Saddle Hut (or continuing on to Miriakamba, depending on your pace and preference) feels noticeably less punishing than the rushed single-day descent on the 3-day option."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Descent to Momella Gate",
+       "stats": "bi-signpost-split | 10-15km\nbi-clock | 4-5 hrs\nbi-arrow-down-right | Full Descent\nbi-binoculars | Wildlife",
+       "body": "A relaxed, unhurried final descent back through the park to Momella Gate, with tired legs but a real sense of accomplishment. There's a good chance of further wildlife sightings on the way down, and time to properly reflect on the climb rather than rushing straight off the mountain the way the 3-day itinerary demands. Many climbers use Meru as excellent physical and psychological preparation before attempting Kilimanjaro shortly afterward."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "order": 2,
+   "name": "Udzungwa",
+   "slug": "udzungwa",
+   "pane_id": "pkg-udzungwa",
+   "card_columns": "col-md-6 col-lg-4",
+   "intro": "",
+   "packages": [
+    {
+     "order": 0,
+     "title": "Udzungwa Trekking",
+     "slug": "udzungwa",
+     "days_badge": "3 Days",
+     "image_alt": "Udzungwa Trekking 3 Days",
+     "img": {
+      "url": "https://www.tanzaniagenicsafaris.co.tz/sites/default/files/udzungwa-sanje-waterfalls_0.jpg"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Often called the \"Galapagos of Africa,\" Udzungwa’s rainforest is home to primates and plants found nowhere else on Earth, including the Sanje mangabey and Iringa red colobus. Trails wind through dense jungle to the thundering Sanje Falls, with excellent birdwatching along the way — a rewarding trip for nature lovers away from the usual safari crowds.",
+     "features": "",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi, I'm interested in Udzungwa Trekking (3 days)",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Udzungwa Trekking — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Udzungwa Trekking (3 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Arrival & Sonjo / Prince Bernard Falls",
+       "stats": "bi-signpost-split | Short Walk\nbi-clock | 2-3 hrs\nbi-tree | Rainforest\nbi-droplet | Waterfall",
+       "body": "Arrive at Udzungwa Mountains National Park — often called the “Galapagos of Africa” for the astonishing number of plant and animal species found nowhere else on Earth — and settle in with an easy afternoon warm-up walk to the lower Sonjo or Prince Bernard Falls. This gentle introduction to the park's trail system gives you a first taste of the dense, ancient rainforest and a good chance of early wildlife sightings, including several of Udzungwa's endemic bird species, without the exertion of the following day's full trek."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Full-Day Trek to Sanje Falls",
+       "stats": "bi-signpost-split | 8-10km\nbi-clock | 6-7 hrs\nbi-tree | Dense Rainforest\nbi-droplet | Waterfall",
+       "body": "Today is the heart of the Udzungwa experience: a full day trekking deep into dense, ancient rainforest toward the thundering Sanje Falls, one of Tanzania's tallest waterfalls, cascading over 170m through thick jungle. Along the way, keep a careful eye out for the Sanje mangabey and Iringa red colobus, two primate species found only here and nowhere else on the planet, alongside a rich variety of forest birds and butterflies. The trail is genuinely wild and immersive — far removed from the safari-vehicle experience of the northern parks — and reaching the base of the falls, with mist rising off the pool below, is a spectacular reward for the effort."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Morning Birdwatching Walk & Departure",
+       "stats": "bi-signpost-split | Easy Walk\nbi-clock | 2-3 hrs\nbi-tree | Forest Edge\nbi-binoculars | Birdwatching",
+       "body": "A relaxed final morning focused on Udzungwa's exceptional birdlife — the park holds several species found nowhere else on Earth, and even a casual walk with a knowledgeable guide often turns up a dozen or more sightings. It's a gentle, low-impact way to close out the trip before departure back toward Arusha, Dar es Salaam, or wherever your journey continues, with plenty of time to reflect on a genuinely off-the-beaten-path adventure most visitors to Tanzania never experience."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "order": 3,
+   "name": "Wildlife Safari",
+   "slug": "safari",
+   "pane_id": "pkg-safari",
+   "card_columns": "col-md-6",
+   "intro": "",
+   "packages": [
+    {
+     "order": 0,
+     "title": "4-Day Wildlife Safari",
+     "slug": "safari4",
+     "days_badge": "4 Days",
+     "image_alt": "4-Day Wildlife Safari",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXccWJOhhB5cTUQgbuZswZYDKD5553DL5d41_INId-Dw&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "A fast-paced introduction to northern Tanzania’s big-name parks: elephant herds and ancient baobabs in Tarangire, flamingos and tree-climbing lions at Lake Manyara, the endless plains of the Serengeti, and a full day exploring the wildlife-packed floor of Ngorongoro Crater in search of the Big Five.",
+     "features": "",
+     "ask_label": "Ask About This Safari",
+     "ask_message": "Hi, I'm interested in the 4-Day Safari",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "4-Day Wildlife Safari — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "4-Day Wildlife Safari",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Arusha → Tarangire National Park",
+       "stats": "bi-signpost-split | Drive + Game Drive\nbi-clock | Full Day\nbi-binoculars | Elephants\nbi-tree | Baobabs",
+       "body": "Depart Arusha in the morning for the drive to Tarangire, a park famous above all for its enormous elephant herds — some of the largest concentrations found anywhere in Africa — gathering along the life-giving Tarangire River during the dry season. The landscape itself is unforgettable, dotted with ancient, swollen baobab trees that can live for well over a thousand years, giving the park an almost prehistoric feel. Your afternoon game drive follows the riverbanks where elephant, giraffe, zebra, and often lion prides can be seen against this dramatic backdrop, before settling into your camp or lodge for the night."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Tarangire → Lake Manyara National Park",
+       "stats": "bi-signpost-split | Game Drive + Transfer\nbi-clock | Full Day\nbi-binoculars | Tree-Climbing Lions\nbi-water | Flamingos",
+       "body": "A final morning game drive in Tarangire offers one more chance at its famous elephant herds before you head onward to Lake Manyara, tucked dramatically beneath the wall of the Great Rift Valley. Manyara is famous for its tree-climbing lions — a genuinely unusual behavior rarely seen elsewhere in Africa — and for the thousands of flamingos that often turn its alkaline shoreline pink. Your afternoon game drive winds through dense groundwater forest alive with blue monkeys and baboons before opening onto the lake's grassy plains, home to wildebeest, buffalo and giraffe."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Lake Manyara → Serengeti National Park",
+       "stats": "bi-signpost-split | Scenic Drive\nbi-clock | Full Day\nbi-mountain | Ngorongoro Highlands\nbi-binoculars | Game Viewing",
+       "body": "Today's drive climbs up and over the dramatic Ngorongoro Highlands, with sweeping views down into the crater from the rim road, before descending onto the seemingly endless Serengeti plains — a landscape that genuinely lives up to the name, which means “endless plains” in the Maasai language. Wildlife density noticeably increases as you enter the park, with game viewing along the drive itself often turning up lion, elephant, and large herds of plains game well before you've even reached camp. You'll settle in for two nights at the heart of one of the world's most famous wildlife ecosystems."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Full-Day Serengeti Game Drive → Ngorongoro Crater → Return to Arusha",
+       "stats": "bi-signpost-split | Game Drive + Crater\nbi-clock | Full Day\nbi-binoculars | Big Five\nbi-mountain | Crater Floor",
+       "body": "An early game drive across the Serengeti's endless plains offers your best chance at predators — lion, cheetah and leopard are all present year-round — and, depending on the season, you may encounter the legendary wildebeest and zebra herds of the Great Migration thundering across the grassland. From there, you'll descend into Ngorongoro Crater, a UNESCO World Heritage Site and one of the highest densities of wildlife found anywhere on Earth within its 600m-deep, 20km-wide caldera walls, for a final unforgettable game drive in search of the Big Five before the drive back to Arusha to conclude your safari."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "title": "7-Day Wildlife Safari",
+     "slug": "safari7",
+     "days_badge": "7 Days",
+     "image_alt": "7-Day Wildlife Safari",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdc9KlzHP_8qdHxwO-0pvOMUG8W5K5vSzZM_MF7KNvog&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Our full northern circuit, giving each park the time it deserves — more days in the Serengeti to follow the game, a full crater day in Ngorongoro, and an extension to the otherworldly landscape of Lake Natron beneath the active volcano Ol Doinyo Lengai, where flamingos gather by the thousands.",
+     "features": "",
+     "ask_label": "Ask About This Safari",
+     "ask_message": "Hi, I'm interested in the 7-Day Safari",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "7-Day Wildlife Safari — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "7-Day Wildlife Safari",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Arusha → Tarangire National Park",
+       "stats": "bi-signpost-split | Drive + Game Drive\nbi-clock | Full Day\nbi-binoculars | Elephants\nbi-tree | Baobabs",
+       "body": "Depart Arusha for Tarangire, home to some of Africa's largest elephant herds and an otherworldly landscape studded with ancient baobab trees. Your afternoon game drive follows the Tarangire River, the park's lifeline during the dry season, where elephant, giraffe, zebra and often resident lion prides gather in large numbers against a backdrop unlike anywhere else on the northern circuit."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Tarangire → Lake Manyara National Park",
+       "stats": "bi-signpost-split | Game Drive + Transfer\nbi-clock | Full Day\nbi-binoculars | Tree-Climbing Lions\nbi-water | Hippo Pools",
+       "body": "A final Tarangire game drive precedes the transfer to Lake Manyara, tucked beneath the dramatic Rift Valley escarpment. The afternoon brings tree-climbing lions, hippo pools, and flamingo-lined shores, all within a compact, scenic park that packs remarkable variety into a small area."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Lake Manyara → Serengeti National Park (Central/Seronera)",
+       "stats": "bi-signpost-split | Scenic Drive\nbi-clock | Full Day\nbi-mountain | Ngorongoro Highlands\nbi-binoculars | Game Viewing",
+       "body": "The drive climbs across the Ngorongoro Highlands, with a first glimpse down into the crater from the rim road, before descending into the game-rich central Serengeti around Seronera — widely considered the park's best year-round game viewing area thanks to its permanent water sources. An afternoon game drive en route to camp often turns up lion, elephant and abundant plains game."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Full-Day Serengeti Game Drive",
+       "stats": "bi-signpost-split | Game Drive\nbi-clock | Full Day\nbi-binoculars | Predators\nbi-compass | Migration",
+       "body": "A full day dedicated entirely to following the game across the Serengeti's endless plains — genuinely one of the best wildlife days on the whole northern circuit. This extra day (compared to the 4-day itinerary) gives your guide real flexibility to track predator activity and, depending on the season, position you for the Great Migration's dramatic herds of wildebeest and zebra."
+      },
+      {
+       "order": 4,
+       "number": "5",
+       "title": "Serengeti → Ngorongoro Conservation Area",
+       "stats": "bi-signpost-split | Game Drive + Transfer\nbi-clock | Full Day\nbi-mountain | Crater Rim\nbi-binoculars | Game Viewing",
+       "body": "A final morning game drive in the Serengeti precedes the journey to the Ngorongoro Highlands, arriving at your crater-rim camp in time for sweeping views down into the caldera at sunset — one of the most spectacular campsite views in all of Africa, with the crater floor sometimes visible far below through evening mist."
+      },
+      {
+       "order": 5,
+       "number": "6",
+       "title": "Full-Day Ngorongoro Crater → Lake Natron",
+       "stats": "bi-signpost-split | Crater + Drive\nbi-clock | Full Day\nbi-binoculars | Big Five\nbi-water | Flamingo Lake",
+       "body": "An early descent into Ngorongoro Crater delivers one of the highest densities of wildlife found anywhere on Earth within its walls, with excellent Big Five viewing on the flat, grassy crater floor. From there, you'll drive north into the increasingly dramatic, otherworldly landscape surrounding Lake Natron, beneath the active volcano Ol Doinyo Lengai — a stark contrast to the greener parks visited earlier in the trip."
+      },
+      {
+       "order": 6,
+       "number": "7",
+       "title": "Lake Natron → Return to Arusha",
+       "stats": "bi-signpost-split | Explore + Drive\nbi-clock | Full Day\nbi-water | Flamingo Colonies\nbi-mountain | Ol Doinyo Lengai",
+       "body": "A morning exploring Lake Natron's mineral-rich, blood-red shoreline, home to the vast majority of East Africa's lesser flamingo population, which breeds here in huge numbers found nowhere else in the region. It's a fittingly dramatic final stop before the drive back to Arusha, concluding a safari that has covered elephant-filled floodplains, tree-climbing lions, the endless Serengeti, the wildlife-packed Ngorongoro Crater, and the otherworldly volcanic landscape of Natron."
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "title": "Mikumi National Park",
+     "slug": "mikumi",
+     "days_badge": "Half / Full Day",
+     "image_alt": "Mikumi National Park",
+     "img": {
+      "url": "https://cloudfront.safaribookings.com/lib/tanzania/tour/480x240/Katavi_National_Park_028.jpg"
+     },
+     "image_style": "normal",
+     "placeholder_label": "images/mikumi-national-park.jpg",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Tanzania’s fourth-largest national park is often called a \"mini-Serengeti\" for its wide-open Mkata floodplain, where lion prides, elephant herds, giraffes, zebras and buffalo graze in full view right beside the main road. It’s one of the most accessible parks in the country, making it a great option for a shorter safari or a scenic stop if you’re short on time but still want a genuine Big-Five-country experience, with over 400 bird species for keen birders too.",
+     "features": "",
+     "ask_label": "Ask About This Park",
+     "ask_message": "Hi, I'm interested in Mikumi National Park",
+     "ask_whatsapp": "",
+     "aos_delay": 160,
+     "modal_title": "Mikumi National Park — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Mikumi National Park",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Early Morning: Depart & Arrive at Mikumi",
+       "stats": "bi-signpost-split | Scenic Drive\nbi-clock | Early Start\nbi-binoculars | Wildlife",
+       "body": "An early departure gets you to Mikumi in good time to enter the park while the morning light is at its softest and animals are most active. The drive itself is scenic, passing through changing landscapes as you approach the park boundary, with anticipation building as the open floodplain finally comes into view."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Morning Game Drive",
+       "stats": "bi-signpost-split | Floodplain Drive\nbi-clock | 2-3 hrs\nbi-binoculars | Lion, Elephant, Giraffe",
+       "body": "A relaxed game drive along the open Mkata floodplain, where lion prides, elephant herds, giraffes, zebras and buffalo are commonly seen grazing right beside the road — often earning Mikumi the nickname “mini-Serengeti” for how easily wildlife is spotted here compared to more crowded parks. The wide, flat terrain gives excellent visibility in every direction, and your guide will know the best spots for predator sightings that morning."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Picnic Lunch in the Park",
+       "stats": "bi-signpost-split | Rest Stop\nbi-clock | 45-60 min\nbi-binoculars | Birdlife",
+       "body": "A relaxed picnic lunch at a designated rest area inside the park, surrounded by genuine bush sounds rather than a crowded restaurant — a memorable way to break up the day. Mikumi holds over 400 recorded bird species, and even a short break here often turns up colorful sightings for keen birders."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon Game Drive & Departure",
+       "stats": "bi-signpost-split | Floodplain Drive\nbi-clock | 2-3 hrs\nbi-compass | Return Journey",
+       "body": "A further game drive exploring different sections of the floodplain and surrounding woodland, often with different wildlife activity than the morning as animals move with the changing light. You'll depart in the afternoon back toward Arusha, Dar es Salaam, or your next destination, with a full day of genuine wildlife encounters behind you."
+      }
+     ]
+    },
+    {
+     "order": 3,
+     "title": "Lake Manyara National Park",
+     "slug": "manyara",
+     "days_badge": "Half / Full Day",
+     "image_alt": "Lake Manyara National Park",
+     "img": {
+      "url": "https://bensonsafaris.com/wp-content/uploads/2025/06/baboon-sitting-on-rocks-in-lake-manyara-national-park.jpg"
+     },
+     "image_style": "normal",
+     "placeholder_label": "images/manyara-national-park.jpg",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Tucked beneath the dramatic wall of the Great Rift Valley escarpment, Lake Manyara is famous for its tree-climbing lions and the thousands of flamingos that turn its alkaline shoreline pink. The park packs remarkable variety into a small area — dense groundwater forest alive with blue monkeys and baboons, open grassland herds of wildebeest and buffalo, and the shimmering lake itself. Compact and scenic, it’s a perfect standalone day trip from Arusha or an easy add-on to a longer northern circuit safari.",
+     "features": "",
+     "ask_label": "Ask About This Park",
+     "ask_message": "Hi, I'm interested in Lake Manyara National Park",
+     "ask_whatsapp": "",
+     "aos_delay": 240,
+     "modal_title": "Lake Manyara National Park — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Lake Manyara National Park",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Depart Arusha & Park Entry",
+       "stats": "bi-signpost-split | Scenic Drive\nbi-clock | 1.5-2 hrs\nbi-mountain | Rift Valley",
+       "body": "Depart Arusha and drive south beneath the dramatic wall of the Great Rift Valley escarpment, a genuinely spectacular geological feature visible for much of the journey. Entering the park through dense groundwater forest immediately signals you're somewhere special — the canopy here is thick and alive with the calls of blue monkeys and baboons swinging through the branches."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Late Morning Game Drive",
+       "stats": "bi-signpost-split | Forest to Grassland\nbi-clock | 2-3 hrs\nbi-binoculars | Tree-Climbing Lions",
+       "body": "The trail winds from forest into open grassland, where you'll watch closely for Manyara's famous tree-climbing lions — a genuinely unusual behavior rarely observed elsewhere in Africa, with prides often draped across acacia branches to escape heat and biting insects. Wildebeest, buffalo and giraffe are commonly seen on the surrounding plains as the vegetation opens up."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Lakeshore & Picnic Lunch",
+       "stats": "bi-signpost-split | Lakeshore\nbi-clock | 45-60 min\nbi-water | Flamingos",
+       "body": "Reaching the alkaline lake shore, often lined with thousands of flamingos and other waterbirds feeding in the shallows, makes for a spectacular picnic lunch backdrop with sweeping views across the water toward the Rift Valley wall. The pink-tinged shoreline is one of Manyara's signature sights and a favorite photography stop."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon: Final Game Drive & Return",
+       "stats": "bi-signpost-split | Game Drive\nbi-clock | 2 hrs\nbi-compass | Return to Arusha",
+       "body": "One last loop through a different section of the park before the drive back to Arusha, or onward if you're combining Manyara with a longer northern circuit safari. Afternoon light often brings different wildlife activity than the morning, giving one final chance at standout sightings before departure."
+      }
+     ]
+    },
+    {
+     "order": 4,
+     "title": "Great Wildebeest Migration Safari",
+     "slug": "migration",
+     "days_badge": "5 Days",
+     "image_alt": "",
+     "img": {
+      "url": "https://cdn.discoverafrica.com/wp-content/uploads/2014/01/14135812/migration-arrives-at-rekero-3.jpg"
+     },
+     "image_style": "boxed",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "Priced by season & group size",
+     "description": "Follow one of the greatest wildlife spectacles on Earth — over a million wildebeest and zebra moving in a continuous circuit across the Serengeti ecosystem. Your guide tracks the herds' current position (calving grounds, river crossings, or open plains depending on season) to put you in the best place at the right time.",
+     "features": "",
+     "ask_label": "",
+     "ask_message": "",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Great Wildebeest Migration Safari — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Great Wildebeest Migration Safari (5 Days)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Arusha → Central Serengeti",
+       "stats": "bi-signpost-split | Drive + Game Drive\nbi-clock | Full Day\nbi-binoculars | Game Viewing",
+       "body": "Depart Arusha for the long, scenic drive across the Ngorongoro Highlands into the Serengeti, with game viewing along the way as wildlife density steadily increases. Your guide tracks the latest migration reports before departure to position you in the right sector of the park for the season — the Serengeti ecosystem is vast, and the herds move in a predictable but shifting annual circuit."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Full-Day Migration Tracking",
+       "stats": "bi-signpost-split | Game Drive\nbi-clock | Full Day\nbi-compass | Migration Herds",
+       "body": "A full day following the wildebeest and zebra herds, numbering well over a million animals during peak season, across the Serengeti's endless plains. Depending on the time of year, this may mean the calving grounds of the southern Serengeti/Ndutu plains (Jan–Mar), the western corridor (Apr–Jun), or the dramatic river crossings further north (Jul–Oct) — your guide plans the route around where the action is."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "River Crossing Watch (Seasonal)",
+       "stats": "bi-signpost-split | Game Drive\nbi-clock | Full Day\nbi-water | River Crossings",
+       "body": "If timing and season align, a day spent patiently watching the Grumeti or Mara River crossings — one of nature's most dramatic spectacles, with crocodiles waiting in the shallows as thousands of wildebeest attempt the crossing. Even outside peak crossing weeks, this stretch of the Serengeti holds outstanding resident wildlife, including healthy predator populations following the herds."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Full-Day Serengeti Game Drive",
+       "stats": "bi-signpost-split | Game Drive\nbi-clock | Full Day\nbi-binoculars | Predators",
+       "body": "A further full day in the Serengeti, with flexibility built in to chase the best current wildlife activity — lion prides, cheetah on the open plains, and leopard in the riverine forest are all present alongside the migrating herds themselves."
+      },
+      {
+       "order": 4,
+       "number": "5",
+       "title": "Serengeti → Ngorongoro Crater → Return to Arusha",
+       "stats": "bi-signpost-split | Crater + Drive\nbi-clock | Full Day\nbi-binoculars | Big Five",
+       "body": "A final game drive before departing the Serengeti, followed by a descent into Ngorongoro Crater for concentrated Big Five viewing on the crater floor — one of the highest wildlife densities anywhere on Earth — before the drive back to Arusha to conclude the safari."
+      }
+     ]
+    },
+    {
+     "order": 5,
+     "title": "Masai Mara Safari (Kenya)",
+     "slug": "mara",
+     "days_badge": "4 Days",
+     "image_alt": "",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbAGMrVfu0XsmvpE_l3JQ1na48euFlAkekeGxH-zQnBm7udePykteUzKM&s=10"
+     },
+     "image_style": "boxed",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "Priced by season & group size",
+     "description": "An extension across the border into Kenya's world-famous Masai Mara — the northern continuation of the same ecosystem as the Serengeti, with some of the highest big-cat densities in Africa. Run in partnership with our trusted Kenya-based safari guide, who takes over at the border to keep every leg of the trip properly licensed and locally led.",
+     "features": "",
+     "ask_label": "",
+     "ask_message": "",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "Masai Mara Safari — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Masai Mara Safari (4 Days, Kenya)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Serengeti/Arusha → Cross Border → Masai Mara",
+       "stats": "bi-signpost-split | Border Crossing\nbi-clock | Full Day\nbi-compass | Kenya Transfer",
+       "body": "Depart from northern Tanzania and cross into Kenya at the Isebania/Sirari border post, where you're met by our trusted Kenya-based partner guide who leads the Masai Mara portion of the trip — Tanzanian guide licenses don't extend across the border, so a seamless handover to a fully certified Kenyan guide keeps everything legal and properly run. By afternoon you're inside the Mara ecosystem, with an introductory game drive as you settle in."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Full-Day Masai Mara Game Drive",
+       "stats": "bi-signpost-split | Game Drive\nbi-clock | Full Day\nbi-binoculars | Big Cats",
+       "body": "A full day exploring the Masai Mara's open grasslands, famous for having one of the highest concentrations of lion, cheetah and leopard anywhere in Africa. The Mara's rolling plains and scattered acacia trees make for classic, unobstructed game viewing all day long."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Mara River & Mara Triangle",
+       "stats": "bi-signpost-split | Game Drive\nbi-clock | Full Day\nbi-water | Mara River",
+       "body": "A day focused on the Mara River and the Mara Triangle, prime territory for spotting hippo and crocodile pods, and — during migration season (roughly July to October) — a strong chance of witnessing the wildebeest herds crossing over from the Serengeti side in dramatic fashion."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Final Game Drive & Return Transfer",
+       "stats": "bi-signpost-split | Game Drive + Transfer\nbi-clock | Full Day\nbi-compass | Border Return",
+       "body": "A final morning game drive before the transfer back across the border into Tanzania, where your Msaro Guide Tanzania team picks up the trip again for the journey back to Arusha or onward to your next destination."
+      }
+     ]
+    },
+    {
+     "order": 6,
+     "title": "Gorilla Trekking (Rwanda)",
+     "slug": "gorilla",
+     "days_badge": "3 Days",
+     "image_alt": "",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToeyRUkwvUhWrp37AqurLNaT_3PRiE9CbFDbUXEXP6KQ&s=10"
+     },
+     "image_style": "boxed",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "Price on request — permit-dependent",
+     "description": "A once-in-a-lifetime trek to see mountain gorillas in the wild in Rwanda's Volcanoes National Park, arranged through our trusted Rwanda-based partner guide who handles permits and leads every trek in full compliance with strict park regulations. A powerful add-on to any Tanzania safari or Kilimanjaro climb, for travelers who want to see both East Africa's plains wildlife and its mountain gorillas in one trip.",
+     "features": "",
+     "ask_label": "",
+     "ask_message": "",
+     "ask_whatsapp": "",
+     "aos_delay": 160,
+     "modal_title": "Gorilla Trekking, Rwanda — Full Itinerary",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Gorilla Trekking (3 Days, Rwanda)",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Fly to Kigali → Transfer to Volcanoes National Park",
+       "stats": "bi-signpost-split | Flight + Transfer\nbi-clock | Half Day\nbi-mountain | Virunga Mountains",
+       "body": "Fly into Kigali, Rwanda, where you're met by our trusted Rwanda-based partner guide — gorilla trekking permits and guiding are tightly regulated and require a Rwanda-licensed guide, so this handover keeps the trek fully compliant with park rules. The scenic drive to Musanze/Ruhengeri, gateway to Volcanoes National Park, passes through Rwanda's famous “thousand hills” countryside."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Gorilla Trekking Day",
+       "stats": "bi-signpost-split | Trek\nbi-clock | 2-6 hrs (variable)\nbi-binoculars | Mountain Gorillas",
+       "body": "The main event: an early start with park rangers, tracking one of Volcanoes National Park's habituated mountain gorilla families through bamboo forest and volcanic slopes. Trek duration varies considerably depending on where the gorilla family is that day — anywhere from a couple of hours to a more demanding six-hour trek — but reaching the gorillas and spending a permitted hour in their presence is a genuinely life-changing wildlife encounter found in only a handful of places on Earth."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Kigali City Tour & Departure",
+       "stats": "bi-signpost-split | City Tour\nbi-clock | Half Day\nbi-compass | Departure",
+       "body": "Transfer back to Kigali with time for an optional city tour, including the moving Kigali Genocide Memorial, before your onward flight. A fitting, reflective close to a trip built around one of Africa's most remarkable conservation stories."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "order": 4,
+   "name": "Culture & Zanzibar",
+   "slug": "culture",
+   "pane_id": "pkg-culture",
+   "card_columns": "col-md-6",
+   "intro": "",
+   "packages": [
+    {
+     "order": 0,
+     "title": "Maasai Cultural Experience",
+     "slug": "maasai",
+     "days_badge": "Half / Full Day",
+     "image_alt": "Maasai Cultural Experience",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRbbQtmZ9HTsIaX8xQpO5K_Bw_jHKp2mArr_ltJPdIg&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Visit a real Maasai boma (homestead) near Arusha or Ngorongoro and spend time with the community that has herded cattle across these plains for centuries. Warriors welcome you with the traditional Adumu jumping dance, elders explain family and cattle traditions, and women demonstrate the beadwork Maasai culture is famous for. You’ll step inside a traditional mud-and-stick home, learn how fire is made the old way, and hear how the Maasai balance modern life with age-old customs. A respectful, authentic encounter — not a staged show — that pairs naturally with a Kilimanjaro trek or Ngorongoro safari.",
+     "features": "",
+     "ask_label": "Ask About This Experience",
+     "ask_message": "Hi, I'm interested in the Maasai Cultural Experience",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Maasai Cultural Experience — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Maasai Cultural Experience",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Arrival & Welcome at the Boma",
+       "stats": "bi-signpost-split | Cultural Welcome\nbi-clock | 30-45 min\nbi-people | Community Visit",
+       "body": "Arrive at a real, lived-in Maasai boma (homestead) near Arusha or Ngorongoro, where warriors greet you with the traditional Adumu jumping dance — a genuinely energetic, impressive display of strength and rhythm that visitors often describe as one of the highlights of their entire Tanzania trip. This is a warm, personal welcome into an active community, not a staged performance for tour buses."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mid-Morning: Home & Tradition",
+       "stats": "bi-signpost-split | Homestead Tour\nbi-clock | 45-60 min\nbi-house | Traditional Home",
+       "body": "Step inside a traditional mud-and-stick home (built and maintained by Maasai women, following custom) and watch a demonstration of fire-making the old way, using nothing but friction and patience. Community elders explain family structure, cattle traditions, and the values that have shaped Maasai life for centuries, offering genuine insight rather than a superficial tourist summary."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Beadwork & Daily Life",
+       "stats": "bi-signpost-split | Craft Demonstration\nbi-clock | 30-45 min\nbi-palette | Beadwork",
+       "body": "Watch Maasai women demonstrate the intricate, colorful beadwork their culture is famous for, with patterns and colors that traditionally carry specific social meanings around age, status and marriage. You'll also see how daily tasks — herding cattle, fetching water, homestead chores — are shared across the community, a practical window into everyday Maasai life beyond the ceremonial welcome."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon: Conversation & Departure",
+       "stats": "bi-signpost-split | Closing Discussion\nbi-clock | 20-30 min\nbi-compass | Departure",
+       "body": "A relaxed closing conversation, often over tea, about how the Maasai balance modern life — schools, mobile phones, changing land use — with age-old customs that remain deeply important to community identity. It's a respectful, thoughtful way to end the visit, and pairs naturally with a Kilimanjaro trek or Ngorongoro safari happening the same day or the next."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "title": "Jozani Forest, Zanzibar",
+     "slug": "jozani",
+     "days_badge": "Half Day",
+     "image_alt": "Jozani Forest, Zanzibar",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP_bEamGklbzKKY79Omjed1wEb2w6eO3-f5cEJtu_h4Q&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "",
+     "layout": "compact",
+     "price_text": "",
+     "description": "Jozani Chwaka Bay is Zanzibar’s only national park and the last natural home of the endangered Zanzibar red colobus monkey, found nowhere else on Earth. Guided trails wind through lush groundwater forest where the colobus troops move at close range, followed by a peaceful boardwalk through mangrove swamp alive with crabs, mudskippers and forest birds. It’s an easy half-day trip from Stone Town, and pairs perfectly with a spice tour or a few days relaxing on Zanzibar’s beaches after your mainland safari or trek.",
+     "features": "",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi, I'm interested in the Jozani Forest Zanzibar trip",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "Jozani Forest, Zanzibar — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Jozani Forest, Zanzibar",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Depart Stone Town",
+       "stats": "bi-signpost-split | Short Drive\nbi-clock | 45 min\nbi-tree | Forest Approach",
+       "body": "A short, easy drive from Stone Town brings you to Jozani Chwaka Bay, Zanzibar's only national park and the last natural home of the endangered Zanzibar red colobus monkey — found nowhere else on Earth. The approach itself winds through spice plantations and small villages, a scenic warm-up for the forest ahead."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mid-Morning: Guided Forest Trail",
+       "stats": "bi-signpost-split | Forest Walk\nbi-clock | 1-1.5 hrs\nbi-binoculars | Red Colobus",
+       "body": "Walk guided trails through lush groundwater forest where troops of red colobus monkeys move through the canopy at remarkably close range — often just a few meters away, making this one of the best primate encounters anywhere in East Africa. Sykes' monkeys and a good variety of forest birds add to the sightings along the way, with your guide sharing insight on the conservation efforts protecting this critically endangered species."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Mangrove Boardwalk",
+       "stats": "bi-signpost-split | Boardwalk\nbi-clock | 30-45 min\nbi-water | Mangrove Swamp",
+       "body": "Cross onto a peaceful raised wooden boardwalk through mangrove swamp, a striking shift in ecosystem from the forest you've just walked through. Look for crabs, mudskippers and coastal birdlife as the trail winds through the tangled root systems, with informative signage explaining the crucial role mangroves play in protecting Zanzibar's coastline."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon: Return or Continue On",
+       "stats": "bi-signpost-split | Flexible\nbi-clock | Rest of Day\nbi-compass | Optional Extensions",
+       "body": "Return to Stone Town, or continue the day with a fragrant spice tour or relaxed time on one of Zanzibar's famous beaches — Jozani pairs naturally with either as a half-day add-on. It's an easy, rewarding outing whether you're extending a mainland safari or unwinding after a Kilimanjaro climb."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "order": 5,
+   "name": "Waterfalls",
+   "slug": "waterfalls",
+   "pane_id": "pkg-waterfalls",
+   "card_columns": "col-md-6",
+   "intro": "",
+   "packages": [
+    {
+     "order": 0,
+     "title": "Napuru Waterfalls",
+     "slug": "napuru",
+     "days_badge": "Half Day",
+     "image_alt": "Napuru Waterfalls",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7fJ1d0_2q0jmFx5aPY037fpTiMhm4ONwc5n3xOMLf6A&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "images/napuru-waterfalls.jpg",
+     "layout": "compact",
+     "price_text": "",
+     "description": "A hidden gem close to Arusha, Napuru Waterfalls cascades through a shaded pocket of forest into clear natural swimming pools — a refreshing, easy escape without a long drive. The walk in is gentle and family-friendly, guided by local community guides who know the area well, and there’s time to cool off in the pool beneath the falls before heading back. It’s a relaxed half-day outing, easy to combine with a village walk or a coffee farm visit, and a great option on a rest day between treks or safaris.",
+     "features": "",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi, I'm interested in Napuru Waterfalls",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Napuru Waterfalls — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Napuru Waterfalls",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Depart Arusha",
+       "stats": "bi-signpost-split | Short Drive\nbi-clock | 30-40 min\nbi-compass | Easy Access",
+       "body": "A short, easy drive from Arusha to the Napuru trailhead means no long transfer eating into your day — ideal for a relaxed, low-key outing without the early starts required for the national parks. The approach itself is scenic, passing through local farmland and villages."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mid-Morning: Guided Walk to the Falls",
+       "stats": "bi-signpost-split | Forest Walk\nbi-clock | 45-60 min\nbi-tree | Shaded Trail",
+       "body": "A gentle, family-friendly walk through a shaded pocket of forest, led by local community guides who know every turn of the trail. Birdlife and greenery accompany you the whole way, with the sound of falling water gradually growing louder as you approach — a nice sense of anticipation building with each step."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Swim & Relax at the Pools",
+       "stats": "bi-signpost-split | Swimming Break\nbi-clock | 45-90 min\nbi-droplet | Natural Pools",
+       "body": "Cool off in the clear natural swimming pools beneath the falls — a genuinely refreshing break from the heat, and especially welcome on a rest day between more demanding treks or safaris. The setting is peaceful and uncrowded, a world away from busier tourist sites."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon: Return to Arusha",
+       "stats": "bi-signpost-split | Return Walk\nbi-clock | 45-60 min\nbi-compass | Optional Extensions",
+       "body": "An easy walk back out and a short drive home, with plenty of the day still left over. There's time to combine this outing with a village walk or a coffee farm visit if you'd like to extend the day into a fuller cultural and scenic experience around Arusha."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "title": "Marangu Waterfalls",
+     "slug": "marangu-wf",
+     "days_badge": "Half Day",
+     "image_alt": "Marangu Waterfalls",
+     "img": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3-RlSx4dKg1hm5hjZhZUPO1Gv4LQpoH3RJdjEuIDBKw&s=10"
+     },
+     "image_style": "normal",
+     "placeholder_label": "images/marangu-waterfalls.jpg",
+     "layout": "compact",
+     "price_text": "",
+     "description": "On the lush southern slopes of Kilimanjaro, the Marangu waterfalls tumble through forest fed by streams straight off the mountain’s glaciers. The trail winds past coffee and banana plantations and traditional Chagga homesteads, with the option to stop at a local home to see how coffee is grown and roasted the traditional way. It’s a scenic, moderate walk with a cool, misty waterfall as the reward at the end — a fantastic half-day trip either before or after a Kilimanjaro climb via Marangu Gate, or as a standalone outing from Moshi or Arusha.",
+     "features": "",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi, I'm interested in Marangu Waterfalls",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "Marangu Waterfalls — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Marangu Waterfalls",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Depart Moshi or Arusha",
+       "stats": "bi-signpost-split | Scenic Drive\nbi-clock | 45-60 min\nbi-tree | Chagga Farmland",
+       "body": "Drive up onto the lush southern slopes of Kilimanjaro, into rich Chagga farmland dotted with coffee bushes and banana plantations — a completely different, greener side of the mountain than most visitors ever see from the climbing trails alone. The drive itself is scenic and a great introduction to local agricultural life on the mountain's fertile lower slopes."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mid-Morning: Coffee & Chagga Homestead Stop",
+       "stats": "bi-signpost-split | Optional Stop\nbi-clock | 30-45 min\nbi-cup-hot | Coffee Tasting",
+       "body": "An optional stop at a local home offers a genuine look at how coffee is grown and roasted the traditional Chagga way, from picking the ripe red cherries through to hand-roasting over an open fire, with a chance to taste fresh-brewed coffee at the end — a world away from the packaged coffee most visitors are used to."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Walk to the Waterfall",
+       "stats": "bi-signpost-split | Forest Trail\nbi-clock | 1-1.5 hrs\nbi-droplet | Glacial Waterfall",
+       "body": "A scenic, moderate walk along forest trails fed by streams running straight off Kilimanjaro's glaciers, with the sound of rushing water growing steadily louder as you approach. Arriving at the cool, misty waterfall itself is a genuinely refreshing reward at the end of the trail, with mist drifting through the surrounding forest canopy."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon: Return Journey",
+       "stats": "bi-signpost-split | Return Walk + Drive\nbi-clock | 1-1.5 hrs\nbi-compass | Return",
+       "body": "Walk back out through the forest and drive home to Moshi or Arusha, having experienced a genuinely different, greener side of Kilimanjaro than the climbing trails show. This makes a natural half-day add-on either before or after a Kilimanjaro climb via Marangu Gate, or works perfectly well as a standalone outing on its own."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "order": 6,
+   "name": "Pemba Island",
+   "slug": "pemba",
+   "pane_id": "pkg-pemba",
+   "card_columns": "col-lg-4 col-md-6",
+   "intro": "Pemba is Zanzibar's quieter sister island — untouched reefs, ancient rainforest and sandbanks that vanish with the tide. These trips are run with our trusted Pemba-based partner guide, Masud.",
+   "packages": [
+    {
+     "order": 0,
+     "title": "Misali Island — Pemba's Hidden Paradise",
+     "slug": "misali",
+     "days_badge": "Full Day · 8:00am–5:00pm",
+     "image_alt": "",
+     "img": {
+      "url": "https://ucuprnokjektcihvoxyx.supabase.co/storage/v1/object/public/media/team/misali-island.jpg"
+     },
+     "image_style": "boxed",
+     "placeholder_label": "",
+     "layout": "detailed",
+     "price_text": "$140 per person",
+     "description": "Just 10km off the coast of Chake Chake, Misali Island is a protected Marine Conservation Area that feels forgotten by the world — in the best way. No hotels, no roads, no crowds: just white sand, turquoise water and forest, backed by some of the best coral reefs in East Africa.",
+     "features": "Boat transfer from Chake Chake/Wete\nSnorkeling gear + conservation guide\nBeach picnic with fresh seafood & fruit\nPark fees arranged\n24/7 support on the island",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi Masud, I'm interested in the Misali Island Day Trip",
+     "ask_whatsapp": "",
+     "aos_delay": null,
+     "modal_title": "Misali Island Day Trip — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Misali Island Day Trip",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Boat Transfer to Misali",
+       "stats": "bi-signpost-split | Boat Crossing\nbi-clock | 30-45 min\nbi-water | Marine Reserve",
+       "body": "Board your boat from Chake Chake or Wete for the short, scenic crossing to Misali Island, a protected Marine Conservation Area just 10km off the Pemba coast. The approach itself hints at what's ahead — visibly clearer, more turquoise water than the mainland coast, with the island's forested silhouette growing larger as you approach."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mid-Morning: Snorkeling the Reefs",
+       "stats": "bi-signpost-split | Snorkeling\nbi-clock | 1.5-2 hrs\nbi-water | 30m Visibility",
+       "body": "Explore some of the finest coral reefs in East Africa, home to over 250 recorded coral species, alongside sea turtles, reef sharks and giant clams in water with visibility reaching an extraordinary 30 meters on good days. Your conservation guide will point out the healthiest coral formations and explain the marine protection efforts that have kept this reef in such remarkable condition compared to more heavily fished areas nearby."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Beach Picnic",
+       "stats": "bi-signpost-split | Beach Lunch\nbi-clock | 1-1.5 hrs\nbi-tree | Untouched Forest",
+       "body": "Relax on genuinely pristine white sand with a picnic of fresh seafood and tropical fruit, surrounded by forest with no hotels, no roads and no crowds in sight — a rare, unspoiled setting increasingly hard to find anywhere on the East African coast. This is Pemba at its most pure, and most visitors describe it as one of the standout experiences of their entire Zanzibar trip."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon: Free Time & Return",
+       "stats": "bi-signpost-split | Free Time\nbi-clock | 1-1.5 hrs\nbi-compass | Return by 5pm",
+       "body": "More time to swim, walk the beach, or simply relax in the shade before boarding the boat back to Chake Chake or Wete, arriving by around 5:00pm. It's a full, unhurried day that leaves plenty of room to simply enjoy the island rather than rushing between activities."
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "title": "Ngezi Forest — Pemba's Ancient Jungle",
+     "slug": "ngezi",
+     "days_badge": "Half Day · 8:00am–1:00pm",
+     "image_alt": "",
+     "img": {
+      "local": "ngezi-forest.jpg"
+     },
+     "image_style": "boxed",
+     "placeholder_label": "",
+     "layout": "detailed",
+     "price_text": "$70 per person · Private tour available",
+     "description": "Ngezi Forest is Pemba's largest remaining rainforest — 14km² of untouched jungle, hidden trails and rare wildlife, including the endangered Pemba flying fox and Pemba vervet monkey. Walk beneath 100+ year old trees and giant mahoganies, and learn about traditional healing plants along the way. No crowds, no noise — just birdsong, monkeys and the smell of rainforest.",
+     "features": "Local guide + forest permits arranged\nNature walk, 2–3 hours on easy trails\nMonkey & bat spotting\nFresh coconut at the end\n24/7 support on the island",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi Masud, I'm interested in the Ngezi Forest Tour",
+     "ask_whatsapp": "",
+     "aos_delay": 80,
+     "modal_title": "Ngezi Forest Tour — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Ngezi Forest Tour",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Arrival & Guide Briefing",
+       "stats": "bi-signpost-split | Forest Entry\nbi-clock | 15-20 min\nbi-tree | 14km² Rainforest",
+       "body": "Meet your local guide at Ngezi Forest, Pemba's largest remaining rainforest — 14km² of genuinely untouched jungle, with all necessary forest permits arranged in advance so you can head straight in. Your guide will give a short briefing on what to expect and what wildlife you might encounter on the trail ahead."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mid-Morning: Guided Nature Walk",
+       "stats": "bi-signpost-split | Forest Trail\nbi-clock | 2-3 hrs\nbi-tree | Ancient Trees",
+       "body": "A 2 to 3-hour walk on easy, well-maintained trails through genuinely ancient forest — trees over a century old, giant mahoganies, and sprawling fig trees form a thick, atmospheric canopy overhead. Along the way, your guide points out traditional healing plants still used in local medicine, sharing knowledge passed down through generations of Pemba communities living alongside this forest."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Wildlife Spotting",
+       "stats": "bi-signpost-split | Wildlife Watching\nbi-clock | Ongoing\nbi-binoculars | Endangered Species",
+       "body": "Keep watch for the endangered Pemba flying fox — a genuinely enormous fruit bat found only on this island — and the Pemba vervet monkey, both seen here in the wild rather than behind any enclosure. Birdwatchers are in for a treat too, with over 20 endemic species recorded in the forest, making this one of the best birding spots in the whole Zanzibar archipelago."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Early Afternoon: Fresh Coconut & Departure",
+       "stats": "bi-signpost-split | Refreshment\nbi-clock | 15-20 min\nbi-compass | Wrap-up by 1pm",
+       "body": "Wind down with fresh coconut at the end of the trail, a simple, welcome refreshment after the morning's walking, before departing. The tour typically wraps up by around 1:00pm, leaving the rest of the day free for other Pemba activities or simply relaxing."
+      }
+     ]
+    },
+    {
+     "order": 2,
+     "title": "Sandbank & Snorkeling Trip",
+     "slug": "sandbank",
+     "days_badge": "Half Day · Tide-Dependent",
+     "image_alt": "",
+     "img": {
+      "local": "sandbank-snorkeling.jpg"
+     },
+     "image_style": "boxed",
+     "placeholder_label": "",
+     "layout": "detailed",
+     "price_text": "$100 per person · Private boat available for groups",
+     "description": "Experience Pemba's most famous sandbanks — strips of white sand that appear from the sea at low tide, surrounded by turquoise water — combined with world-class snorkeling over vibrant coral gardens. Arrive by traditional dhow with fresh tropical fruit on board. This is the trip everyone in Pemba asks for.",
+     "features": "Boat transfer by dhow or speedboat\n2–3 sandbank stops depending on tide\nSnorkeling gear + guide\nTropical fruit & drinks on board\nPhotos to remember the day\n24/7 support on the island",
+     "ask_label": "Ask About This Trip",
+     "ask_message": "Hi Masud, I'm interested in the Sandbank & Snorkeling Trip",
+     "ask_whatsapp": "",
+     "aos_delay": 160,
+     "modal_title": "Sandbank & Snorkeling Trip — Day Timeline",
+     "timeline_heading": "Full Day-by-Day Itinerary",
+     "booking_heading": "Book This Trip — We'll Send Your Details via WhatsApp",
+     "booking_trip": "Sandbank & Snorkeling Trip",
+     "booking_whatsapp": "",
+     "days": [
+      {
+       "order": 0,
+       "number": "1",
+       "title": "Morning: Dhow Departure",
+       "stats": "bi-signpost-split | Boat Departure\nbi-clock | 30-45 min\nbi-water | Traditional Dhow",
+       "body": "Set off by traditional wooden dhow or speedboat from the coast, with fresh tropical fruit served on board as you head out to sea — a relaxed, genuinely local way to begin the day rather than a crowded tourist vessel. The crossing itself offers lovely views back toward Pemba's coastline as it recedes behind you."
+      },
+      {
+       "order": 1,
+       "number": "2",
+       "title": "Mid-Morning: Sandbank Stops",
+       "stats": "bi-signpost-split | 2-3 Stops\nbi-clock | Tide-Dependent\nbi-water | 360° Ocean Views",
+       "body": "Visit 2 to 3 sandbanks depending on the tide — narrow strips of pure white sand that emerge from the sea only at low tide, standing in the middle of turquoise water with 360° ocean views in every direction and genuinely no one else around. Standing on a sandbank that will disappear back beneath the waves within hours is a strange, wonderful feeling most visitors have never experienced before."
+      },
+      {
+       "order": 2,
+       "number": "3",
+       "title": "Midday: Snorkeling",
+       "stats": "bi-signpost-split | Snorkeling\nbi-clock | 1-1.5 hrs\nbi-water | 20m+ Visibility",
+       "body": "Swim over vibrant coral gardens with visibility exceeding 20 meters on good days, spotting colorful reef fish, starfish scattered across the sandy bottom, and occasionally dolphins passing through the area. Snorkeling gear and a knowledgeable guide are included throughout, pointing out the best spots as conditions shift with the tide."
+      },
+      {
+       "order": 3,
+       "number": "4",
+       "title": "Afternoon: Photos & Return",
+       "stats": "bi-signpost-split | Photo Time\nbi-clock | 30-45 min\nbi-compass | Return to Shore",
+       "body": "Time for photos on the sandbank — a genuinely spectacular backdrop that photographs beautifully — before heading back to shore. Trips run either 8:30am to 1:00pm or 2:00pm to 6:00pm depending on the day's tide, which Masud checks in advance so your trip is timed for the best possible sandbank exposure."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "menu": [
+  {
+   "href": "kilimanjaro.html",
+   "label": "Mount Kilimanjaro"
+  },
+  {
+   "href": "packages.html#meru",
+   "label": "Mount Meru"
+  },
+  {
+   "href": "packages.html#udzungwa",
+   "label": "Udzungwa Trekking"
+  },
+  {
+   "href": "safari.html",
+   "label": "Wildlife Safari"
+  },
+  {
+   "href": "packages.html#culture",
+   "label": "Culture & Zanzibar"
+  },
+  {
+   "href": "packages.html#waterfalls",
+   "label": "Waterfalls"
+  }
+ ]
+}

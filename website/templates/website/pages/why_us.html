@@ -1,0 +1,15 @@
+{% extends 'website/base.html' %}{% load site_tags %}
+{% block content %}
+<section class="section bg-navy" style="padding-top:8rem;">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'why-us.001' %}</span>
+<h1 class="font-display h2">{% t 'why-us.002' %}</h1>
+<p style="color:#c9d1e0;">{% t 'why-us.003' %}</p>
+</div>
+<div class="row g-4">
+{% include 'website/parts/reasons.html' %}</div>
+<div class="text-center mt-5"><a class="btn btn-coral" href="{{ site.whatsapp_link }}" target="_blank"><i class="fa-brands fa-whatsapp me-2"></i>{% t 'why-us.004' %}</a></div>
+</div>
+</section>
+{% endblock %}

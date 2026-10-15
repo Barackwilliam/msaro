@@ -1,0 +1,3 @@
+{% for d in destinations %}
+        <div class="swiper-slide"><div class="dest-card"><div class="ph"><img src="{{ d.src }}" alt="{{ d.image_alt }}" loading="lazy"><div class="ph-fallback"><i class="bi bi-image"></i></div></div><div class="overlay">{{ d.name }}</div></div></div>
+{% endfor %}

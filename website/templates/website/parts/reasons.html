@@ -1,0 +1,5 @@
+{% load site_tags %}{% for r in reasons %}
+      <div class="col-md-6 col-lg-4" data-aos="fade-up"{{ r.aos_delay|aos_delay }}>
+        <div class="why-item"><div class="ic"><i class="{{ r.icon }}"></i></div><div><h6 class="text-white mb-1">{{ r.title }}</h6><p class="small mb-0" style="color:#c9d1e0;">{{ r.text }}</p></div></div>
+      </div>
+{% endfor %}

@@ -1,0 +1,22 @@
+{% load site_tags %}{% for g in guides %}
+      <div class="col-md-6" data-aos="fade-up"{{ g.aos_delay|aos_delay }}>
+        <div class="guide-card">
+          <div class="position-relative">
+            <div class="ph"><img src="{{ g.src }}" alt="{{ g.image_alt }}" loading="lazy"><div class="ph-fallback"><i class="bi bi-person"></i></div></div>
+            <span class="badge-role">{{ g.role }}</span>
+          </div>
+          <div class="body">
+            <h4 class="mb-0">{{ g.name }}</h4>
+            {% if g.subtitle %}<div class="text-muted small mb-2">{{ g.subtitle }}</div>{% endif %}
+            {% if g.education %}<p class="text-muted mb-2"><i class="bi bi-mortarboard-fill me-2 text-coral"></i>{{ g.education }}</p>{% endif %}
+            {% if g.language_list %}<div class="tags">{% for lang in g.language_list %}<span>{% if forloop.first %}<i class="bi bi-translate me-1"></i>{% endif %}{{ lang }}</span>{% endfor %}</div>{% endif %}
+            {% if g.bio %}<p class="text-muted small{% if not g.has_socials %} mb-0{% endif %}">{{ g.bio }}</p>{% endif %}
+            {% if g.has_socials %}<div class="socials">
+              {% if g.whatsapp_url %}<a href="{{ g.whatsapp_url }}" aria-label="{{ g.whatsapp_label }}"><i class="fa-brands fa-whatsapp"></i></a>{% endif %}
+              {% if g.facebook_url %}<a href="{{ g.facebook_url }}" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>{% endif %}
+              {% if g.instagram_url %}<a href="{{ g.instagram_url }}" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>{% endif %}
+            </div>{% endif %}
+          </div>
+        </div>
+      </div>
+{% endfor %}

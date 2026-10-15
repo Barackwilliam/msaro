@@ -1,0 +1,149 @@
+{% extends 'website/base.html' %}{% load site_tags %}
+{% block extra_head %}
+<style>
+  /* ---------- Hero background slideshow (5 photos, smooth crossfade + slow zoom) ---------- */
+  .hero-slideshow { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
+  .hero-slide {
+    position: absolute; inset: 0;
+    background-size: cover; background-position: center; background-repeat: no-repeat;
+    opacity: 0; will-change: opacity, transform;
+    animation: heroSlideFade 30s infinite, heroSlideZoom 30s infinite;
+  }
+  .hero-slide:nth-child(1) { animation-delay: 0s, 0s; }
+  .hero-slide:nth-child(2) { animation-delay: 6s, 6s; }
+  .hero-slide:nth-child(3) { animation-delay: 12s, 12s; }
+  .hero-slide:nth-child(4) { animation-delay: 18s, 18s; }
+  .hero-slide:nth-child(5) { animation-delay: 24s, 24s; }
+  @keyframes heroSlideFade {
+    0%      { opacity: 0; }
+    3%      { opacity: 1; }
+    19%     { opacity: 1; }
+    23%     { opacity: 0; }
+    100%    { opacity: 0; }
+  }
+  @keyframes heroSlideZoom {
+    0%   { transform: scale(1); }
+    100% { transform: scale(1.12); }
+  }
+  .hero-slideshow::after {
+    content: ""; position: absolute; inset: 0; z-index: 1;
+    background: linear-gradient(180deg, rgba(20,33,61,.55) 0%, rgba(20,33,61,.68) 55%, rgba(20,33,61,.86) 100%);
+  }
+  .hero { position: relative; overflow: hidden; }
+  .hero { min-height: 65vh !important; padding: 4.5rem 0 !important; }
+  @media (max-width: 768px) { .hero { min-height: 56vh !important; padding: 3.2rem 0 !important; } }
+  .hero .container { position: relative; z-index: 2; }
+  .hero-scroll { z-index: 2; }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-slide { animation: heroSlideFadeReduced 30s infinite; }
+    @keyframes heroSlideFadeReduced { 0%{opacity:0;} 3%{opacity:1;} 19%{opacity:1;} 23%{opacity:0;} 100%{opacity:0;} }
+  }
+</style>
+<script>var HERO_TYPED=true;</script>
+{% endblock %}
+{% block content %}
+<section class="hero">
+<div class="hero-slideshow">
+{% include 'website/parts/hero_slides.html' %}</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-8" data-aos="fade-up">
+<span class="hero-kicker"><i class="bi bi-patch-check-fill"></i>{% t 'home.001' %}</span>
+<h1>{% t 'home.002' %}</h1>
+<p aria-hidden="true" class="hero-typed"><span id="typed-hero"></span></p>
+<p class="lead">{% t 'home.003' %}</p>
+<div class="d-flex flex-wrap gap-3 mt-4">
+<a class="btn btn-coral" href="{{ site.whatsapp_link }}" target="_blank"><i class="fa-brands fa-whatsapp me-2"></i>{% t 'home.004' %}</a>
+<a class="btn btn-outline-light-line" href="packages.html">{% t 'home.005' %}</a>
+</div>
+</div>
+</div>
+</div>
+<div class="hero-scroll">{% t 'home.006' %}<i class="bi bi-chevron-down"></i></div>
+</section>
+<section class="section bg-light-alt">
+<div class="container">
+<div class="row align-items-center g-5">
+<div class="col-lg-5" data-aos="fade-right">
+<div class="about-media">
+<div class="ph">
+<img alt="{% img_alt 'home.img1' %}" loading="lazy" src="{% img 'home.img1' %}"/>
+<div class="ph-fallback"><i class="bi bi-image"></i><small>{% t 'home.007' %}</small></div>
+</div>
+<div class="float-card">
+<i class="bi bi-people-fill"></i>
+<div><strong>{% t 'home.008' %}</strong><div class="small text-muted">{% t 'home.009' %}</div></div>
+</div>
+</div>
+</div>
+<div class="col-lg-7" data-aos="fade-left">
+<span class="eyebrow">{% t 'home.010' %}</span>
+<h2 class="font-display mb-3">{% t 'home.011' %}</h2>
+<p class="text-muted">{% t 'home.012' %}</p>
+<div class="stat-row">
+{% include 'website/parts/stats.html' %}</div>
+<a class="btn btn-outline-teal mt-3" href="about.html">{% t 'home.013' %}</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section bg-sand">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'home.014' %}</span>
+<h2 class="font-display">{% t 'home.015' %}</h2>
+</div>
+<div class="row g-4 justify-content-center">
+{% include 'website/parts/home_guides.html' %}</div>
+<div class="text-center mt-4"><a class="btn btn-teal" href="guides.html">{% t 'home.016' %}</a></div>
+</div>
+</section>
+<section class="section bg-navy">
+<div class="container">
+<div class="row g-5 align-items-center">
+<div class="col-lg-5" data-aos="fade-right">
+<span class="eyebrow">{% t 'home.017' %}</span>
+<h2 class="font-display">{% t 'home.018' %}</h2>
+<p style="color:#c9d1e0;">{% t 'home.019' %}</p>
+<a class="btn btn-coral mt-2" href="why-us.html">{% t 'home.020' %}</a>
+</div>
+<div class="col-lg-7">
+<div class="row g-4">
+{% include 'website/parts/home_reasons.html' %}</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section bg-light-alt">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'home.021' %}</span>
+<h2 class="font-display">{% t 'home.022' %}</h2>
+</div>
+<div class="row g-4">
+{% include 'website/parts/home_categories.html' %}</div>
+</div>
+</section>
+<section class="section bg-sand">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'home.023' %}</span>
+<h2 class="font-display">{% t 'home.024' %}</h2>
+</div>
+<div class="swiper testi-swiper" data-aos="fade-up">
+<div class="swiper-wrapper pb-5">
+{% include 'website/parts/testimonials.html' %}</div>
+<div class="swiper-pagination"></div>
+</div>
+</div>
+</section>
+<section class="section bg-light-alt">
+<div class="container text-center" data-aos="fade-up">
+<span class="eyebrow">{% t 'home.025' %}</span>
+<h2 class="font-display mb-3">{% t 'home.026' %}</h2>
+<p class="text-muted w-75 mx-auto mb-4">{% t 'home.027' %}</p>
+<a class="btn btn-coral me-2" href="{{ site.whatsapp_link }}" target="_blank"><i class="fa-brands fa-whatsapp me-2"></i>{% t 'home.028' %}</a>
+<a class="btn btn-outline-teal" href="contact.html">{% t 'home.029' %}</a>
+</div>
+</section>
+{% endblock %}

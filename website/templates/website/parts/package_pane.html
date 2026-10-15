@@ -1,0 +1,31 @@
+{% load site_tags %}
+      <div class="tab-pane{% if fade %} fade{% endif %}{% if active %} show active{% endif %}" id="{{ c.pane_id }}" role="tabpanel">
+        <div id="{{ c.slug }}" style="position:relative; top:-100px;"></div>
+        {% if c.intro %}<p class="text-center text-muted mb-4" style="max-width:700px; margin-left:auto; margin-right:auto;">{{ c.intro }}</p>{% endif %}
+        <div class="row g-4">
+          {% for p in c.packages.all %}{% include "website/parts/package_card.html" with p=p c=c %}{% endfor %}
+        </div>
+        {% if c.included_list or c.excluded_list %}
+        <div class="row g-4 mt-2">
+          {% if c.included_list %}<div class="col-lg-6" data-aos="fade-up">
+            <div class="cert-card pack-card h-100">
+              <div class="cert-icon"><i class="bi bi-check-circle-fill"></i></div>
+              <h5>{{ c.included_title }}</h5>
+              <ul class="text-muted small mb-0 ps-3">
+                {% for item in c.included_list %}<li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>{% endif %}
+          {% if c.excluded_list %}<div class="col-lg-6" data-aos="fade-up" data-aos-delay="80">
+            <div class="cert-card pack-card h-100">
+              <div class="cert-icon" style="background:linear-gradient(135deg,#c0392b,var(--coral));"><i class="bi bi-x-circle-fill"></i></div>
+              <h5>{{ c.excluded_title }}</h5>
+              <ul class="text-muted small mb-0 ps-3">
+                {% for item in c.excluded_list %}<li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>{% endif %}
+        </div>{% endif %}
+      </div>

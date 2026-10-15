@@ -1,0 +1,7 @@
+{% for group, items in trip_groups %}{% if group %}
+              <optgroup label="{{ group }}">
+                {% for o in items %}<option>{{ o.label }}</option>
+                {% endfor %}
+              </optgroup>{% else %}
+              {% for o in items %}<option>{{ o.label }}</option>{% endfor %}{% endif %}
+{% endfor %}

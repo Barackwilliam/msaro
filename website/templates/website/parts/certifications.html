@@ -1,0 +1,5 @@
+{% load site_tags %}{% for c in certifications %}
+      <div class="col-md-4" data-aos="fade-up"{{ c.aos_delay|aos_delay }}>
+        <div class="cert-card"><div class="cert-icon"><i class="{{ c.icon }}"></i></div><h5>{{ c.title }}</h5><p class="text-muted small mb-0">{{ c.text }}</p></div>
+      </div>
+{% endfor %}

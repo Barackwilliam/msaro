@@ -1,0 +1,16 @@
+{% extends 'website/base.html' %}{% load site_tags %}
+{% block content %}
+<section class="section bg-light-alt" style="padding-top:8rem;">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'testimonials.001' %}</span>
+<h1 class="font-display h2">{% t 'testimonials.002' %}</h1>
+</div>
+<div class="swiper testi-swiper" data-aos="fade-up">
+<div class="swiper-wrapper pb-5">
+{% include 'website/parts/testimonials.html' %}</div>
+<div class="swiper-pagination"></div>
+</div>
+</div>
+</section>
+{% endblock %}

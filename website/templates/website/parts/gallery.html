@@ -1,0 +1,7 @@
+{% load site_tags %}{% for g in gallery %}
+      <div class="col-6 col-md-3" data-aos="zoom-in"{{ g.aos_delay|aos_delay }}>
+        <a href="{{ g.src }}" class="glightbox gallery-item d-block" data-gallery="msaro">
+          <div class="ph"><img src="{{ g.src }}" alt="{{ g.alt }}" loading="lazy"><div class="ph-fallback"><i class="bi bi-image"></i></div></div>
+        </a>
+      </div>
+{% endfor %}

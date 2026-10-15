@@ -1,0 +1,7 @@
+{% load site_tags %}{% for p in guide_photos %}
+      <div class="col-4" data-aos="zoom-in"{{ p.aos_delay|aos_delay }}>
+        <a href="{{ p.src }}" class="glightbox gallery-item d-block" data-gallery="mussa-clients">
+          <div class="ph" style="aspect-ratio: 4/5; border-radius: var(--radius); overflow: hidden;"><img src="{{ p.src }}" alt="{{ p.alt }}" loading="lazy"></div>
+        </a>
+      </div>
+{% endfor %}

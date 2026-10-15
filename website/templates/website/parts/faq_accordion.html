@@ -1,0 +1,4 @@
+{% for f in faqs %}
+          <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button{% if not forloop.first %} collapsed{% endif %}" type="button" data-bs-toggle="collapse" data-bs-target="#faq{{ forloop.counter }}">{{ f.question }}</button></h2>
+            <div id="faq{{ forloop.counter }}" class="accordion-collapse collapse{% if forloop.first %} show{% endif %}" data-bs-parent="#faqAccordion"><div class="accordion-body">{{ f.answer }}</div></div></div>
+{% endfor %}

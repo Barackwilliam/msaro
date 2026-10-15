@@ -1,0 +1,15 @@
+{% load site_tags %}{% for g in home_guides %}
+      <div class="col-md-6" data-aos="fade-up"{{ g.aos_delay|aos_delay }}>
+        <div class="guide-card">
+          <div class="position-relative">
+            <div class="ph"><img src="{{ g.src }}" alt="{{ g.image_alt }}" loading="lazy"><div class="ph-fallback"><i class="bi bi-person"></i></div></div>
+            <span class="badge-role">{{ g.role }}</span>
+          </div>
+          <div class="body">
+            <h4 class="mb-0">{{ g.name }}</h4>
+            <div class="text-muted small mb-2">{{ g.subtitle }}</div>
+            <p class="text-muted small mb-0">{{ g.home_summary }}</p>
+          </div>
+        </div>
+      </div>
+{% endfor %}

@@ -1,0 +1,42 @@
+{% extends 'website/base.html' %}{% load site_tags %}
+{% block content %}
+<section class="section bg-light-alt" style="padding-top:8rem;">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'contact.001' %}</span>
+<h1 class="font-display h2">{% t 'contact.002' %}</h1>
+<p class="text-muted">{% t 'contact.003' %}</p>
+</div>
+<div class="row g-5">
+<div class="col-lg-5" data-aos="fade-right">
+<div class="contact-card"><div class="ic"><i class="bi bi-geo-alt-fill"></i></div><div><h6 class="mb-0">{% t 'contact.004' %}</h6><small class="text-muted">{{ site.address }}</small></div></div>
+<div class="contact-card"><div class="ic"><i class="bi bi-telephone-fill"></i></div><div><h6 class="mb-0">{% t 'contact.005' %}</h6><small class="text-muted">{{ site.phone_display }}</small></div></div>
+<div class="contact-card"><div class="ic"><i class="fa-brands fa-whatsapp"></i></div><div><h6 class="mb-0">{% t 'contact.006' %}</h6><small class="text-muted"><a href="{{ site.whatsapp_link }}">{{ site.phone_display }}</a></small></div></div>
+<div class="contact-card"><div class="ic"><i class="bi bi-envelope-fill"></i></div><div><h6 class="mb-0">{% t 'contact.007' %}</h6><small class="text-muted">{{ site.email }}</small></div></div>
+<div class="contact-card mb-0"><div class="ic"><i class="bi bi-clock-fill"></i></div><div><h6 class="mb-0">{% t 'contact.008' %}</h6><small class="text-muted">{{ site.hours }}</small></div></div>
+</div>
+<div class="col-lg-7" data-aos="fade-left">
+<form class="row g-3 mb-4 booking-form-pro" id="bookingForm">
+<div class="col-12"><h5 class="mb-0"><i class="bi bi-clipboard2-check-fill text-coral me-2"></i>{% t 'contact.009' %}</h5><p class="text-muted small">{% t 'contact.010' %}</p></div>
+<div class="col-md-6"><label class="form-label small text-muted">{% t 'contact.011' %}</label><input class="form-control" id="bf-name" placeholder="{% t 'contact.012' %}" required="" type="text"/></div>
+<div class="col-md-6"><label class="form-label small text-muted">{% t 'contact.013' %}</label><input class="form-control" id="bf-phone" placeholder="{% t 'contact.014' %}" required="" type="tel"/></div>
+<div class="col-md-6"><label class="form-label small text-muted">{% t 'contact.015' %}</label><input class="form-control" id="bf-email" placeholder="{% t 'contact.016' %}" type="email"/></div>
+<div class="col-md-6"><label class="form-label small text-muted">{% t 'contact.017' %}</label><input class="form-control" id="bf-country" placeholder="{% t 'contact.018' %}" type="text"/></div>
+<div class="col-md-6"><label class="form-label small text-muted">{% t 'contact.019' %}</label>
+<select class="form-control" id="bf-trip" required="">
+{% include 'website/parts/trip_options.html' %}</select>
+</div>
+<div class="col-md-4"><label class="form-label small text-muted">{% t 'contact.020' %}</label><input class="form-control" id="bf-dates" placeholder="{% t 'contact.021' %}" type="text"/></div>
+<div class="col-md-4"><label class="form-label small text-muted">{% t 'contact.022' %}</label><input class="form-control" id="bf-people" min="1" placeholder="{% t 'contact.023' %}" required="" type="number"/></div>
+<div class="col-md-4"><label class="form-label small text-muted">{% t 'contact.024' %}</label><input class="form-control" id="bf-budget" placeholder="{% t 'contact.025' %}" type="text"/></div>
+<div class="col-12"><label class="form-label small text-muted">{% t 'contact.026' %}</label><textarea class="form-control" id="bf-message" placeholder="{% t 'contact.027' %}" rows="3"></textarea></div>
+<div class="col-12"><button class="btn btn-coral" type="submit"><i class="fa-brands fa-whatsapp me-2"></i>{% t 'contact.028' %}</button></div>
+</form>
+<div class="map-frame">
+<iframe allowfullscreen="" loading="lazy" src="{{ site.map_embed_url }}"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+{% endblock %}

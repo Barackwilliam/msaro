@@ -1,0 +1,26 @@
+{% extends 'website/base.html' %}{% load site_tags %}
+{% block content %}
+<section class="section bg-light-alt" style="padding-top:8rem;">
+<div class="container">
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'about.001' %}</span>
+<h1 class="font-display h2">{% t 'about.002' %}</h1>
+</div>
+<div class="row align-items-center g-5">
+<div class="col-lg-5" data-aos="fade-right">
+<div class="about-media">
+<div class="ph"><img alt="{% img_alt 'about.img1' %}" loading="lazy" src="{% img 'about.img1' %}"/><div class="ph-fallback"><i class="bi bi-image"></i></div></div>
+<div class="float-card"><i class="bi bi-people-fill"></i><div><strong>{% t 'about.003' %}</strong><div class="small text-muted">{% t 'about.004' %}</div></div></div>
+</div>
+</div>
+<div class="col-lg-7" data-aos="fade-left">
+<p class="text-muted">{% t 'about.005' %}</p>
+<p class="text-muted">{% t 'about.006' %}</p>
+<div class="stat-row">
+{% include 'website/parts/stats.html' %}</div>
+<a class="btn btn-teal mt-2" href="guides.html">{% t 'about.007' %}</a>
+</div>
+</div>
+</div>
+</section>
+{% endblock %}

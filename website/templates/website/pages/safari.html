@@ -1,0 +1,28 @@
+{% extends 'website/base.html' %}{% load site_tags %}
+{% block content %}
+<section class="section bg-sand" style="padding-top:8rem;">
+<div class="container">
+<nav aria-label="breadcrumb" class="seo-breadcrumb">{% t 'safari.001' %}</nav>
+<div class="section-header" data-aos="fade-up">
+<span class="eyebrow">{% t 'safari.002' %}</span>
+<h1 class="font-display h2">{% t 'safari.003' %}</h1>
+<p class="text-muted mt-3">{% t 'safari.004' %}</p>
+</div>
+<div class="tab-content">
+      {% if category %}{% include 'website/parts/package_pane.html' with c=category active=True fade=False %}{% endif %}
+    </div>
+<div class="seo-faq mt-5" data-aos="fade-up">
+<h2 class="font-display h3 mb-3">{% t 'safari.005' %}</h2>
+
+{% include 'website/parts/faq_details.html' %}
+
+
+
+<p class="mt-4 mb-0">{% t 'safari.006' %}</p>
+</div>
+</div>
+</section>
+{% endblock %}
+{% block after_footer %}
+{% include 'website/parts/package_modals.html' %}
+{% endblock %}

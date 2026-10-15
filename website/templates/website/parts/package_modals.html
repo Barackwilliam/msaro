@@ -1,0 +1,19 @@
+{% load site_tags %}{% for p in modal_packages %}
+<div class="modal fade itin-modal" id="modal-itin-{{ p.slug }}" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title">{{ p.modal_title }}</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+      <div class="modal-body"><div class="itin-heading"><i class="bi bi-map-fill"></i>{{ p.timeline_heading }}</div><div class="itin-timeline">{% for d in p.days.all %}<div class="itin-day"><div class="itin-day-num">{{ d.number }}</div><div class="itin-day-title">{{ d.title }}</div><div class="itin-day-stats">{% for icon, text in d.stat_list %}<span><i class="{{ icon }}"></i>{{ text }}</span>{% endfor %}</div><div class="itin-day-body">{{ d.body }}</div></div>{% endfor %}</div><div class="itin-booking"><div class="itin-booking-heading"><i class="bi bi-calendar2-check-fill"></i>{{ p.booking_heading }}</div><form class="itin-booking-form row g-2" data-trip="{{ p.booking_trip }}" data-wa="{{ p|booking_number:site }}">
+<div class="col-6"><input type="text" name="bf-name" class="form-control form-control-sm" placeholder="{% t 'global.booking.name' %}" required></div>
+<div class="col-6"><input type="tel" name="bf-phone" class="form-control form-control-sm" placeholder="{% t 'global.booking.phone' %}" required></div>
+<div class="col-6"><input type="email" name="bf-email" class="form-control form-control-sm" placeholder="{% t 'global.booking.email' %}"></div>
+<div class="col-6"><input type="text" name="bf-country" class="form-control form-control-sm" placeholder="{% t 'global.booking.country' %}"></div>
+<div class="col-6"><input type="number" min="1" name="bf-people" class="form-control form-control-sm" placeholder="{% t 'global.booking.people' %}" required></div>
+<div class="col-6"><input type="text" name="bf-dates" class="form-control form-control-sm" placeholder="{% t 'global.booking.dates' %}"></div>
+<div class="col-12"><textarea name="bf-message" class="form-control form-control-sm" rows="2" placeholder="{% t 'global.booking.message' %}"></textarea></div>
+<div class="col-12"><button type="submit" class="btn btn-coral btn-sm w-100"><i class="fa-brands fa-whatsapp me-2"></i>{% t 'global.booking.submit' %}</button></div>
+</form></div></div>
+    </div>
+  </div>
+</div>
+{% endfor %}

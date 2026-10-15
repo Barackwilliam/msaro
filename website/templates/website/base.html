@@ -1,0 +1,243 @@
+{% load static site_tags %}<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ seo.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ seo.description }}">
+<meta name="keywords" content="{{ seo.keywords }}">
+<meta name="author" content="{{ site.seo_author }}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="{{ site.seo_theme_color }}">
+<meta name="geo.region" content="{{ site.seo_geo_region }}">
+<meta name="geo.placename" content="{{ site.seo_geo_placename }}">
+<link rel="canonical" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ canonical_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.site_name }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="{{ seo.title }}">
+<meta property="og:description" content="{{ seo.description }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{ social_image_url }}">
+<meta property="og:image:alt" content="{{ seo.title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ seo.title }}">
+<meta name="twitter:description" content="{{ seo.description }}">
+<meta name="twitter:image" content="{{ social_image_url }}">
+<link rel="icon" type="image/png" href="{{ site.favicon_src }}">
+<link rel="apple-touch-icon" href="{{ site.logo_src }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+{% block extra_head %}{% endblock %}
+{% if site.business_jsonld %}<script type="application/ld+json">
+{{ site.business_jsonld|safe }}
+</script>{% endif %}
+{% if seo.extra_head %}{{ seo.extra_head|safe }}{% endif %}
+{% if faq_jsonld %}<script type="application/ld+json">
+{{ faq_jsonld|safe }}
+</script>{% endif %}
+<script>window.SITE_CONFIG = {{ site_config|json_script_safe }};</script>
+</head>
+<body data-page="{{ body_page }}">
+<div id="google_translate_element" style="display:none"></div>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,es', autoDisplay: false }, 'google_translate_element');
+}
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="topbar d-none d-md-block">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div>
+      <span class="me-3"><i class="bi bi-geo-alt-fill"></i>{{ site.address }}</span>
+      <span class="me-3"><i class="bi bi-clock-fill"></i>{{ site.hours }}</span>
+      <a href="tel:{{ site.phone_link }}" class="me-3"><i class="bi bi-telephone-fill"></i>{{ site.phone_display }}</a>
+      <a href="{{ site.whatsapp_link }}"><i class="fa-brands fa-whatsapp"></i>{{ site.whatsapp_display }}</a>
+    </div>
+    <div class="d-flex align-items-center">
+      <span class="lang-switch">
+        <i class="bi bi-translate"></i>
+        <a href="javascript:void(0)" class="lang-btn" data-lang="en">EN</a>
+        <a href="javascript:void(0)" class="lang-btn" data-lang="es">ES</a>
+      </span>
+      <a href="mailto:{{ site.email }}" class="me-2"><i class="bi bi-envelope-fill"></i>{{ site.email }}</a>
+      <span class="social-mini">
+        {% if site.facebook_url %}<a href="{{ site.facebook_url }}" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>{% endif %}
+        {% if site.instagram_url %}<a href="{{ site.instagram_url }}" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>{% endif %}
+        <a href="{{ site.whatsapp_link }}" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </span>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-msaro sticky-top" id="mainNav">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="navbar-brand navbar-brand-msaro" href="index.html">
+      <span class="mark">{{ site.brand_mark }}</span>{% if site.logo_src %}<img src="{{ site.logo_src }}" alt="{{ site.site_name }} logo" style="display:none; height:40px; width:auto; border-radius:8px; object-fit:contain;" onload="this.style.display='inline-block'; this.previousElementSibling.style.display='none';" onerror="this.remove();" loading="lazy">{% endif %}
+      <span class="brand-text">
+        <strong>{{ site.brand_name }}</strong>
+        <span>{{ site.brand_sub }}</span>
+      </span>
+    </a>
+
+    <div class="d-flex align-items-center navbar-collapse-desktop" style="flex:1; justify-content:flex-end;">
+      <ul class="navbar-nav flex-row flex-wrap align-items-lg-center justify-content-end mb-0">
+        <li class="nav-item"><a class="nav-link nav-link-msaro" data-page-link="home" href="index.html">{% t 'global.nav.home' %}</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-msaro dropdown-toggle" data-page-link="about-group" href="about.html" data-bs-toggle="dropdown">{% t 'global.nav.about' %}</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="about.html">{% t 'global.nav.about_us' %}</a></li>
+            <li><a class="dropdown-item" href="guides.html">{% t 'global.nav.guides' %}</a></li>
+            <li><a class="dropdown-item" href="certifications.html">{% t 'global.nav.certifications' %}</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-msaro dropdown-toggle" data-page-link="packages-group" href="packages.html" data-bs-toggle="dropdown">{% t 'global.nav.packages' %}</a>
+          <ul class="dropdown-menu">
+            {% for c in menu_categories %}<li><a class="dropdown-item" href="{{ c.url }}">{{ c.menu_label }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link nav-link-msaro" data-page-link="destinations" href="destinations.html">{% t 'global.nav.destinations' %}</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-msaro" data-page-link="gallery" href="gallery.html">{% t 'global.nav.gallery' %}</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-msaro" data-page-link="why-us" href="why-us.html">{% t 'global.nav.why_us' %}</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-msaro" data-page-link="testimonials" href="testimonials.html">{% t 'global.nav.testimonials' %}</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-msaro" data-page-link="faq" href="faq.html">{% t 'global.nav.faq' %}</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-msaro" data-page-link="contact" href="contact.html">{% t 'global.nav.contact' %}</a></li>
+      </ul>
+      <a class="btn btn-coral btn-sm ms-lg-3" href="{{ site.whatsapp_link }}" target="_blank"><i class="fa-brands fa-whatsapp me-1"></i>{% t 'global.nav.book_now' %}</a>
+    </div>
+
+    <button class="sidebar-toggle-btn" id="sidebarOpenBtn" aria-label="Open menu"><i class="bi bi-list"></i></button>
+  </div>
+</nav>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<aside class="mobile-sidebar" id="mobileSidebar">
+  <div class="sb-head">
+    <a href="index.html" class="navbar-brand-msaro">
+      <span class="mark">{{ site.brand_mark }}</span>{% if site.logo_src %}<img src="{{ site.logo_src }}" alt="{{ site.site_name }} logo" style="display:none; height:40px; width:auto; border-radius:8px; object-fit:contain;" onload="this.style.display='inline-block'; this.previousElementSibling.style.display='none';" onerror="this.remove();" loading="lazy">{% endif %}
+      <span class="brand-text"><strong>{{ site.brand_name }}</strong><span>{{ site.brand_sub }}</span></span>
+    </a>
+    <button class="sb-close" id="sidebarCloseBtn" aria-label="Close menu"><i class="bi bi-x-lg"></i></button>
+  </div>
+  <nav class="nav-flex">
+    <a href="index.html" data-page-link="home"><span><i class="bi bi-house-door-fill sb-nav-ic"></i>{% t 'global.nav.home' %}</span></a>
+
+    <a href="#" class="sb-toggle" data-target="sbAbout"><span><i class="bi bi-people-fill sb-nav-ic"></i>{% t 'global.sidebar.about' %}</span> <i class="bi bi-chevron-down sb-caret"></i></a>
+    <div class="sb-sub" id="sbAbout">
+      <a href="about.html">{% t 'global.nav.about_us' %}</a>
+      <a href="guides.html">{% t 'global.nav.guides' %}</a>
+      <a href="certifications.html">{% t 'global.nav.certifications' %}</a>
+    </div>
+
+    <a href="#" class="sb-toggle" data-target="sbPackages"><span><i class="bi bi-map-fill sb-nav-ic"></i>{% t 'global.sidebar.packages' %}</span> <i class="bi bi-chevron-down sb-caret"></i></a>
+    <div class="sb-sub" id="sbPackages">
+      {% for c in menu_categories %}<a href="{{ c.url }}">{{ c.menu_label }}</a>
+      {% endfor %}
+    </div>
+
+    <a href="destinations.html" data-page-link="destinations"><span><i class="bi bi-geo-alt-fill sb-nav-ic"></i>{% t 'global.nav.destinations' %}</span></a>
+    <a href="gallery.html" data-page-link="gallery"><span><i class="bi bi-images sb-nav-ic"></i>{% t 'global.nav.gallery' %}</span></a>
+    <a href="why-us.html" data-page-link="why-us"><span><i class="bi bi-award-fill sb-nav-ic"></i>{% t 'global.nav.why_us' %}</span></a>
+    <a href="testimonials.html" data-page-link="testimonials"><span><i class="bi bi-chat-quote-fill sb-nav-ic"></i>{% t 'global.nav.testimonials' %}</span></a>
+    <a href="faq.html" data-page-link="faq"><span><i class="bi bi-question-circle-fill sb-nav-ic"></i>{% t 'global.nav.faq' %}</span></a>
+    <a href="contact.html" data-page-link="contact"><span><i class="bi bi-envelope-fill sb-nav-ic"></i>{% t 'global.nav.contact' %}</span></a>
+  </nav>
+  <div class="sb-contact">
+    <p><i class="bi bi-telephone-fill"></i>{{ site.phone_display }}</p>
+    <p><i class="fa-brands fa-whatsapp"></i>{{ site.whatsapp_display }}</p>
+    <p><i class="bi bi-envelope-fill"></i>{{ site.email }}</p>
+    <p class="mb-0"><i class="bi bi-geo-alt-fill"></i>{{ site.address }}</p>
+    <div class="sb-social">
+      {% if site.facebook_url %}<a href="{{ site.facebook_url }}" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>{% endif %}
+      {% if site.instagram_url %}<a href="{{ site.instagram_url }}" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>{% endif %}
+      <a href="{{ site.whatsapp_link }}" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div class="sb-lang">
+      <a href="javascript:void(0)" class="lang-btn" data-lang="en">🇬🇧 English</a>
+      <a href="javascript:void(0)" class="lang-btn" data-lang="es">🇪🇸 Español</a>
+    </div>
+  </div>
+</aside>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <div class="fbrand">
+          <span class="mark" style="width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--coral));display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Lora',serif;font-weight:700;">{{ site.brand_mark }}</span>{% if site.logo_src %}<img src="{{ site.logo_src }}" alt="{{ site.site_name }} logo" style="display:none; height:42px; width:auto; border-radius:8px; object-fit:contain;" onload="this.style.display='inline-block'; this.previousElementSibling.style.display='none';" onerror="this.remove();" loading="lazy">{% endif %}
+          <div><strong class="d-block text-white" style="font-family:'Lora',serif;">{{ site.brand_name }}</strong><span class="small">{{ site.brand_sub }}</span></div>
+        </div>
+        <p class="small">{% t 'global.footer.about' %}</p>
+        <div class="fsocial">
+          {% if site.facebook_url %}<a href="{{ site.facebook_url }}" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>{% endif %}
+          {% if site.instagram_url %}<a href="{{ site.instagram_url }}" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>{% endif %}
+          <a href="{{ site.whatsapp_link }}" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6">
+        <h6>{% t 'global.footer.explore' %}</h6>
+        <div class="d-flex flex-column">
+          <a href="about.html" class="mb-2">{% t 'global.nav.about' %}</a>
+          <a href="guides.html" class="mb-2">{% t 'global.footer.guides' %}</a>
+          <a href="destinations.html" class="mb-2">{% t 'global.nav.destinations' %}</a>
+          <a href="gallery.html" class="mb-2">{% t 'global.nav.gallery' %}</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <h6>{% t 'global.nav.packages' %}</h6>
+        <div class="d-flex flex-column">
+          {% for c in menu_categories %}<a href="{{ c.url }}" class="mb-2">{{ c.menu_label }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <h6>{% t 'global.nav.contact' %}</h6>
+        <p class="small mb-2"><i class="bi bi-geo-alt-fill me-2"></i>{{ site.address }}</p>
+        <p class="small mb-2"><i class="bi bi-telephone-fill me-2"></i>{{ site.phone_display }}</p>
+        <p class="small mb-2"><i class="fa-brands fa-whatsapp me-2"></i>{{ site.whatsapp_display }}</p>
+        <p class="small mb-2"><i class="bi bi-envelope-fill me-2"></i>{{ site.email }}</p>
+        <p class="small mb-0"><i class="bi bi-clock-fill me-2"></i>{{ site.hours }}</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6 small">{% t 'global.footer.copyright' %}</div>
+      <div class="col-md-6 small text-md-end">{% t 'global.footer.tagline' %}</div>
+    </div>
+  </div>
+</footer>
+
+<div class="wa-float-wrap" id="waFloatWrap">
+  <div class="wa-menu" id="waMenu">
+    <span class="wa-menu-title">{{ site.whatsapp_menu_title }}</span>
+    <a href="{{ site.whatsapp_link_with_message }}" target="_blank" class="wa-menu-item"><i class="fa-brands fa-whatsapp"></i><span>{{ site.whatsapp_display }}</span></a>
+    {% if site.whatsapp2_number %}<a href="{{ site.whatsapp2_link_with_message }}" target="_blank" class="wa-menu-item"><i class="fa-brands fa-whatsapp"></i><span>{{ site.whatsapp2_display }}</span></a>{% endif %}
+  </div>
+  <button type="button" class="wa-float" id="waFloatBtn" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></button>
+</div>
+<button class="to-top" id="toTopBtn" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.8.0/countUp.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="{% static 'js/script.js' %}"></script>
+{% block after_footer %}{% endblock %}
+</body>
+</html>
